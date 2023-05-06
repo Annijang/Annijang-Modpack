@@ -1,0 +1,13 @@
+{
+    "argument.rocket.instant.invalid_unit": "无效单元。",
+    "argument.rocket.objectid.invalid": "无效的对象标识.",
+    "commands.rocket.punish.success": "%s已被惩罚，ID： %s",
+    "commands.rocket.punish.failure": "错误：%s",
+    "commands.rocket.pardon.success": "%s已被赦免。",
+    "commands.rocket.pardon.failure": "错误：%s",
+    "commands.rocket.pardon.unknown_punishment": "未知的惩罚。",
+    "rocket.message.unavailable": "无法使用火箭。",
+    "rocket.message.disconnect.ban": "§c§l你已被禁言！§r\n原因：%s\n结束时间：%s",
+    "ban.infinite": "§o时间已结束！",
+    "chat.muted": "你是哑巴。"
+}

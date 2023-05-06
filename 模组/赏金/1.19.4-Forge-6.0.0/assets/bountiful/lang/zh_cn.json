@@ -1,0 +1,90 @@
+{
+
+	"block.bountiful.bountyboard": "悬赏板",
+
+	"itemGroup.bountiful": "悬赏",
+
+	"bountiful.entry.shepherd_obj_wool_wildcard": "任意羊毛",
+	"bountiful.entry.fletcher_obj_planks": "任意木板",
+	"bountiful.entry.fletcher_obj_logs": "任意原木",
+	"bountiful.entry.shepherd_obj_bed_wildcard": "任意床",
+	"bountiful.entry.fisherman_obj_any_boat": "任意船",
+	"bountiful.entry.mapper_obj_candles": "任意蜡烛",
+	"bountiful.entry.shepherd_obj_banner_wildcard": "任意旗帜",
+
+	"bountiful.entry.fisherman_obj_catch_ench_book": "钓到一本附魔书",
+	"bountiful.entry.cleric_obj_brew_swiftness": "酿造一瓶基础的迅捷药水",
+	"bountiful.entry.cleric_obj_cure_zombie_villager": "治愈一只僵尸村民",
+
+
+	"bountiful.decree": "悬赏令",
+	"bountiful.decrees": "悬赏令",
+	"bountiful.decree.invalid": "无效悬赏令",
+	"bountiful.decree.notset": "将悬赏令放到悬赏板中！",
+
+	"bountiful.bounty.expired": "该悬赏已过期。",
+	"bountiful.bounty.turnin": "手持悬赏令右键悬赏板中即可完成赏金。",
+
+	"bountiful.advancement.bounty_taken.title": "开始工作",
+	"bountiful.advancement.bounty_taken.desc": "从悬赏板中领取赏金。",
+
+	"bountiful.advancement.bounty_complete.title": "获得报酬",
+	"bountiful.advancement.bounty_complete.desc": "完成一个悬赏令！",
+
+	"bountiful.advancement.rush_order.title": "紧急交付",
+	"bountiful.advancement.rush_order.desc": "接取悬赏后的一分钟之内完成该悬赏。",
+
+	"bountiful.advancement.procrastinator.title": "拖延大师",
+	"bountiful.advancement.procrastinator.desc": "在该悬赏令的最后五秒内完成悬赏。",
+
+	"bountiful.advancement.town_crier.title": "城镇信使",
+	"bountiful.advancement.town_crier.desc": "获得一个悬赏令！",
+
+	"bountiful.advancement.royal_mandate.title": "皇家委托",
+	"bountiful.advancement.royal_mandate.desc": "将悬赏令放入悬赏板中。",
+
+	"bountiful.bounty": "悬赏",
+
+	"bountiful.decree.armorer.name": "盔甲匠",
+	"bountiful.decree.butcher.name": "屠夫",
+	"bountiful.decree.chef.name": "厨师",
+	"bountiful.decree.cleric.name": "牧师",
+	"bountiful.decree.farmer.name": "农民",
+	"bountiful.decree.fisherman.name": "渔夫",
+	"bountiful.decree.fletcher.name": "制箭师",
+	"bountiful.decree.hunting.name": "击杀生物",
+	"bountiful.decree.inventor.name": "发明家",
+	"bountiful.decree.leatherer.name": "皮匠",
+	"bountiful.decree.librarian.name": "图书管理员",
+	"bountiful.decree.mapper.name": "制图师",
+	"bountiful.decree.mason.name": "石匠",
+	"bountiful.decree.shepherd.name": "牧羊人",
+	"bountiful.decree.tinker.name": "修补匠",
+	"bountiful.decree.toolsmith.name": "工具制造师",
+	"bountiful.decree.runewright.name": "符文使",
+	"bountiful.decree.invalid_decree.name": "无效的悬赏令",
+
+	"bountiful.bounty.type.entity.kills": "击杀",
+
+	"bountiful.bounty.type.experience.levels": "经验等级",
+	"bountiful.bounty.type.experience.points": "经验值",
+
+	"bountiful.rarity.Common": "普通",
+	"bountiful.rarity.Uncommon": "罕见",
+	"bountiful.rarity.Rare": "稀有",
+	"bountiful.rarity.Epic": "史诗",
+
+	"stat.bountiful.bounties_taken": "接取悬赏",
+	"stat.bountiful.bounties_done": "总共完成悬赏",
+	"stat.bountiful.bounties_done_0": "完成普通悬赏",
+	"stat.bountiful.bounties_done_1": "完成罕见悬赏",
+	"stat.bountiful.bounties_done_2": "完成稀有悬赏",
+	"stat.bountiful.bounties_done_3": "完成史诗悬赏",
+
+	"bountiful.tooltip.advanced": "按住Sift键查看物品的详细内容",
+	"bountiful.tooltip.time": "剩余时间",
+	"bountiful.tooltip.required": "需求",
+	"bountiful.tooltip.rewards": "奖赏",
+	"bountiful.tooltip.expired": "已过期",
+	"bountiful.tooltip.requirements": "未满足需求。"
+}

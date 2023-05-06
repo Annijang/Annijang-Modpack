@@ -1,0 +1,163 @@
+
+#设置战利品重生时间与是否生成。
+[loot]
+	#是否开启或者关闭所有战利品的生成。
+	lootEnabled = true
+	#平民战利品是否可以生成。
+	civilianLootEnabled = true
+	#稀有平民战利品是否可以生成。
+	rareCivilianLootEnabled = true
+	#医疗战利品是否可以生成。
+	medicalLootEnabled = true
+	#警察战利品是否可以生成。
+	policeLootEnabled = true
+	#军用战利品是否可以生成。
+	militaryLootEnabled = true
+	#平民战利品刷新时间，单位：Tick，范围：> 0
+	civilianLootRefreshDelayTicks = 1000
+	#稀有平民战利品刷新时间，单位：Tick，范围：> 0
+	rareCivilianLootRefreshDelayTicks = 1000
+	#医疗战利品刷新时间，单位：Tick，范围：> 0
+	medicalLootRefreshDelayTicks = 1000
+	#警察战利品刷新时间，单位：Tick，范围：> 0
+	policeLootRefreshDelayTicks = 1000
+	#军用战利品刷新时间，单位：Tick，范围：> 0
+	militaryLootRefreshDelayTicks = 1000
+
+#更改僵尸的各项属性。
+#警告：本次修改的选项只会影响到新生成的僵尸，而之前就已经存在的僵尸的设置则会保留旧版的选项。
+[zombies]
+	#设置高级僵尸的生命值，当安装了“属性修复”模组后可通过更改标签的方式将生命值设置为大于1024。（2点生命值 = 1颗心）
+	#范围：1.0 ~ 1024.0
+	advancedZombieMaxHealth = 20.0
+	#设置坦克僵尸的生命值，当安装了“属性修复”模组后可通过更改标签的方式将生命值设置为大于1024。（2点生命值 = 1颗心）
+	#范围：1.0 ~ 1024.0
+	tankZombieMaxHealth = 100.0
+	#设置快速僵尸的生命值，当安装了“属性修复”模组后可通过更改标签的方式将生命值设置为大于1024。（2点生命值 = 1颗心）
+	#范围：1.0 ~ 1024.0
+	fastZombieMaxHealth = 10.0
+	#设置弱体僵尸的生命值，当安装了“属性修复”模组后可通过更改标签的方式将生命值设置为大于1024。（2点生命值 = 1颗心）
+	#范围：1.0 ~ 1024.0
+	weakZombieMaxHealth = 5.0
+	#设置警察僵尸的生命值，当安装了“属性修复”模组后可通过更改标签的方式将生命值设置为大于1024。（2点生命值 = 1颗心）
+	#范围：1.0 ~ 1024.0
+	policeZombieMaxHealth = 20.0
+	#设置医生僵尸的生命值，当安装了“属性修复”模组后可通过更改标签的方式将生命值设置为大于1024。（2点生命值 = 1颗心）
+	#范围：1.0 ~ 1024.0
+	doctorZombieMaxHealth = 20.0
+	#设置巨人僵尸的生命值，当安装了“属性修复”模组后可通过更改标签的方式将生命值设置为大于1024。（2点生命值 = 1颗心）
+	#范围：1.0 ~ 1024.0
+	giantZombieMaxHealth = 100.0
+	#设置高级僵尸的攻击伤害。（2点伤害 = 1颗心）
+	#范围：0.0 ~ 2048.0
+	advancedZombieAttackDamage = 3.0
+	#设置坦克僵尸的攻击伤害。（2点伤害 = 1颗心）
+	#范围：0.0 ~ 2048.0
+	tankZombieAttackDamage = 15.0
+	#设置快速僵尸的攻击伤害。（2点伤害 = 1颗心）
+	#范围：0.0 ~ 2048.0
+	fastZombieAttackDamage = 1.0
+	#设置弱体僵尸的攻击伤害。（2点伤害 = 1颗心）
+	#范围：0.0 ~ 2048.0
+	weakZombieAttackDamage = 2.0
+	#设置警察僵尸的攻击伤害。（2点伤害 = 1颗心）
+	#范围：0.0 ~ 2048.0
+	policeZombieAttackDamage = 3.0
+	#设置医生僵尸的攻击伤害。（2点伤害 = 1颗心）
+	#范围：0.0 ~ 2048.0
+	doctorZombieAttackDamage = 3.0
+	#设置巨人僵尸的攻击伤害。（2点伤害 = 1颗心）
+	#范围：0.0 ~ 2048.0
+	giantZombieAttackDamage = 50.0
+
+	#设置每种僵尸的自然生成方式。
+	#我的世界原版的生成方式是需要设置权重的。
+	#权重越低，那么生成的僵尸越少。
+	#---------------------------------
+	#最小/最大分别设置僵尸在每次生成时会一次性生成最少/最多的僵尸数量。
+	[zombies.spawning]
+		zombiesEnabled = true
+		advancedZombiesEnabled = true
+		tankZombiesEnabled = true
+		fastZombiesEnabled = true
+		weakZombiesEnabled = true
+		#高级僵尸生成权重，范围：> 1
+		advancedZombieSpawnWeight = 40
+		#坦克僵尸生成权重，范围：> 1
+		tankZombieSpawnWeight = 5
+		#快速僵尸生成权重，范围：> 1
+		fastZombieSpawnWeight = 15
+		#弱体僵尸生成权重，范围：> 1
+		weakZombieSpawnWeight = 30
+		#高级僵尸最少生成数量，范围：> 1
+		advancedZombieMinSpawn = 2
+		#坦克僵尸最少生成数量，范围：> 1
+		tankZombieMinSpawn = 2
+		#快速僵尸最少生成数量，范围：> 1
+		fastZombieMinSpawn = 2
+		#弱体僵尸最少生成数量，范围：> 1
+		weakZombieMinSpawn = 2
+		#高级僵尸最多生成数量，范围：> 1
+		advancedZombieMaxSpawn = 8
+		#坦克僵尸最多生成数量，范围：> 1
+		tankZombieMaxSpawn = 4
+		#快速僵尸最多生成数量，范围：> 1
+		fastZombieMaxSpawn = 4
+		#弱体僵尸最多生成数量，范围：> 1
+		weakZombieMaxSpawn = 12
+
+	[zombies.misc]
+		#僵尸在生成时自带帽子的概率。（1.0 = 100%）
+		#范围：0.0 ~ 1.0
+		zombieHatSpawnChance = 0.05
+		#僵尸在生成时自带武器的概率。（1.0 = 100%）
+		#范围：0.0 ~ 1.0
+		zombieHandSpawnChance = 0.15
+		#僵尸在生成时自带服装的概率。（1.0 = 100%）
+		#范围：0.0 ~ 1.0
+		zombieClothingSpawnChance = 0.25
+		#掉落僵尸帽子的概率。（基于原版的掉落概率，设置为 2.0 必掉）
+		#范围：0.0 ~ 2.0
+		zombieHatDropChance = 2.0
+		#掉落僵尸手持的武器概率。（基于原版的掉落概率，设置为 2.0 必掉）
+		#范围：0.0 ~ 2.0
+		zombieHandDropChance = 0.085
+		#掉落僵尸穿戴服装的概率。（基于原版的掉落概率，设置为 2.0 必掉）
+		#范围：0.0 ~ 2.0
+		zombieClothingDropChance = 2.0
+		#僵尸在每次攻击时额外的击退距离。
+		#范围：0.0 ~ 5.0
+		zombieAttackKnockback = 0.0
+
+#更改部分游戏内容。
+[abilities]
+	#是否开启骨折。
+	brokenLegsEnabled = true
+	#是否开启流血。
+	bleedingEnabled = true
+	#是否开启感染。
+	infectionEnabled = true
+
+[explosives]
+	#是否允许玩家使用管道炸弹。
+	#哪怕关闭了也不会影响到正常的获取方式，只是关闭了管道炸弹的功能。
+	pipeBombEnabled = true
+	#设置管道粘弹的爆炸与方块的交互方式。
+	#NONE：无互动，方块无变化。
+	#BREAK：方块会被破坏并且会在爆炸后变成掉落物。
+	#DESTROY：方块会被破坏并且不会产生掉落物，只会留下一个弹坑。
+	#可设置的选项：NONE、BREAK、DESTROY
+	pipeBombBlockInteraction = "NONE"
+	#设置管道粘弹的爆炸半径，单位是块。
+	#范围：0.1 ~ 50.0
+	pipeBombRadius = 4.0
+	#设置管道炸弹的爆炸击退距离。（乘法）
+	#范围：0.0 ~ 30.0
+	pipeBombKnockbackMultiplier = 1.0
+	#设置管道粘弹的基础爆炸伤害。（乘法）
+	#范围：0.0 ~ 30.0
+	pipeBombDamageMultiplier = 1.0
+	#设置管道粘弹在生效之前需要等待的时间，单位是Tick。
+	#范围：0 ~ 18000
+	pipeBombTicksBeforeActivation = 100
+

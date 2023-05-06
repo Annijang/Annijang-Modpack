@@ -1,0 +1,13 @@
+
+[server]
+	game_rotation = []
+
+[gameplay]
+	#设置玩家的显示名称牌。
+	#DEFAULT：以我的世界原版方式。
+	#LOOK：玩家必须看着另外一名玩家才会显示该名玩家的名称牌。
+	#HIDE_PLAYER：隐藏玩家名称牌。
+	#HIDE_ALL：隐藏所有名称牌。
+	#可设置的选项：DEFAULT、LOOK、HIDE_PLAYER、HIDE_ALL
+	nametag_mode = "DEFAULT"
+

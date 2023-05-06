@@ -1,0 +1,13 @@
+{
+    "argument.rocket.instant.invalid_unit": "Invalid unit.",
+    "argument.rocket.objectid.invalid": "Invalid ObjectId.",
+    "commands.rocket.punish.success": "%s has been punished. Punishment ID: %s",
+    "commands.rocket.punish.failure": "Error: %s",
+    "commands.rocket.pardon.success": "%s has been pardoned.",
+    "commands.rocket.pardon.failure": "Error: %s",
+    "commands.rocket.pardon.unknown_punishment": "Unknown punishment.",
+    "rocket.message.unavailable": "Rocket unavailable.",
+    "rocket.message.disconnect.ban": "§c§lYou Have Been Banned§r\nReason: %s\nUntil: %s",
+    "ban.infinite": "§oThe end of time.",
+    "chat.muted": "You are muted."
+}
