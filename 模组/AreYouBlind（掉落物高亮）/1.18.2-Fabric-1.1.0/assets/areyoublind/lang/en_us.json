@@ -1,0 +1,22 @@
+{
+  "key.areyoublind.category": "Are You Blind!?",
+  "key.areyoublind.toggleonoff": "Toggle on/off",
+  "key.areyoublind.attl": "Add to the list",
+  "key.areyoublind.rftl": "Remove from the list",
+  "key.areyoublind.openconfig": "Open config",
+  "areyoublind.message.added" : "has been added to the list.",
+  "areyoublind.message.removed" : "has been removed from the list.",
+  "areyoublind.message.on" : "Glowing ON",
+  "areyoublind.message.off" : "Glowing OFF",
+  "areyoublind.message.inlist": "already in the list.",
+  "areyoublind.message.notexist": "is not in the list.",
+  "areyoublind.gui.color": "Glowing color:",
+  "areyoublind.gui.itemlist": "Open Item List",
+  "areyoublind.gui.back": "Back",
+  "areyoublind.gui.additem": "Add Item",
+  "areyoublind.gui.delete": "Remove item from list",
+  "areyoublind.gui.confirm": "Are you sure?",
+  "areyoublind.gui.saveitem": "Save item",
+  "areyoublind.message.update.click": "Click To Get Update",
+  "areyoublind.message.update": "New version available, "
+}

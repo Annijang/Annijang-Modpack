@@ -1,0 +1,23 @@
+{
+  "feytweaks.midnightconfig.title": "FeyTweaks",
+
+  "key.feytweaks.openConfigKey": "Open config menu",
+  "feytweaks.midnightconfig.toggleMod": "Enable mod: ",
+
+  "feytweaks.midnightconfig.signs": "§l§nSigns",
+  "feytweaks.midnightconfig.hideTexts": "Hide text in the distance: ",
+  "feytweaks.midnightconfig.textDistance": "Min. distance to hide §ntext§r: ",
+  "feytweaks.midnightconfig.signCulling": "Text culling: ",
+  "feytweaks.midnightconfig.simpleGlow": "Always hide glow effect: ",
+  "feytweaks.midnightconfig.glowToShadow": "Outline of glow effect -> Text shadow: ",
+  "feytweaks.midnightconfig.fastGlowToShadow": "Outline of glow effect -> Text shadow + Optimization [Beta]: ",
+  "feytweaks.midnightconfig.hideGlow": "Hide glow effect in the distance: ",
+  "feytweaks.midnightconfig.hideGlowDistance": "Min. distance to hide §nglow effect§r: ",
+  "feytweaks.midnightconfig.optimizeGlow": "Glow optimization [Beta]: ",
+
+  "feytweaks.midnightconfig.beacons": "§l§nBeacons",
+  "feytweaks.midnightconfig.hideBeam": "Hide beams in the distance: ",
+  "feytweaks.midnightconfig.beamDistance": "Min. distance to hide beams: ",
+  "feytweaks.midnightconfig.beaconCulling": "Beam culling: ",
+  "feytweaks.midnightconfig.optimizeBeam": "Beam optimization: "
+}
