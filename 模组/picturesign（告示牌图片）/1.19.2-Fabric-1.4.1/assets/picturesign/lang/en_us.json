@@ -1,0 +1,19 @@
+{
+	"picturesign.midnightconfig.title":"PictureSign Config",
+	
+	"picturesign.midnightconfig.enabled":"Enable Pictures",
+	"picturesign.midnightconfig.translucency":"Enable Translucency",
+	"picturesign.midnightconfig.translucency.tooltip":"Translucency doesn't work too great on block entities\n(and therefore signs)",
+	"picturesign.midnightconfig.helperUi":"Enable Helper UI",
+	"picturesign.midnightconfig.exceedVanillaLineLength":"Exceed vanilla line length",
+	"picturesign.midnightconfig.debug":"Debug mode",
+	"picturesign.midnightconfig.maxThreads":"Max download threads",
+	"picturesign.midnightconfig.signRenderDistance":"Sign render distance",
+	"picturesign.midnightconfig.safeMode":"Safe mode",
+	"picturesign.midnightconfig.safeMode.tooltip":"Only load images from trusted providers",
+	"picturesign.midnightconfig.ebeWarning":"§cIf you are using the mod 'Enhanced Block Entities'",
+	"picturesign.midnightconfig.ebeWarning2":"§cmake sure to disable anything sign-related in it's config!",
+	"key.picturesign.copy_sign":"Copy Text from Sign",
+	"key.picturesign.edit_sign":"Edit Sign",
+	"key.categories.picturesign":"PictureSign"
+}
