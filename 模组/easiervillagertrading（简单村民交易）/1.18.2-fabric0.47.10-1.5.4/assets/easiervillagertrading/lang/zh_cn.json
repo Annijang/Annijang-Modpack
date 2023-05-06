@@ -1,0 +1,4 @@
+{
+    "easiervillagertrading.config.swapshift": "默认全部交易",
+    "easiervillagertrading.config.tt.swapshift": "如果设置为false，则需要按Shift键才能交易所有；\n如果设置为true，则正常点击一次是交易所有，而按Shift是交易一次。."
+}
