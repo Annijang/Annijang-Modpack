@@ -1,0 +1,5 @@
+{
+	"merchantmarkers.general.optifine_workaround_warning": "如果你发现么有显示商人标记时，请查看是否安装了高清修复（optifine） ，商人标记开启了快速渲染选项而这与高清修复冲突。",
+	"merchantmarkers.key.showMarkers": "显示村民标记",
+	"merchantmarkers.key.categories.merchantMarkers": "商人标记"
+}

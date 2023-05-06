@@ -1,0 +1,38 @@
+{
+    "mambience.config.title": "MAmbience CLIENTSIDE Config",
+    
+    "mambience.config.enable": "Enabled",
+    "mambience.config.volume": "Volume Multiplier",
+    
+    "mambience.config.sizex": "Size X",
+    "mambience.config.sizex.tooltip": "Area centered around the player",
+    "mambience.config.sizey": "Size Y",
+    "mambience.config.sizey.tooltip": "Area centered around the player",
+    "mambience.config.sizez": "Size Z",
+    "mambience.config.sizez.tooltip": "Area centered around the player",
+    
+    "mambience.config.general": "General",
+    "mambience.config.general.note": "This configuration applies client-side only. When MAmbience is present on the server, the servers configuration will be used instead!",
+    "mambience.config.general.debug": "Debug Logging",
+    "mambience.config.general.debug.tooltip": "Only useful to observe effects of changes to events/effects",
+    
+    "mambience.config.ambient": "Ambient Sounds",
+    "mambience.config.ambient.note": "This system plays ambient sounds based on the Blocks and Biomes surrounding the player. For sound definition see the included datapack.",
+    "mambience.config.ambient.stop": "Stop sounds when restricted",
+    "mambience.config.ambient.stop.tooltip": "Disabled by default because of abrupt nature",
+    "mambience.config.ambient.disable_wind": "Disable wind sounds",
+    "mambience.config.ambient.disable_wind.tooltip": "Disables all events that use the DISABLE_WIND restriction",
+    
+    "mambience.config.effects": "Visual Effects",
+    "mambience.config.effects.note": "This system uses particles to create block based visual effects. (e.g. Fireflies, Lavajets and more). For effect definition see the included datapack.",
+    "mambience.config.effects.ticks": "Random Tick Count",
+    "mambience.config.effects.ticks.tooltip": "Amount of blocks randomly checked per tick",
+    
+    "mambience.config.footsteps": "Advanced Footsteps",
+    "mambience.config.footsteps.note": "This system plays more advanced footsteps based on player action. (e.g. jumping and landing sounds). Please disable this if you are using Presence Footsteps. For sound and material definitions see the included datapack.",
+    
+    "mambience.config.scanner": "Scanner",
+    "mambience.config.scanner.note": "Controll the size and intervall of checked blocks and biomes to determine effects in the other systems. Reducing the size can help performance for less accuracy.",
+    "mambience.config.scanner.interval": "Interval in ticks",
+    "mambience.config.scanner.interval.tooltip": "Controls the time between full surrounding scans"
+}

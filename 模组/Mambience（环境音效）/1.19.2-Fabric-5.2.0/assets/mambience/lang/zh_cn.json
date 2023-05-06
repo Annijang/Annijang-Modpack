@@ -1,0 +1,38 @@
+{
+    "mambience.config.title": "环境音效配置",
+    
+    "mambience.config.enable": "启用",
+    "mambience.config.volume": "音量倍数",
+    
+    "mambience.config.sizex": "X轴范围",
+    "mambience.config.sizex.tooltip": "以玩家为中心的区域",
+    "mambience.config.sizey": "Y轴范围",
+    "mambience.config.sizey.tooltip": "以玩家为中心的区域",
+    "mambience.config.sizez": "Z轴范围",
+    "mambience.config.sizez.tooltip": "以玩家为中心的区域",
+    
+    "mambience.config.general": "常规",
+    "mambience.config.general.note": "此配置仅适用于客户端，但是如果服务器也安装了本模组时，该配置将会以服务器的配置为主。",
+    "mambience.config.general.debug": "调试日志",
+    "mambience.config.general.debug.tooltip": "只对观察事件或效果的变化效果有用。",
+    
+    "mambience.config.ambient": "环境声音",
+    "mambience.config.ambient.note": "该设置会根据玩家周围的方块和生物群系播放环境声音。关于声音的自定义，请看附带的数据包。",
+    "mambience.config.ambient.stop": "受限时静音",
+    "mambience.config.ambient.stop.tooltip": "此选项是为了应对突发情况，默认是禁用的。",
+    "mambience.config.ambient.disable_wind": "禁用风的声音",
+    "mambience.config.ambient.disable_wind.tooltip": "禁用所有使用“DISABLE_WIND”限制的声音。",
+    
+    "mambience.config.effects": "视觉效果",
+    "mambience.config.effects.note": "该设置能使用粒子来制造基于方块的视觉效果（例如：萤火虫、熔岩迸溅等）。有关视觉的自定义，请查看附带的数据包。",
+    "mambience.config.effects.ticks": "随机tick数量",
+    "mambience.config.effects.ticks.tooltip": "每tick随机检查的方块数量。",
+    
+    "mambience.config.footsteps": "高级脚步声",
+    "mambience.config.footsteps.note": "该设置能根据玩家的动作播放更好的脚步声（例如：跳跃，落地等）。如果你添加了“Presence Footsteps”（脚步声）模组，请金庸该选项。有关声音的自定义，请查看附带的数据包。",
+    
+    "mambience.config.scanner": "扫描",
+    "mambience.config.scanner.note": "设置检查方块和生物群系的范围与间隔，以确保在其他生物群系中的声音。更小的范围能显著提高帧率，然而会降低精准度。",
+    "mambience.config.scanner.interval": "间隔时间。单位rick",
+    "mambience.config.scanner.interval.tooltip": "设置围绕方块与生物群系之间的扫描间隔。"
+}

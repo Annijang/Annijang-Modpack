@@ -1,0 +1,4 @@
+{
+  "text.autoconfig.forcecloseloadingscreen.title": "强制关闭加载屏幕",
+  "text.autoconfig.forcecloseloadingscreen.option.instantlyCloseUnsafe": "强制关闭加载屏幕吗？（这可能并不是很安全）"
+}
