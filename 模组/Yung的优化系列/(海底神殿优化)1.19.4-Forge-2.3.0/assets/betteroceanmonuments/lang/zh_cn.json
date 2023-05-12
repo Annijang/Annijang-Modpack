@@ -1,0 +1,6 @@
+{
+  "Use /locate structure betteroceanmonuments:ocean_monument instead!": "使用“/locate structure betteroceanmonuments:ocean_monument”代替！",
+  "text.autoconfig.betteroceanmonuments-fabric-1_19_4.title": "YUNG的海底神殿优化",
+  "text.autoconfig.betteroceanmonuments-fabric-1_19_4.option.general.disableVanillaMonuments": "禁止生成原版海底神殿",
+  "text.autoconfig.betteroceanmonuments-fabric-1_19_4.option.general.disableVanillaMonuments.@Tooltip": "是否禁用生成原版的海底神殿？"
+}

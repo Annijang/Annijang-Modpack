@@ -1,0 +1,13 @@
+{
+  "item.betterportals.portal_fluid_bucket": "维度液体桶",
+  "block.betterportals.reclaimer_block": "撤离信标",
+  "block.betterportals.portal_fluid": "维度液体",
+
+  "betterportals.portal_fluid_bucket.jei_description": "一种可以从地底深处寻找到的具有辐射的液体，似乎可以从中听到来自远方的声音...",
+  "betterportals.reclaimer_block.jei_description": "一种具有穿越维度能力的特殊方块。",
+
+  "itemGroup.betterportals": "YUNG的传送门优化",
+
+  "betterportals.portal_fluid_bucket.altitude_error": "维度液体仅能放置在地底深处！",
+  "betterportals.portal_fluid_bucket.cannot_place_fluid": "你目前无法在该维度使用维度液体！"
+}

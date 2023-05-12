@@ -1,0 +1,11 @@
+
+["Better Portals"]
+	# 设置原版的下界传送门是否生效。
+	# 默认：false
+	"Enable Vanilla Nether Portals" = false
+	# 设置维度液体在世界里的生成高度。
+	# 该选项是强迫玩家去矿洞探索来寻找前往下界的办法。
+	# 默认：15
+	# 范围：1 ~ 255
+	"Max Dimensional Plasma Placement Altitude" = 15
+

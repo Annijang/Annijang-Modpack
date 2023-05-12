@@ -1,0 +1,9 @@
+{
+  "Use /locate structure betterdeserttemples:desert_temple instead!": "使用“/locate structure betterdeserttemples:desert_temple”代替！",
+  "text.autoconfig.betterdeserttemples-fabric-1_19_4.title": "YUNG的沙漠神殿优化",
+  "text.autoconfig.betterdeserttemples-fabric-1_19_4.option.general.disableVanillaPyramids": "禁止生成原版沙漠神殿",
+  "text.autoconfig.betterdeserttemples-fabric-1_19_4.option.general.disableVanillaPyramids.@Tooltip": "是否禁用生成原版的沙漠神殿？",
+  "text.autoconfig.betterdeserttemples-fabric-1_19_4.option.general.applyMiningFatigue": "给予挖掘疲劳",
+  "text.autoconfig.betterdeserttemples-fabric-1_19_4.option.general.applyMiningFatigue.@Tooltip[0]": "是否给予位于沙漠神殿中的玩家挖掘疲劳效果？",
+  "text.autoconfig.betterdeserttemples-fabric-1_19_4.option.general.applyMiningFatigue.@Tooltip[1]": "拥有挖掘疲劳的玩家不会再次获得挖掘疲劳。"
+}

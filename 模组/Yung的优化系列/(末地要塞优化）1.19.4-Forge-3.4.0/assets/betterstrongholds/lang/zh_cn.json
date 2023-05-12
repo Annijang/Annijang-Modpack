@@ -1,0 +1,27 @@
+{
+ "betterstrongholds.commands.locate.stronghold": "使用“/locate structure betterstrongholds:stronghold”代替！ ",
+ "Use /locate structure betterstrongholds:stronghold instead!": "使用“/locate structure betterstrongholds:stronghold”代替！ ",
+
+ "text.autoconfig.betterstrongholds-fabric-1_19_4.title": "YUNG的要塞优化",
+
+ "text.autoconfig.betterstrongholds-fabric-1_19_4.option.betterStrongholds": "YUNG的要塞优化",
+
+ "text.autoconfig.betterstrongholds-fabric-1_19_4.option.betterStrongholds.general": "常规设置",
+ "text.autoconfig.betterstrongholds-fabric-1_19_4.option.betterStrongholds.general.@Tooltip": "常规设置。",
+
+ "text.autoconfig.betterstrongholds-fabric-1_19_4.option.betterStrongholds.general.cobwebReplacementChanceNormal": "蜘蛛网生成概率（普通）",
+ "text.autoconfig.betterstrongholds-fabric-1_19_4.option.betterStrongholds.general.cobwebReplacementChanceNormal.@Tooltip[0]": "设置蜘蛛网在每个普通的结构里的生成概率。",
+ "text.autoconfig.betterstrongholds-fabric-1_19_4.option.betterStrongholds.general.cobwebReplacementChanceNormal.@Tooltip[1]": "默认：0.1",
+
+ "text.autoconfig.betterstrongholds-fabric-1_19_4.option.betterStrongholds.general.cobwebReplacementChanceSpawner": "蜘蛛网生成概率（图书馆）",
+ "text.autoconfig.betterstrongholds-fabric-1_19_4.option.betterStrongholds.general.cobwebReplacementChanceSpawner.@Tooltip[0]": "设置蜘蛛网在每个图书馆结构里的生成概率。",
+ "text.autoconfig.betterstrongholds-fabric-1_19_4.option.betterStrongholds.general.cobwebReplacementChanceSpawner.@Tooltip[1]": "默认：0.3",
+
+ "text.autoconfig.betterstrongholds-fabric-1_19_4.option.betterStrongholds.general.torchSpawnRate": "火把生成概率",
+ "text.autoconfig.betterstrongholds-fabric-1_19_4.option.betterStrongholds.general.torchSpawnRate.@Tooltip[0]": "设置在整个要塞里火把的生成概率。",
+ "text.autoconfig.betterstrongholds-fabric-1_19_4.option.betterStrongholds.general.torchSpawnRate.@Tooltip[1]": "默认：0.1",
+
+ "text.autoconfig.betterstrongholds-fabric-1_19_4.option.betterStrongholds.general.lanternSpawnRate": "灯笼生成概率",
+ "text.autoconfig.betterstrongholds-fabric-1_19_4.option.betterStrongholds.general.lanternSpawnRate.@Tooltip[0]": "设置在整个要塞里灯笼的生成概率。",
+ "text.autoconfig.betterstrongholds-fabric-1_19_4.option.betterStrongholds.general.lanternSpawnRate.@Tooltip[1]": "默认：0.2"
+}

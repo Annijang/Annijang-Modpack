@@ -1,0 +1,211 @@
+
+["Traveler's Titles"]
+
+	###########################################################################################################
+	## 生物群系标题设置
+	###########################################################################################################
+	["Traveler's Titles"."Biome Titles"]
+		"Enable Biome Titles" = true
+		# 设置渐进式文本效果的持续时间，单位：tick。
+		# 20 tick = 1 秒
+		# 默认：10
+		"Text Fade-In Time" = 10
+		# 设置文本的显示时间，单位：tick。
+		# 20 tick = 1 秒
+		# 默认：50
+		"Text Display Time" = 50
+		# 设置文本淡出的时间，单位：tick。
+		# 20 tick = 1 秒
+		# 默认：10
+		"Text Fade-Out Time" = 10
+		# 设置当玩家已经触发了一个生物群系的标题后还需要等待多久才能显示另外一个生物群系，单位：tick。
+		# 该选项是为了防止玩家被过度触发生物群系标题而造成非必要的烦恼。
+		# 20 tick = 1 秒
+		# 默认：80
+		"Text Cooldown Time" = 80
+		# 设置文本默认的RGB颜色。
+		# 默认："ffffff"
+		"Default Text Color" = "ffffff"
+		# 设置文本大小。
+		# 默认：2.1
+		"Text Size" = 2.1
+		# 如果设置为“true”，那么在文本的下方会渲染一层阴影，方便玩家阅读。
+		# 默认：true
+		"Display Text Shadow" = true
+		# 设置文本在屏幕上的垂直Y轴坐标。
+		# 如果将“Center Title”设置为“true”，那么该数字是相对于屏幕中央。
+		# 如果将“Center Title”设置为“false”，那么该数字是相对于屏幕顶部。
+		# 默认：-33.0
+		"Text Y Offset" = -33.0
+		# 设置文本在屏幕上的水平X轴坐标。
+		# 如果将“Center Title”设置为“true”，那么该数字是相对于屏幕中央。
+		# 如果将“Center Title”设置为“false”，那么该数字是相对于屏幕顶部。
+		# 默认：0.0
+		"Text X Offset" = 0.0
+		# 设置旅行标题黑名单，当玩家进入这些生物群系时将不会有文本提示。
+		# 例如："[minecraft:plains, minecraft:desert]" （原版的平原、原版的沙漠）
+		# 默认："[minecraft:the_end, minecraft:river, minecraft:frozen_river]"  （原版的末地、原版的河流、原版冻河）
+		"Blacklisted Biomes" = "[minecraft:the_end, minecraft:river, minecraft:frozen_river]"
+		# 旅行标题跟踪玩家近期访问的生物群系列表，为了防止玩家在相同的生物群系间徘徊时屏幕会频繁的显示旅行标题。
+		# 这是该列表的生物群系保存数量。
+		# 例如：如果设置为5，那么会保留玩家最近访问的5个生物群系，当玩家在这5个生物群系间来回走动时不会显示旅行标题，而当玩家前往第6个生物群系时则会显示旅行标题。
+		# 默认：5
+		"Number of Most Recent Biomes Saved" = 5
+		# 是否将旅行标题的文本在屏幕中居中。
+		# 如果将该选项设置为“true”的话，那么“Text Y Offset”和“Text X Offset”两个选项则会依据屏幕顶部而偏移。
+		# 默认：true
+		"Center Title" = true
+		# 旅行标题跟踪玩家近期访问的生物群系列表，为了防止玩家在相同的生物群系间徘徊时屏幕会频繁的显示旅行标题。
+		# 该选项决定了当玩家前往不同的生物群系时是否会清空保存生物群系的缓存。
+		# 默认：true
+		"Reset Biome Cache When Changing Dimensions" = true
+		# 如果设置为“true”，那么当玩家前往没有天花板的维度（例如：主世界）时，只有当玩家的头顶没有任何方块时才会显示旅行标题。
+		# 该选项是为了防止玩家在地下时就会显示旅行标题。
+		# 默认：true
+		"Only Show Biome Titles When Exposed To Skylight" = true
+
+	###########################################################################################################
+	## 维度标题设置
+	###########################################################################################################
+	["Traveler's Titles"."Dimension Titles"]
+		"Enable Dimension Titles" = true
+		# 设置渐进式文本效果的持续时间，单位：tick。
+		# 20 tick = 1 秒
+		# 默认：10
+		"Text Fade-In Time" = 10
+		# 设置文本的显示时间，单位：tick。
+		# 20 tick = 1 秒
+		# 默认：70
+		"Text Display Time" = 70
+		# 设置文本淡出的时间，单位：tick。
+		# 20 tick = 1 秒
+		# 默认：20
+		"Text Fade-Out Time" = 20
+		# 设置文本默认的RGB颜色。
+		# 默认："ffffff"
+		"Default Text Color" = "ffffff"
+		# 设置文本大小。
+		# 默认：3.0
+		"Text Size" = 3.0
+		# 如果设置为“true”，那么在文本的下方会渲染一层阴影，方便玩家阅读。
+		# 默认：true
+		"Display Text Shadow" = true
+		# 设置文本在屏幕上的垂直Y轴坐标。
+		# 如果将“Center Title”设置为“true”，那么该数字是相对于屏幕中央。
+		# 如果将“Center Title”设置为“false”，那么该数字是相对于屏幕顶部。
+		# 默认：-32.0
+		"Text Y Offset" = -32.0
+		# 设置文本在屏幕上的水平X轴坐标。
+		# 如果将“Center Title”设置为“true”，那么该数字是相对于屏幕中央。
+		# 如果将“Center Title”设置为“false”，那么该数字是相对于屏幕顶部。
+		# 默认：0.0
+		"Text X Offset" = 0.0
+		# 设置旅行标题黑名单，当玩家进入这些维度时将不会有文本提示。
+		# 例如："[minecraft:overworld, minecraft:the_nether]"  （原版的主世界、原版的下界）
+		# 默认："[]"
+		"Blacklisted Dimensions" = "[]"
+		# 是否将旅行标题的文本在屏幕中居中。
+		# 如果将该选项设置为“true”的话，那么“Text Y Offset”和“Text X Offset”两个选项则会依据屏幕顶部而偏移。
+		# 默认：true
+		"Center Title" = true
+		# 如果设置为“true”，那么当玩家前往没有天花板的维度（例如：主世界）时，只有当玩家的头顶没有任何方块时才会显示旅行标题。
+		# 该选项是为了防止玩家在地下时就会显示旅行标题。
+		# 默认：false
+		"Only Show Dimension Titles When Exposed To Skylight" = false
+
+	###########################################################################################################
+	## 指路石标题设置，该选项只有在安装了“指路石”模组后才会生效。
+	###########################################################################################################
+	["Traveler's Titles"."Waystone Titles"]
+		"Enable Waystone Titles" = true
+		# 设置渐进式文本效果的持续时间，单位：tick。
+		# 20 tick = 1 秒
+		# 默认：10
+		"Text Fade-In Time" = 10
+		# 设置文本的显示时间，单位：tick。
+		# 20 tick = 1 秒
+		# 默认：50
+		"Text Display Time" = 50
+		# 设置文本淡出的时间，单位：tick。
+		# 20 tick = 1 秒
+		# 默认：10
+		"Text Fade-Out Time" = 10
+		# 设置当玩家已经触发了一个生物群系的标题后还需要等待多久才能显示另外一个生物群系，单位：tick。
+		# 该选项是为了防止玩家被过度触发生物群系标题而造成非必要的烦恼。
+		# 20 tick = 1 秒
+		# 默认：80
+		"Text Cooldown Time" = 80
+		# 设置文本默认的RGB颜色。
+		# 默认："c2b740"
+		"Default Text Color" = "c2b740"
+		# 设置文本大小。
+		# 默认：2.1
+		"Text Size" = 2.1
+		# 如果设置为“true”，那么在文本的下方会渲染一层阴影，方便玩家阅读。
+		# 默认：true
+		"Display Text Shadow" = true
+		# 设置文本在屏幕上的垂直Y轴坐标。
+		# 如果将“Center Title”设置为“true”，那么该数字是相对于屏幕中央。
+		# 如果将“Center Title”设置为“false”，那么该数字是相对于屏幕顶部。
+		# 默认：-33.0
+		"Text Y Offset" = -33.0
+		# 设置文本在屏幕上的水平X轴坐标。
+		# 如果将“Center Title”设置为“true”，那么该数字是相对于屏幕中央。
+		# 如果将“Center Title”设置为“false”，那么该数字是相对于屏幕顶部。
+		# 默认：0.0
+		"Text X Offset" = 0.0
+		# 旅行标题跟踪玩家近期访问的指路石路径点列表，为了防止玩家在相同的的几个指路石路径点传送时屏幕会频繁的显示旅行标题。
+		#
+		# 这是该列表的指路石路径点的保存数量。
+		# 例如：如果设置为5，那么会保留玩家最近访问的5个指路石路径点，当玩家在这5个指路石路径点内来回传送时不会显示旅行标题，而当玩家传送到第6个指路石路径点时则会显示旅行标题。
+		# 默认：3
+		"Number of Most Recent Waystones Saved" = 3
+		# 是否将旅行标题的文本在屏幕中居中。
+		# 如果将该选项设置为“true”的话，那么“Text Y Offset”和“Text X Offset”两个选项则会依据屏幕顶部而偏移。
+		# 默认：true
+		"Center Title" = true
+		# 旅行标题跟踪玩家近期访问的指路石路径点列表，为了防止玩家在相同的的几个指路石路径点传送时屏幕会频繁的显示旅行标题。
+		#
+		# 该选项决定了当玩家传送到不同的指路石路径点时是否会清空保存路径点缓存。
+		# 
+		# 默认：true
+		"Reset Waystone Cache When Changing Dimensions" = true
+		# 设置与路径点的距离在多少格内会触发路径点的标题。
+		# 默认：30
+		"Waystone Title Range" = 30
+		# 指路石路径点的标题优先级是否会比生物群系的文本标题高。
+		# 如果设置为“true”，那么当玩家在进入指路石路径点的标题范围内又同时进入了一个新的生物群系，那么指路石路径点标题文本会覆盖掉生物群系的标题文本。
+		#
+		# 默认：true
+		"Waystone Titles Override Biome Titles" = true
+		# 如果设置为“true”，那么当玩家前往没有天花板的维度（例如：主世界）时，只有当玩家的头顶没有任何方块时才会显示旅行标题。
+		# 该选项是为了防止玩家在地下时就会显示旅行标题。
+		# 默认：false
+		"Only Show Waystone Titles When Exposed To Skylight" = false
+
+	###########################################################################################################
+	## 声音选项，当使用材质包添加自定义声音时才会使用该选项。
+	## 关于如何制作该信息，请查询curseforge页面。
+	###########################################################################################################
+	["Traveler's Titles"."Custom Sound Settings"]
+		# 显示生物群系标题文本时播放的音量。
+		# 默认：1.0
+		"Biome Sound Effect Volume" = 1.0
+		# 显示生物群系标题文本时播放的音调。
+		# 默认：1.0
+		"Biome Sound Effect Pitch" = 1.0
+		# 显示维度标题文本时播放的音量。
+		# 默认：1.0
+		"Dimension Sound Effect Volume" = 1.0
+		# 显示维度标题文本时播放的音调。
+		# 默认：1.0
+		"Dimension Sound Effect Pitch" = 1.0
+		# 显示指路石路径点标题文本时播放的音量。
+		# 只有在安装了“指路石”模组后才会生效。
+		# 默认：1.0
+		"Waystone Sound Effect Volume" = 1.0
+		# 显示指路石路径点标题文本时播放的音调。
+		# 只有在安装了“指路石”模组后才会生效。
+		# 默认：1.0
+		"Waystone Sound Effect Pitch" = 1.0
+
