@@ -1,0 +1,39 @@
+{
+	// 如果设置为true，那么当没有设置地区名称时将会从预设的列表中随机选择。
+	"giveUnnamedAreasRandomName": true,
+	// 设置当输入/areas指令时，检测玩家附近的地区标志的范围。
+	// 范围：0 ~ 1000
+	"radiusAroundPlayerToCheckForSigns": 100,
+	// 如果设置为true，地区通知信息将会通过聊天栏向玩家发送。
+	"sendChatMessages": false,
+	// 如果设置为ture，地区通知会通过屏幕中间的HUD栏向玩家发送。
+	"showHUDMessages": true,
+	// 设置每当玩家进入一个地区时，通知信息的前缀。
+	"joinPrefix": "Entering ",
+	// 设置每当玩家进入一个地区时，通知信息的后缀。
+	"joinSuffix": ".",
+	// 设置每当玩家离开一个地区时，通知信息的前缀。
+	"leavePrefix": "Leaving ",
+	// 设置每当玩家离开一个地区时，通知信息的后缀。
+	"leaveSuffix": ".",
+	// 如果设置为true，只会在屏幕中间的HUD界面中显示地区名称；如果设置为false，地区信息的前缀和后缀都不会显示。
+	"HUDOnlyAreaName": false,
+	// 设置HUD界面中的淡出延迟，单位：ms，1秒（s）=1000毫秒（ms）。
+	// 范围：100 ~ 360000
+	"HUDMessageFadeDelayMs": 4000,
+	// 设置HUD界面的Y轴偏移，设置该功能的目的是因为可能本模组的HUD与其他模组的HUD会重叠，也有可能会与其他的GUI界面重叠。
+	// 范围：0 ~ 3000
+	"HUDMessageHeightOffset": 10,
+	// 设置HUD界面中的文本大小，在最终决定钱请务必在游戏中进行测试，默认情况下最大建议设置为6.0，太大的数值可能会影响视觉。
+	// 范围：0.0 ~ 10.0
+	"HUD_FontSizeScaleModifier": 1.0,
+	// 设置HUD界面中默认的红色RGB值。
+	// 范围：0 ~ 255
+	"HUD_RGB_R": 100,
+	// 设置HUD界面中默认的绿色RGB值。
+	// 范围：0 ~ 255
+	"HUD_RGB_G": 200,
+	// 设置HUD界面中默认的蓝色RGB值。
+	// 范围：0 ~ 255
+	"HUD_RGB_B": 50
+}

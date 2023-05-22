@@ -1,0 +1,14 @@
+{
+	// 如果设置为true，那么受到例如中毒这种伤害时将不会致命，否则受到中毒这种效果时将会致命。
+	"preventFatalModifiedDamage": true,
+	// 如果设置为true，那么会修改其他实体受到的全局伤害。
+	"alterEntityDamageTaken": true,
+	// 如果设置为true，那么会修改玩家受到的全局伤害。
+	"alterPlayerDamageTaken": true,
+	// 设置其他实体受到的全局伤害。
+	// 范围：0.01 ~ 20.0
+	"entityDamageModifier": 2.0,
+	// 设置玩家受到的全局伤害。
+	// 范围：0.01 ~ 20.0
+	"playerDamageModifier": 2.0
+}

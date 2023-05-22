@@ -1,0 +1,31 @@
+成就截图（Advancement Screenshot）
+Curseforge: https://www.curseforge.com/minecraft/mc-mods/advancement-screenshot
+兼容版本：1.19.4、1.19.3、1.19.2、1.19.1、1.19、1.18.2、1.18.1、1.18、1.17.1、1.16.5、1.16.4、1.16.3、1.15.2、1.14.4、1.12.2
+
+掉落所有战利品（All Loot Drops）
+Curseforge: https://www.curseforge.com/minecraft/mc-mods/all-loot-drops
+兼容版本: 1.19.4、1.19.3、1.19.2、1.19.1、1.19、1.18.2、1.18.1、1.18、1.17.1、1.16.5、1.16.4、1.16.3、1.15.2、1.14.4、1.13.2、1.12.2
+
+伤害修改（Altered Damage）
+Curseforge: https://www.curseforge.com/minecraft/mc-mods/altered-damage
+兼容版本: 1.19.4、1.19.3、1.19.2、1.19.1、1.19、1.18.2、1.18.1、1.18、1.17.1、1.16.5、1.16.4、1.16.3、1.15.2、1.14.4、1.13.2、1.12.2
+
+备用地图（Alternative World Save Location）
+Curseforge: https://www.curseforge.com/minecraft/mc-mods/alternative-world-save-location
+兼容版本: 1.19.4、1.19.3、1.19.2、1.19.1、1.19、1.18.2、1.18.1、1.18、1.17.1、1.16.5
+
+必掉凋灵头颅（Always a Wither Skull）
+Curseforge: https://www.curseforge.com/minecraft/mc-mods/always-a-wither-skull
+兼容版本: 1.19.4、1.19.3、1.19.2、1.19.1、1.19、1.18.2、1.18.1、1.18、1.17.1、1.16.5、1.16.4、1.16.3、1.15.2、1.14.4、1.13.2、1.12.2
+
+修复铁砧（Anvil Restoration）
+Curseforge: https://www.curseforge.com/minecraft/mc-mods/anvil-restoration
+兼容版本: 1.19.4、1.19.3、1.19.2、1.19.1、1.19、1.18.2、1.18.1、1.18、1.17.1、1.16.5、1.12.2
+
+地区（Areas）
+Curseforge: https://www.curseforge.com/minecraft/mc-mods/areas
+兼容版本: 1.19.4、1.19.3、1.19.2、1.19.1、1.19、1.18.2、1.18.1、1.18、1.17.1、1.16.5、1.16.4、1.16.3、1.16.2、1.16.1、1.15.2、1.14.4
+
+自动门（Automatic Doors）
+Curseforge: https://www.curseforge.com/minecraft/mc-mods/automatic-doors
+兼容版本: 1.19.4、1.19.3、1.19.2、1.19.1、1.19、1.18.2、1.18.1、1.18、1.17.1、1.16.5、1.16.4、1.16.3、1.15.2、1.14.4、1.13.2、1.12.2

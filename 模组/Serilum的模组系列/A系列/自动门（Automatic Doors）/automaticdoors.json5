@@ -1,0 +1,9 @@
+{
+	// 设置门在打开后持续打开的时间，单位：ms。
+	// 范围：0 ~ 10000
+	"doorOpenTime": 2500,
+	// 如果设置为true，那么当玩家靠近铁门时也会自动打开。
+	"shouldOpenIronDoors": true,
+	// 如果设置为true，那么当玩家以潜行状态靠近门时，门将不会被打开。
+	"preventOpeningOnSneak": true
+}

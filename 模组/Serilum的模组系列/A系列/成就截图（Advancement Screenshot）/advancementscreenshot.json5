@@ -1,0 +1,4 @@
+{
+	// 如果设置为true，当玩家获得成就后会触发与正常按F2截图时的信息一致。
+	"showScreenshotTakenMessage": false
+}

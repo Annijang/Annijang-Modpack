@@ -1,0 +1,10 @@
+{
+	// 默认情况下该功能是禁用的，因为防止在不必要的整合包上选择地图，如果需要开启，请在“defaultMinecraftWorldSaveLocation”里设置地图路径。该选项的功能是选择地图路径而不是选择备份地图的路径，请不要搞错了。
+	"changeDefaultWorldSaveLocation": false,
+	// 请使用 \\ 或者 / 来作为分隔符，该路径尽量不要包含中文，否则可能会有BUG。路径需要包括盘符，例如：“F:/RPG/.minecraft/saves”
+	"defaultMinecraftWorldSaveLocation": "",
+	// 默认情况下该功能是禁用的，如果开启的话可以为特定的saves文件夹进行备份，如果需要开启，则需要在“defaultMinecraftWorldSaveLocation”里设置地图的路径。
+	"changeDefaultWorldBackupLocation": false,
+	// 请使用 \\ 或者 / 来作为分隔符，该路径尽量不要包含中文，否则可能会有BUG。设置路径前请确保‘changeDefaultWorldSaveLocation’和‘changeDefaultWorldBackupLocation’被设置为true。选择地图的备份路径需要包括盘符，例如：“F:/RPG/.minecraft/saves/backups”。当然，建议保存在可以自动备份到云端的文件夹中，例如：OneDrive。
+	"defaultMinecraftWorldBackupLocation": ""
+}

@@ -1,0 +1,12 @@
+{
+	// 当生物的掉落数量比默认多时是否保持现有数量而不是掉落本模组设定是数量。例如：如果设置为true，假如铁傀儡掉落的10个铁锭时，就会保留10个铁锭而不是将数量限制为原版的4个。
+	"keepOriginalLootQuantityIfHigher": true,
+	// 设置每个生物的常规战利品掉落数量
+	// 范围：1 ~ 128
+	"lootQuantity": 1,
+	// 如果设置为true，那么每一级的抢夺附魔都会根据“lootingEnchantExtraQuantityChance”中的概率来增加掉落物数量，每一级抢夺附魔都有可能会增加1个掉落物数量。
+	"lootingEnchantAffectsQuantity": true,
+	// 设置每级抢夺附魔能够增加战利品掉落的数量。
+	// 范围：0.0 ~ 1.0
+	"lootingEnchantExtraQuantityChance": 0.5
+}
