@@ -1,0 +1,23 @@
+死亡备份（Death Backup）
+Curseforge: https://www.curseforge.com/minecraft/mc-mods/death-backup
+兼容版本：1.19.4、1.19.3、1.19.2、1.19.1、1.19、1.18.2、1.18.1、1.18、1.17.1、1.16.5、1.16.4、1.16.3、1.15.2、1.14.4、1.13.2、1.12.2
+
+鸡蛋自动孵化（Despawning Eggs Hatch）
+Curseforge: https://www.curseforge.com/minecraft/mc-mods/despawning-eggs-hatch
+兼容版本: 1.19.4、1.19.3、1.19.2、1.19.1、1.19、1.18.2、1.18.1、1.18、1.17.1、1.16.5、1.16.4、1.16.3、1.16.2、1.16.1、1.15.2、1.14.4、1.13.2、1.12.2
+
+难度锁定（Difficulty Lock）
+Curseforge: https://curseforge.com/minecraft/mc-mods/difficulty-lock
+兼容版本: 1.19.4、1.19.3、1.19.2、1.19.1、1.19、1.18.2、1.18.1、1.18、1.17.1、1.16.5、1.16.4、1.16.3、1.16.2、1.16.1、1.15.2、1.14.4、1.12.2
+
+解除实体（Dismount Entity）
+Curseforge: https://www.curseforge.com/minecraft/mc-mods/dismount-entity
+兼容版本: 1.19.4、1.19.3、1.19.2、1.19.1、1.19、1.18.2、1.18.1、1.18、1.17.1、1.16.5、1.16.4、1.16.3、1.16.2、1.16.1、1.15.2、1.14.4、1.13.2、1.12.2
+
+双层门（Double Doors）
+Curseforge: https://www.curseforge.com/minecraft/mc-mods/double-doors
+兼容版本: 1.19.4、1.19.3、1.19.2、1.19.1、1.19、1.18.2、1.18.1、1.18、1.17.1、1.16.5、1.16.4、1.16.3、1.16.2、1.16.1、1.15.2、1.14.4、1.13.2、1.12.2
+
+龙掉鞘翅（Dragon Drops Elytra）
+Curseforge: https://www.curseforge.com/minecraft/mc-mods/dragon-drops-elytra
+兼容版本: 1.19.4、1.19.3、1.19.2、1.19.1、1.19、1.18.2、1.18.1、1.18、1.17.1、1.16.5、1.16.4、1.16.3、1.16.2、1.16.1、1.15.2、1.14.4、1.13.2、1.12.2、1.11.2

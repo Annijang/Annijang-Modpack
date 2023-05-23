@@ -1,0 +1,12 @@
+{
+	// 如果设置为true，主手始终都会隐藏。如果设置为false，只有当持有‘hideMainHandWithItems’选项里的物品时才会隐藏主手。
+	"alwaysHideMainHand": false,
+	// 如果设置为true，如果主手没有手持物品则会被自动隐藏，但是正常挥手可以正常显示。
+	"alwaysHideEmptyMainHand": true,
+	// 当将‘alwaysHideMainHand’设置为false时，设置在手持指定物品时会隐藏主手的白名单。
+	"hideMainHandWithItems": "",
+	// 如果设置为true，副手始终都会隐藏。如果设置为false，只有当持有‘hideOffhandWithItems’选项里的物品时才会隐藏副手。
+	"alwaysHideOffhand": false,
+	// 当将‘alwaysHideOffhand’设置为false时，设置在副手手持指定物品时会隐藏副手的白名单。默认：不死图腾、火把。
+	"hideOffhandWithItems": "minecraft:totem_of_undying,minecraft:torch"
+}

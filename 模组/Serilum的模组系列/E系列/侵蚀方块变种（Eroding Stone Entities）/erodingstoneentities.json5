@@ -1,0 +1,15 @@
+{
+	// 设置侵蚀物品所需要的时间，单位：秒。
+	// 范围：1 ~ 3600
+	"durationInSecondsStoneErodes": 150,
+	// 如果设置为true，那么当物品在冰块上方的流动水时，将不会被侵蚀，使用水源来运输方块时很有用。
+	"preventErosionIfAboveIceBlock": true,
+	// 如果设置为true，那么在‘itemsWhichErodeIntoClay’选项内设置的方块会被侵蚀为黏土块而不是默认的黏土球。
+	"erodeIntoClayBlockInsteadOfClayBall": false,
+	// 设置能够被侵蚀成原版沙子的物品，使用英文逗号‘ , ’隔开。
+	"itemsWhichErodeIntoSand": "minecraft:cobblestone,minecraft:mossy_cobblestone,minecraft:stone,minecraft:stone_bricks,minecraft:chiseled_stone_bricks,minecraft:cracked_stone_bricks,minecraft:smooth_stone,minecraft:gravel,minecraft:andesite,minecraft:polished_andesite,minecraft:diorite,minecraft:polished_diorite,minecraft:granite,minecraft:polished_granite,minecraft:sandstone,minecraft:chiseled_sandstone,minecraft:cut_sandstone,minecraft:smooth_sandstone",
+	// 设置能够被侵蚀成原版红沙的物品，使用英文逗号‘ , ’隔开。
+	"itemsWhichErodeIntoRedSand": "minecraft:red_sandstone,minecraft:chiseled_red_sandstone,minecraft:cut_red_sandstone,minecraft:smooth_red_sandstone,minecraft:netherrack,minecraft:nether_bricks,minecraft:red_nether_bricks",
+	// 设置能够被侵蚀成原版黏土球的物品，使用英文逗号‘ , ’隔开。
+	"itemsWhichErodeIntoClay": "minecraft:terracotta,minecraft:white_terracotta,minecraft:orange_terracotta,minecraft:magenta_terracotta,minecraft:light_blue_terracotta,minecraft:yellow_terracotta,minecraft:lime_terracotta,minecraft:pink_terracotta,minecraft:gray_terracotta,minecraft:light_gray_terracotta,minecraft:cyan_terracotta,minecraft:purple_terracotta,minecraft:blue_terracotta,minecraft:brown_terracotta,minecraft:green_terracotta,minecraft:red_terracotta,minecraft:black_terracotta"
+}

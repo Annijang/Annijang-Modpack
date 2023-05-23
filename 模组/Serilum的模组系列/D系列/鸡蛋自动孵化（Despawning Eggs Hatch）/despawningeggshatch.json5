@@ -1,0 +1,15 @@
+{
+	// 如果设置为true，鸡蛋只能在干草块上才能孵化，防止野外的鸡群在不知情的前提下变的庞大。
+	"eggOnlyHatchesWhenOnTopOfHayBlock": true,
+	// 如果鸡群的数量没有达到‘onlyHatchIfLessChickensAroundThan’限制的上限，鸡蛋在消失之前能够孵化成小鸡的概率。
+	// 范围：0.0 ~ 1.0
+	"eggWillHatchChance": 1.0,
+	// 设置鸡蛋的孵化数量上限，只有当‘radiusEntityLimiterCheck’设置的范围内的鸡的数量少于本选项设置的上限，每次才会成功让鸡蛋孵化成鸡。
+	// 范围：0 ~ 1000
+	"onlyHatchIfLessChickensAroundThan": 50,
+	// 设置鸡群的检测范围，需要搭配‘onlyHatchIfLessChickensAroundThan’使用。
+	// 范围：1 ~ 256
+	"radiusEntityLimiterCheck": 32,
+	// 如果设置为true，鸡蛋在每次成功孵化后会生成小鸡而不是成年鸡。
+	"newHatchlingIsBaby": true
+}

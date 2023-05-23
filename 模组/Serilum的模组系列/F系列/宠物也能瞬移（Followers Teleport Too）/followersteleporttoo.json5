@@ -1,0 +1,7 @@
+{
+	// 如果设置为true，那么宠物在传送后会获得一定时间的无敌效果，防止宠物因受到窒息或者摔落伤害而死亡。
+	"disableFollowerDamageAfterTeleport": true,
+	// 设置为宠物获得无敌的持续时间，单位是秒，需要将将‘disableFollowerDamageAfterTeleport’设置为true才会生效。
+	// 范围：0 ~ 86400
+	"durationInSecondsDamageShouldBeDisabled": 20
+}

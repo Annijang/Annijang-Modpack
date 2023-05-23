@@ -1,0 +1,31 @@
+赠送手持物品（Hand Over Your Items）
+Curseforge: https://curseforge.com/minecraft/mc-mods/hand-over-your-items
+兼容版本：1.19.4、1.19.3、1.19.2、1.19.1、1.19、1.18.2、1.18.1、1.18、1.17.1、1.16.5、1.15.2、1.14.4、1.12.2
+
+治愈营火（Healing Campfire）
+Curseforge: https://www.curseforge.com/minecraft/mc-mods/healing-campfire
+兼容版本: 1.19.4、1.19.3、1.19.2、1.19.1、1.19、1.18.2、1.18.1、1.18、1.17.1、1.16.5、1.15.2、1.14.4
+
+治愈汤（Healing Soup）
+Curseforge: https://www.curseforge.com/minecraft/mc-mods/healing-soup
+兼容版本: 1.19.4、1.19.3、1.19.2、1.19.1、1.19、1.18.2、1.18.1、1.18、1.17.1、1.16.5、1.16.4、1.16.3、1.16.2、1.16.1、1.15.2、1.14.4、1.13.2、1.12.2、1.7.10
+
+隐藏合成书（Hidden Recipe Book）（客户端）
+Curseforge: https://www.curseforge.com/minecraft/mc-mods/hidden-recipe-book
+兼容版本: 1.19.4、1.19.3、1.19.2、1.19.1、1.19、1.18.2、1.18.1、1.18、1.17.1、1.16.5、1.15.2、1.14.4、1.12.2
+
+隐藏主/副手（Hide Hands）（客户端）
+Curseforge: https://www.curseforge.com/minecraft/mc-mods/hide-hands
+兼容版本: 1.19.4、1.19.3、1.19.2、1.19.1、1.19、1.18.2、1.18.1、1.18、1.17.1、1.16.5、1.16.4、1.16.3、1.16.2、1.16.1、1.15.2、1.14.4、1.12.2
+
+锄头调整（Hoe Tweaks）
+Curseforge: https://www.curseforge.com/minecraft/mc-mods/hoe-tweaks
+兼容版本: 1.19.4、1.19.3、1.19.2、1.19.1、1.19、1.18.2、1.18.1、1.18、1.17.1、1.16.5、1.12.2
+
+双倍战利品（Humbling Bundle）
+Curseforge: https://www.curseforge.com/minecraft/mc-mods/humbling-bundle
+兼容版本: 1.19.4、1.19.3、1.19.2、1.19.1、1.19、1.18.2、1.18.1、1.18、1.17.1、1.16.5、1.16.4、1.16.3、1.16.2、1.16.1、1.15.2、1.14.4、1.13.2、1.12.2
+
+自然生成尸壳（Husk Spawn）
+Curseforge: https://www.curseforge.com/minecraft/mc-mods/husk-spawn
+兼容版本: 1.19.4、1.19.3、1.19.2、1.19.1、1.19、1.18.2、1.18.1、1.18、1.17.1、1.16.5、1.16.4、1.16.3、1.16.2、1.16.1、1.15.2、1.14.4、1.12.2

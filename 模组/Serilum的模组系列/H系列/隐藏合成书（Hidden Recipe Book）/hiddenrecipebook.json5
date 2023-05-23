@@ -1,0 +1,8 @@
+{
+	// 如果设置为true，那么合成书在首次加载该模组时就默认隐藏。
+	"shouldHideRecipeBook": true,
+	// 如果设置为true，那么合成书的可见性可通过快捷键来切换。
+	"allowRecipeBookToggleHotkey": true,
+	// 如果设置为true，每次合成书在隐藏和显示时都会发送一条提示消息。
+	"showMessageOnRecipeBookToggle": false
+}

@@ -1,0 +1,15 @@
+{
+	// 设置在地表生成的僵尸会变异成巨人僵尸的概率。
+	// 范围：0.0 ~ 1.0
+	"chanceSurfaceZombieIsGiant": 0.05,
+	// 如果设置为true，巨人会在白天时和原版僵尸一样着火。
+	"shouldBurnGiantsInDaylight": true,
+	// 如果设置为true，巨人只会在地表生成。
+	"onlySpawnGiantOnSurface": true,
+	// 设置巨人僵尸的移动速度，该值是基于原版僵尸的基础上，例如：如果设置为2.0，那么巨人僵尸的移动速度会是原版僵尸移动速度的200%。
+	// 范围：0.0 ~ 20.0
+	"giantMovementSpeedModifier": 1.0,
+	// 设置巨人僵尸的攻击伤害，该值是基于原版僵尸的基础上，例如：如果设置为2.0，那么巨人僵尸的攻击伤害会是原版僵尸攻击伤害的200%。
+	// 范围：0.0 ~ 20.0
+	"giantAttackDamageModifier": 2.0
+}

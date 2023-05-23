@@ -1,0 +1,6 @@
+{
+	// 如果设置为true，那么当玩家破坏信标本体时，信标底部的矿物块也会被一起破坏。
+	"breakBeaconBaseBlocks": true,
+	// 如果设置为true，那么当玩家使用矿物块去替换原版方块时，被替换掉的原版方块会以掉落物的形式出现在信标上面。
+	"dropReplacedBlockTopBeacon": true
+}

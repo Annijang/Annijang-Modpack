@@ -1,0 +1,6 @@
+{
+	// 如果设置为true，当玩家拥有OP权限时死亡，本模组会通过聊天栏向该玩家发送一条信息来告诉该玩家备份已准备好了。
+	"sendBackupReminderMessageToThoseWithAccessOnDeath": true,
+	// 如果将‘sendBackupReminderMessageToThoseWithAccessOnDeath’设置为true，并且该玩家拥有OP权限，那么下面的内容就是当该玩家死亡时通过聊天栏向该玩家发送的信息。
+	"backupReminderMessage": "A backup of your inventory before your death has been created and can be loaded with '/deathbackup load 0'."
+}

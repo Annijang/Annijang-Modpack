@@ -1,0 +1,21 @@
+{
+	// 如果设置为true，重新放置的营火默认将会是熄灭状态。
+	"campfiresStartUnlit": true,
+	// 如果设置为true，当玩家对着营火按下潜行+右键时将不会将出生点设置到营火上。
+	"sneakRightClickCampfireToUnset": true,
+	// 如果设置为true，当玩家对着床按下潜行+右键时会将出生点设置到床上而覆盖掉在营火上设置的出生点。
+	"bedsOverrideCampfireSpawnOnSneakRightClick": true,
+	// 如果设置为true，那么当营火上方有实心方块时，每次重生将会清除营火上方的方块来避免窒息。
+	"createAirPocketIfBlocksAboveCampfire": true,
+	// 如果设置为true，每当玩家将出生点设置到营火上时，会通过聊天栏的方式通知玩家。
+	"sendMessageOnNewCampfireSpawnSet": true,
+	// 如果设置为true，每当玩家未将出生点设置到营火上时，会通过聊天栏的方式通知玩家。
+	"sendMessageOnCampfireSpawnUnset": true,
+	// 如果设置为true，当出生时没有营火时会通过聊天栏的方式通知玩家，类似原版的床被破坏时的效果。
+	"sendMessageOnCampfireSpawnMissing": true,
+	// 如果设置为true，每当玩家在床上设置出生点时，营火的出生点被覆盖掉时会通过聊天栏的方式通知玩家。
+	"sendMessageOnCampfireSpawnOverride": true,
+	// 设置玩家在营火上出生时获得抗火效果的时间，如果设置为0则不会让玩家在重生时获得抗火效果并且会让玩家在出生时出生在营火的附近而不是营火的正上方。
+	// 范围：0 ~ 3600000
+	"fireResitanceDurationOnRespawnInMs": 10000
+}

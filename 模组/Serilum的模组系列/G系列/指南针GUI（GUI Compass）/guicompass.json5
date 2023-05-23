@@ -1,0 +1,26 @@
+{
+	// 设置指南针界面的显示内容。默认：[FXYZ]。F：方向，X：X轴坐标，Y：Y轴坐标，Z：Z轴坐标。
+	"guiCompassFormat": "FXYZ",
+	// 如果设置为true，只有当玩家背包里有指南针时才会显示GUI界面。
+	"mustHaveCompassInInventory": true,
+	// 如果设置为true，那么会将GUI指南针的位置设置到左侧。
+	"compassPositionIsLeft": true,
+	// 如果设置为true，那么会将GUI指南针的位置设置到屏幕中间。
+	"compassPositionIsCenter": false,
+	// 如果设置为true，那么会将GUI指南针的位置设置到右侧。
+	"compassPositionIsRight": false,
+	// 设置GUI指南针的Y轴偏移坐标，防止与其他模组的图标重叠。
+	// 范围：0 ~ 3000
+	"compassHeightOffset": 5,
+	// 如果设置为true，那么会在文本后方渲染一层阴影。
+	"drawTextShadow": true,
+	// 设置文本的红色RGB值。
+	// 范围：0 ~ 255
+	"RGB_R": 255,
+	// 设置文本的绿色RGB值。
+	// 范围：0 ~ 255
+	"RGB_G": 255,
+	// 设置文本的蓝色RGB值。
+	// 范围：0 ~ 255
+	"RGB_B": 255
+}

@@ -1,0 +1,15 @@
+{
+  "collective.duskconfig.title": "集体配置",
+  "collective.duskconfig.DESC_transferItemsBetweenReplacedEntities": "如果设置为true，那么被替换的实体的数据也会被一起转移，例如：手持物品、穿戴的盔甲等，该内容是来自实体生成模组。",
+  "collective.duskconfig.transferItemsBetweenReplacedEntities": "被实体替换的物品",
+  "collective.duskconfig.DESC_loopsAmountUsedToGetAllEntityDrops": "集体会以循环的方式生成生物掉落物，该循环是循序渐进的。只有当其他模组需要改功能时才会生成掉落物，降低该数值会增加游戏的加载时间，但是会降低准确性。",
+  "collective.duskconfig.RANGE_loopsAmountUsedToGetAllEntityDrops": "范围：1 ~ 500",
+  "collective.duskconfig.loopsAmountUsedToGetAllEntityDrops": "获取所有实体掉落的战利品数量",
+  "collective.duskconfig.DESC_findABlockcheckAroundEntitiesDelayMs": "检测实体附近的方块延迟，单位是ms。用于给指定模组检测位于世界中的某个方块状态，增加该数值可以略微增加TPS。",
+  "collective.duskconfig.RANGE_findABlockcheckAroundEntitiesDelayMs": "范围：0 ~ 3600000",
+  "collective.duskconfig.findABlockcheckAroundEntitiesDelayMs": "检测实体周围的方块状态",
+  "collective.duskconfig.DESC_enableAntiRepostingCheck": "如需查看更多信息，请访问：“https://stopmodreposts.org/”。",
+  "collective.duskconfig.enableAntiRepostingCheck": "开启反转检测",
+  "collective.duskconfig.DESC_enablePatronPets": "开启赞助者的专属宠物，该功能会在未来的版本中添加。",
+  "collective.duskconfig.enablePatronPets": "开启赞助专属宠物"
+}

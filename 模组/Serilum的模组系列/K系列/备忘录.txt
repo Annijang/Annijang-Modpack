@@ -1,0 +1,7 @@
+土壤保持耕地（Keep My Soil Tilled）
+Curseforge: https://www.curseforge.com/minecraft/mc-mods/keep-my-soil-tilled
+兼容版本：1.19.4、1.19.3、1.19.2、1.19.1、1.19、1.18.2、1.18.1、1.18、1.17.1、1.16.5
+
+海带肥料（Kelp Fertilizer）
+Curseforge: https://www.curseforge.com/minecraft/mc-mods/kelp-fertilizer
+兼容版本: 1.19.4、1.19.3、1.19.2、1.19.1、1.19、1.18.2、1.18.1、1.18、1.17.1、1.16.5、1.16.4、1.16.3、1.16.2、1.16.1、1.15.2、1.14.4

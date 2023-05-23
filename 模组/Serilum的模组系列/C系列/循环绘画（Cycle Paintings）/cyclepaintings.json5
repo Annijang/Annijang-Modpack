@@ -1,0 +1,6 @@
+{
+	// 使用英文的逗号“,”隔开，设置循环绘画忽略的绘画种类，可以输入模组名称（冒号前面的那一部分），例如：原版的名称是“minecraft”，或者通过‘showRegisteredPaintingsDebug’来找到具体的绘画数据。
+	"ignorePaintingsInCycleResourceLocation": "infernalexp,",
+	// 如果设置为true，那么在启动游戏时会将游戏内的所有绘画都添加到log文件中，可以与‘ignorePaintingsInCycleResourceLocationPrefix’搭配使用。
+	"showRegisteredPaintingsDebug": false
+}

@@ -1,0 +1,11 @@
+{
+	// 设置每次在铁砧上修复物品所需要的等级，如果设置为 0 ，那么会与原版保持一致。
+	// 范围：0 ~ 100
+	"repairCostLevelAmount": 3,
+	// 设置每次修复物品所需要的材料数量，如果设置为 0 ，那么会与原版保持一致。
+	// 范围：0 ~ 64
+	"repairCostMaterialAmount": 1,
+	// 设置当材料数量达到‘repairCostMaterialAmount’规定的数量时，每次能够修复多少耐久，默认情况下修复3次可以恢复99%的耐久。
+	// 范围：0.0 ~ 1.0
+	"percentRepairedPerAction": 0.3333
+}

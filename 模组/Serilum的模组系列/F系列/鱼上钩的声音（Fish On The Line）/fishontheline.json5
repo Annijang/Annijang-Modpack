@@ -1,0 +1,4 @@
+{
+	// 如果设置为true，只有当玩家在副手栏放置钟时，鱼在上钩时的声音才会响起来。
+	"mustHoldBellInOffhand": true
+}

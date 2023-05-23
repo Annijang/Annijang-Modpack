@@ -1,0 +1,12 @@
+{
+	// 如果设置为true，那么当玩家在水下时将无法使用水瓶，防止玩家获得无限氧气。
+	"disableWaterConsumptionUnderwater": true,
+	// 如果设置为true，当玩家在副手放置具有火属性的物品时再手持玻璃瓶右键水将会立即蒸发水瓶中的水。
+	"holdFireTypeItemInOffhandToPreventWaterBottleCreation": true,
+	// 每当玩家通过在副手放置具有火属性的物品时，设置玻璃瓶每次破裂的概率。
+	// 范围：0.0 ~ 1.0
+	"chanceGlassBottleBreaksWithFireTypeInOffhand": 0.5,
+	// 设置每次玩家在水下使用玻璃瓶时能够恢复玩家氧气值的数量，原版氧气值的上限是300。
+	// 范围：0 ~ 1000
+	"amountOfAirInBottles": 150
+}

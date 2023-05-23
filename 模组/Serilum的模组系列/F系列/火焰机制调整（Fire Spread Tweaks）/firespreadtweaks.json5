@@ -1,0 +1,13 @@
+{
+	// 设置火焰燃烧的持续时间，单位：tick，1秒 = 20tick。
+	// 范围：0 ~ 72000
+	"timeFireBurnsInTicks": 300,
+	// 如果设置为true，那么在‘MinRandomExtraBurnTicks’和‘MaxRandomExtraBurnTicks’设置的数值会作为火焰会在此范围内持续燃烧的时间。
+	"enableRandomizedFireDuration": true,
+	// 设置火焰燃烧的最低时间刻，火焰的持续燃烧时间会在最低时间刻和最高时间刻之间随机选择一个tick来作为该火焰的持续燃烧时间。例如：最小时间刻设置为-100，最大时间刻设置为100，那么火焰的持续时间为10-20秒，计算公式是：最小时间刻 - 最大时间刻。
+	// 范围：-36000 ~ 0
+	"MinRandomExtraBurnTicks": -100,
+	// 设置火焰燃烧的最高时间刻，具体请参考‘MinRandomExtraBurnTicks’的描述。
+	// 范围：0 ~ 36000
+	"MaxRandomExtraBurnTicks": 100
+}

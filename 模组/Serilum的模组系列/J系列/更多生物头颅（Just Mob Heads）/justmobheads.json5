@@ -1,0 +1,20 @@
+{
+	// 如果设置为true，可以在‘overallDropChance’里设置特定的值来覆盖。
+	"mobSpecificDropChances": true,
+	// 如果设置为true，那么允许苦力怕、骷髅和僵尸掉落它们的头颅。
+	"enableStandardHeads": false,
+	// 如果设置为true，那么掉落头颅的概率会受抢夺附魔的影响。
+	"enableLootingEnchant": true,
+	// 如果设置为true，那么只有成年的被驯服的被动生物在死亡时才有概率掉落头颅。
+	"onlyAdultMobsDropTheirHead": true,
+	// 当把‘mobSpecificDropChances’设置为false时，设置生物掉落头颅的概率。
+	// 范围：1.0E-4 ~ 1.0
+	"overallDropChance": 0.1,
+	// 当把‘enableStandardHeads’设置为true时，设置僵尸、骷髅和苦力怕掉落头颅的概率。
+	// 范围：1.0E-4 ~ 1.0
+	"creeperSkeletonZombieDropChance": 0.1,
+	// 如果设置为true，只有当是由闪电苦力怕击杀时，生物才会掉落其头颅，该值会覆盖‘onlyDropHeadsByPlayerKill’选项。
+	"onlyDropHeadsByChargedCreeper": false,
+	// 如果设置为true，只有当是由玩家击杀时，生物才会掉落其头颅。
+	"onlyDropHeadsByPlayerKill": false
+}

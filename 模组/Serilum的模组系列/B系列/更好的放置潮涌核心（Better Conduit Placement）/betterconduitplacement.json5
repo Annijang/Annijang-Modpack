@@ -1,0 +1,6 @@
+{
+	// 如果设置为true，那么当玩家破坏潮涌核心时，组成潮涌核心的方块也会被一起破坏。
+	"breakConduitBlocks": true,
+	// 如果设置为true，那么当潮涌核心方块替换掉原版方块时，原版方块会以掉落物的形式出现在潮涌核心上面。
+	"dropReplacedBlockTopConduit": true
+}

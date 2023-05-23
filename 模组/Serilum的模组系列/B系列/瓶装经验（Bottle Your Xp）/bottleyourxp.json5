@@ -1,0 +1,10 @@
+{
+	// 如果设置为true，那么每当玩家给经验装瓶时，每次会使玩家受伤。
+	"damageOnCreation": true,
+	// 每当玩家给经验装瓶时，将会玩家受到的伤害。
+	// 范围：1 ~ 20
+	"halfHeartDamageAmount": 1,
+	// 设置每次给经验装瓶时需要的经验值，尽量不要把经验值设置到太低，因为可能会让经验值重叠从而产生BUG。
+	// 范围：0 ~ 100
+	"rawXpConsumedOnCreation": 10
+}

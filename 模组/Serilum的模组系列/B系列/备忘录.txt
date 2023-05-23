@@ -1,0 +1,42 @@
+聊天美化（Beautified Chat）
+客户端Curseforge: https://www.curseforge.com/minecraft/mc-mods/beautified-chat-client
+客户端兼容版本：1.19.4、1.19.3、1.19.2、1.19.1、1.19、1.18.2、1.18.1、1.18、1.17.1、1.16.5、1.12.2
+服务端Curseforge：https://curseforge.com/minecraft/mc-mods/beautified-chat-server
+服务端兼容版本：1.19.4、1.19.3、1.19.2、1.19.1、1.19、1.18.2、1.18.1、1.18、1.17.1、1.16.5、1.12.2
+
+更好的放置信标（Better Beacon Placement）
+Curseforge: https://www.curseforge.com/minecraft/mc-mods/better-beacon-placement
+兼容版本: 1.19.4、1.19.3、1.19.2、1.19.1、1.19、1.18.2、1.18.1、1.18、1.17.1、1.16.5、1.16.4、1.16.3、1.15.2、1.14.4、1.13.2、1.12.2
+
+更好的放置潮涌核心（Better Conduit Placement）
+Curseforge: https://www.curseforge.com/minecraft/mc-mods/better-conduit-placement
+兼容版本: 1.19.4、1.19.3、1.19.2、1.19.1、1.19、1.18.2、1.18.1、1.18、1.17.1、1.16.5、1.16.4、1.16.3、1.15.2、1.14.4、1.13.2、1.12.2
+
+更好的刷怪笼封印（Better Spawner Control）
+Curseforge: https://www.curseforge.com/minecraft/mc-mods/better-spawner-control
+兼容版本: 1.19.4、1.19.3、1.19.2、1.19.1、1.19、1.18.2、1.18.1、1.18、1.17.1、1.16.5、1.16.4、1.16.3、1.15.2、1.14.4、1.13.2、1.12.2
+
+更大的海绵（Bigger Sponge Absorption Radius）
+Curseforge: https://www.curseforge.com/minecraft/mc-mods/bigger-sponge-absorption-radius
+兼容版本: 1.19.4、1.19.3、1.19.2、1.19.1、1.19、1.18.2、1.18.1、1.18、1.17.1、1.16.5、1.16.4、1.16.3、1.15.2、1.14.4
+
+生物群系出生点（Biome Spawn Point）
+Curseforge: https://www.curseforge.com/minecraft/mc-mods/biome-spawn-point
+兼容版本: 1.19.4、1.19.3、1.19.2、1.18.2、1.16.5
+
+瓶装经验（Bottle Your Xp）
+Curseforge: https://www.curseforge.com/minecraft/mc-mods/bottle-your-xp
+兼容版本: 1.19.4、1.19.3、1.19.2、1.19.1、1.19、1.18.2、1.18.1、1.18、1.17.1、1.16.5、1.16.4、1.16.3、1.15.2、1.14.4、1.13.2、1.12.2
+
+瓶装空气（Bottled Air）
+Curseforge: https://curseforge.com/minecraft/mc-mods/bottled-air
+兼容版本: 1.19.4、1.19.3、1.19.2、1.19.1、1.19、1.18.2、1.18.1、1.18、1.17.1、1.16.5、1.12.2
+
+弹跳床（Bouncier Beds）
+Curseforge: https://www.curseforge.com/minecraft/mc-mods/bouncier-beds
+兼容版本: 1.19.4、1.19.3、1.19.2、1.19.1、1.19、1.18.2、1.18.1、1.18、1.17.1、1.16.5、1.12.2
+
+繁殖杀手兔（Breedable Killer Rabbit）
+Curseforge: https://curseforge.com/minecraft/mc-mods/breedable-killer-rabbit
+兼容版本: 1.19.4、1.19.3、1.19.2、1.19.1、1.19、1.18.2、1.18.1、1.18、1.17.1、1.16.5、1.16.4、1.16.3、1.15.2、1.14.4、1.13.2、1.12.2
+

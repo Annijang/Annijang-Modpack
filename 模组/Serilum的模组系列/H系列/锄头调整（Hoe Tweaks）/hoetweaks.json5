@@ -1,0 +1,27 @@
+{
+	// 如果设置为true，当在副手放置种子时，可以一边耕地一遍播种。
+	"onlyUntillWithOtherHandEmpty": true,
+	// 设置使用锄头破坏南瓜和西瓜的速度，基于原版破坏速度。
+	// 范围：0.0 ~ 20.0
+	"cropBlockBreakSpeedModifier": 8.0,
+	// 如果设置为true，那么锄头的范围耕地功能只能在玩家是潜行状态时使用。
+	"mustCrouchToHaveBiggerHoeRange": true,
+	// 设置木锄的耕地范围，0 = 1x1，（默认需要按住潜行键）。
+	// 范围：0 ~ 32
+	"woodenTierHoeRange": 0,
+	// 设置石锄的耕地范围，1 = 3x3，（默认需要按住潜行键）。
+	// 范围：0 ~ 32
+	"stoneTierHoeRange": 1,
+	// 设置金锄的耕地范围，2 = 5x5，（默认需要按住潜行键）。
+	// 范围：0 ~ 32
+	"goldTierHoeRange": 2,
+	// 设置铁锄的耕地范围，2 = 5x5，（默认需要按住潜行键）。
+	// 范围：0 ~ 32
+	"ironTierHoeRange": 2,
+	// 设置钻石锄的耕地范围，3 = 7x7，（默认需要按住潜行键）。
+	// 范围：0 ~ 32
+	"diamondTierHoeRange": 3,
+	// 设置下界合金锄的耕地范围，4 = 9x9，（默认需要按住潜行键）。
+	// 范围：0 ~ 32
+	"netheriteTierHoeRange": 4
+}

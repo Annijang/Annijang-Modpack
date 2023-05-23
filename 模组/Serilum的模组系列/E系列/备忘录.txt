@@ -1,0 +1,35 @@
+鞘翅更好地起飞（Easy Elytra Takeoff）
+Curseforge: https://www.curseforge.com/minecraft/mc-mods/easy-elytra-takeoff
+兼容版本：1.19.4、1.19.3、1.19.2、1.19.1、1.19、1.18.2、1.18.1、1.18、1.17.1、1.16.5、1.16.4、1.16.3、1.16.2、1.15.2、1.14.4、1.13.2、1.12.2
+
+食用药材（Edibles）
+Curseforge: https://www.curseforge.com/minecraft/mc-mods/edibles
+兼容版本: 1.19.4、1.19.3、1.19.2、1.19.1、1.19、1.18.2、1.18.1、1.18、1.17.1、1.16.5、1.16.4、1.16.3、1.16.2、1.15.2、1.14.4、1.12.2
+
+附魔指令（Enchanting Commands）
+Curseforge: https://www.curseforge.com/minecraft/mc-mods/enchanting-commands
+兼容版本: 1.19.4、1.19.3、1.19.2、1.19.1、1.19、1.18.2、1.18.1、1.18、1.17.1、1.16.5、1.16.4、1.16.3、1.16.2、1.15.2、1.14.4、1.13.2、1.12.2
+
+可合成的末地传送门（End Portal Recipe）
+Curseforge: https://curseforge.com/minecraft/mc-mods/end-portal-recipe
+兼容版本: 1.19.4、1.19.3、1.19.2、1.19.1、1.19、1.18.2、1.18.1、1.18、1.17.1、1.16.5、1.16.4、1.16.3、1.16.2、1.15.2、1.14.4、1.13.2、1.12.2
+
+实体信息（Entity Information）
+Curseforge: https://www.curseforge.com/minecraft/mc-mods/entity-information
+兼容版本: 1.19.4、1.19.3、1.19.2、1.19.1、1.19、1.18.2、1.18.1、1.18、1.17.1、1.16.5、1.16.4、1.16.3、1.16.2、1.15.2、1.14.4、1.13.2、1.12.2
+
+侵蚀方块变种（Eroding Stone Entities）
+Curseforge: https://www.curseforge.com/minecraft/mc-mods/eroding-stone-entities
+兼容版本: 1.19.4、1.19.3、1.19.2、1.19.1、1.19、1.18.2、1.18.1、1.18、1.17.1、1.16.5、1.16.4、1.16.3、1.15.2、1.14.4、1.12.2
+
+拓展骨粉（Extended Bone Meal）
+Curseforge: https://www.curseforge.com/minecraft/mc-mods/extended-bone-meal
+兼容版本: 1.19.4、1.19.3、1.19.2、1.19.1、1.19、1.18.2、1.18.1、1.18、1.17.1、1.16.5、1.16.4、1.16.3、1.16.2、1.16.1、1.15.2、1.14.4、1.13.2、1.12.2
+
+创造模式标签页拓展（Extended Creative Inventory）
+Curseforge: https://www.curseforge.com/minecraft/mc-mods/extended-creative-inventory
+兼容版本: 1.19.2、1.18.2、1.18.1、1.18、1.17.1、1.16.5、1.16.4、1.16.3、1.15.2、1.14.4
+
+提取毒药（Extract Poison）
+Curseforge: https://www.curseforge.com/minecraft/mc-mods/extract-poison
+兼容版本: 1.19.4、1.19.3、1.19.2、1.19.1、1.19、1.18.2、1.18.1、1.18、1.17.1、1.16.5、1.16.4、1.16.3、1.16.2、1.16.1、1.15.2、1.14.4、1.13.2、1.12.2

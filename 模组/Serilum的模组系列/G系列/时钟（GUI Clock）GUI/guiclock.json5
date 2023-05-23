@@ -1,0 +1,43 @@
+{
+	// 如果设置为true，那么只有当玩家的物品栏中拥有时钟时才会显示游戏时间。
+	"mustHaveClockInInventoryForGameTime": true,
+	// 如果设置为true，那么只有当玩家的物品栏中拥有时钟时才会显示现实时间。
+	"mustHaveClockInInventoryForRealTime": true,
+	// 如果设置为true，那么当玩家拥有药水效果时，GUI里的时钟会向下偏移，避免与药水效果图标重叠。
+	"lowerClockWhenPlayerHasEffects": true,
+	// 如果设置为true，那么会将时钟的时间显示格式切换为24小时制。
+	"_24hourformat": true,
+	// 如果设置为true，那么时间显示格式会被替换为时钟，而不是带有数字的时钟。
+	"showOnlyMinecraftClockIcon": false,
+	// 如果设置为true，那么会同时显示游戏时间和现实时间。
+	"showBothTimes": false,
+	// 如果设置为true，那么会显示现实时间而不是游戏时间。
+	"showRealTime": false,
+	// 如果设置为true，那么会显示时钟里的秒。
+	"showRealTimeSeconds": false,
+	// 如果设置为true，那么会显示当前世界的游戏天数。
+	"showDaysPlayedWorld": true,
+	// 如果设置为true，那么会将GUI时钟的位置设置到左侧。
+	"clockPositionIsLeft": false,
+	// 如果设置为true，那么会将GUI时钟的位置设置到屏幕中央。
+	"clockPositionIsCenter": false,
+	// 如果设置为true，那么会将GUI时钟的位置设置到右侧。
+	"clockPositionIsRight": true,
+	// 设置GUI时钟的Y轴偏移坐标，防止与其他模组的图标重叠。
+	// 范围：0 ~ 3000
+	"clockHeightOffset": 5,
+	// 设置GUI时钟的X轴偏移坐标，防止与其他模组的图标重叠。
+	// 范围：-3000 ~ 3000
+	"clockWidthOffset": 0,
+	// 如果设置为true，那么会在文本后方渲染一层阴影。
+	"drawTextShadow": true,
+	// 设置文本的红色RGB值。
+	// 范围：0 ~ 255
+	"RGB_R": 255,
+	// 设置文本的绿色RGB值。
+	// 范围：0 ~ 255
+	"RGB_G": 255,
+	// 设置文本的蓝色RGB值。
+	// 范围：0 ~ 255
+	"RGB_B": 255
+}

@@ -1,0 +1,14 @@
+{
+	// 难度 1：如果设置为true，玩家在新建世界时会将难度锁定在和平模式。
+	"forcePeaceful": false,
+	// 难度 2：如果设置为true，玩家在新建世界时会将难度锁定在简单模式。
+	"forceEasy": false,
+	// 难度 3：如果设置为true，玩家在新建世界时会将难度锁定在正常模式。
+	"forceNormal": false,
+	// 难度 4：如果设置为true，玩家在新建世界时会将难度锁定在困难模式。
+	"forceHard": true,
+	// 如果设置为true，那么玩家将无法通过常规的形式修改地图的难度。
+	"shouldLockDifficulty": true,
+	// 如果设置为true，哪怕世界已经被锁定了难度也可以根据本模组来设定。
+	"shouldChangeDifficultyWhenAlreadyLocked": false
+}

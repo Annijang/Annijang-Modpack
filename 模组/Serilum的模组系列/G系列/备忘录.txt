@@ -1,0 +1,23 @@
+巨人生成（Giant Spawn）
+Curseforge: https://curseforge.com/minecraft/mc-mods/giant-spawn
+兼容版本：1.19.4、1.19.3、1.19.2、1.19.1、1.19、1.18.2、1.18.1、1.18、1.17.1、1.16.5、1.16.4、1.16.3、1.16.2、1.16.1、1.15.2、1.14.4、1.13.2
+
+草籽（Grass Seeds）
+Curseforge: https://www.curseforge.com/minecraft/mc-mods/grass-seeds
+兼容版本: 1.19.4、1.19.3、1.19.2、1.19.1、1.19、1.18.2、1.18.1、1.18、1.17.1、1.16.5、1.16.4、1.16.3、1.16.2、1.16.1、1.15.2、1.14.4、1.13.2、1.12.2
+
+磨石锋利工具（Grindstone Sharper Tools）
+Curseforge: https://curseforge.com/minecraft/mc-mods/grindstone-sharper-tools
+兼容版本: 1.19.4、1.19.3、1.19.2、1.19.1、1.19、1.18.2、1.18.1、1.18、1.17.1、1.16.5、1.16.4、1.16.3、1.16.2、1.16.1、1.15.2、1.14.4
+
+时钟GUI（GUI Clock）（客户端）
+Curseforge: https://www.curseforge.com/minecraft/mc-mods/gui-clock
+兼容版本: 1.19.4、1.19.3、1.19.2、1.19.1、1.19、1.18.2、1.18.1、1.18、1.17.1、1.16.5、1.16.4、1.16.3、1.16.2、1.16.1、1.15.2、1.14.4、1.13.2、1.12.2
+
+指南针GUI（GUI Compass）（客户端）
+Curseforge: https://www.curseforge.com/minecraft/mc-mods/gui-compass
+兼容版本: 1.19.4、1.19.3、1.19.2、1.19.1、1.19、1.18.2、1.18.1、1.18、1.17.1、1.16.5、1.16.4、1.16.3、1.16.2、1.16.1、1.15.2、1.14.4、1.13.2、1.12.2
+
+宠物GUI（GUI Followers）（客户端）
+Curseforge: https://www.curseforge.com/minecraft/mc-mods/gui-followers
+兼容版本: 1.19.4、1.19.3、1.19.2、1.19.1、1.19、1.18.2、1.18.1、1.18、1.17.1、1.16.5、1.16.4、1.16.3、1.15.2、1.14.4、1.12.2

@@ -1,0 +1,5 @@
+{
+	// 设置蘑菇堡和仙人掌汤的回血量，原版PVP的回血量是8点。
+	// 范围：0 ~ 20
+	"soupHalfHeartHealAmount": 8
+}

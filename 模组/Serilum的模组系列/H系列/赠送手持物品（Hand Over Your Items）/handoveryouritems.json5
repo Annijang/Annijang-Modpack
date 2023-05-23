@@ -1,0 +1,8 @@
+{
+	// 如果设置为true，每当玩家被其他玩家赠送物品时，在被赠送物品的玩家聊天栏里便会收到一条提示消息。
+	"sendItemReceivedMessage": true,
+	// 如果设置为true，每当玩家给其他玩家赠送物品时，赠送物品的玩家便会在聊天栏收到一条提示信息。
+	"sendItemGivenMessage": true,
+	// 如果设置为true，玩家给其他玩家赠送物品时需要按下潜行键+右键才能赠予。
+	"mustCrouchToGiveItem": true
+}

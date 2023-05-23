@@ -1,0 +1,38 @@
+{
+	// 设置玩家食用药材的上限，食用的药材数量大于上限时会获得虚弱效果，设置为 -1 关闭上限。
+	// 范围：-1 ~ 1280
+	"maxItemUsesPerDaySingleItem": 16,
+	// 设置玩家食用药材的总上限，使用药材的数量大于总上限时会获得虚弱效果，设置为 -1 关闭上限。
+	// 范围：-1 ~ 1280
+	"maxItemUsesPerDayTotal": -1,
+	// 设置当玩家食用药材的数量大于上限时给予玩家多久的虚弱效果，单位是秒。
+	// 范围：1 ~ 3600
+	"weaknessDurationSeconds": 45,
+	// 设置当玩家食用荧石粉时，周围实体获得发光效果的持续时间，单位是秒，设置为 0 禁用。
+	// 范围：0 ~ 3600
+	"glowEntityDurationSeconds": 20,
+	// 设置当玩家食用荧石粉时，会给予附近多少格内的生物发光效果。
+	// 范围：1 ~ 128
+	"glowEntitiesAroundAffectedRadiusBlocks": 32,
+	// 设置玩家在每次食用药材的冷却时间，单位是毫秒，1秒 = 1000毫秒。
+	// 范围：0 ~ 3600000
+	"_cooldownInMsBetweenUses": 1000,
+	// 设置当玩家食用烈焰粉时，玩家获得力量效果的持续时间，单位是秒，设置为 0 禁用。
+	// 范围：0 ~ 3600
+	"blazePowderStrengthDurationSeconds": 15,
+	// 设置当玩家食用岩浆膏时，玩家获得抗火效果的持续时间，单位是秒，设置为 0 禁用。
+	// 范围：0 ~ 3600
+	"magmaCreamFireResistanceDurationSeconds": 15,
+	// 设置当玩家食用糖时，玩家获得速度效果的持续时间，单位是秒，设置为 0 禁用。
+	// 范围：0 ~ 3600
+	"sugarSpeedDurationSeconds": 15,
+	// 设置当玩家食用恶魂之泪时，玩家获得生命恢复效果的持续时间，单位是秒，设置为 0 禁用。
+	// 范围：0 ~ 3600
+	"ghastTearDurationSeconds": 15,
+	// 设置当玩家食用幻翼膜时，玩家获得缓降效果的持续时间，单位是秒，设置为 0 禁用。
+	// 范围：0 ~ 3600
+	"phantomMembraneDurationSeconds": 15,
+	// 设置当玩家食用兔子脚时，玩家获得跳跃提升效果的持续时间，单位是秒，设置为 0 禁用。
+	// 范围：0 ~ 3600
+	"rabbitsFootDurationSeconds": 15
+}

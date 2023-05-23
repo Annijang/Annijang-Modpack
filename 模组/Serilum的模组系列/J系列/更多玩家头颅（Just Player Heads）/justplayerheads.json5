@@ -1,0 +1,9 @@
+{
+	// 如果设置为true，那么将会启用对玩家头颅皮肤的本地缓存功能，如果玩家更新其的皮肤，那么旧版皮肤将会被舍弃，直到服务器重启或者管理员使用“/jph cache”指令。
+	"enablePlayerHeadCaching": true,
+	// 如果设置为true，那么玩家在死亡时会掉落头颅。
+	"playerDropsHeadOnDeath": true,
+	// 设置玩家在死亡时掉落头颅的概率，前提是需要将‘playerDropsHeadOnDeath’设置为true。
+	// 范围：1.0E-4 ~ 1.0
+	"playerHeadDropChance": 1.0
+}

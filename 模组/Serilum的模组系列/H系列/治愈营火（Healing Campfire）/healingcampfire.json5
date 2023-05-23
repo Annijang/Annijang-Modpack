@@ -1,0 +1,26 @@
+{
+	// 设置营火检测营火附近生物的间隔，单位是tick，1秒 = 20tick，默认每2秒检测一次。
+	// 范围：1 ~ 1200
+	"checkForCampfireDelayInTicks": 40,
+	// 设置营火的生效半径，当被动生物在范围内时将会获得生命恢复效果。
+	// 范围：1 ~ 64
+	"healingRadius": 16,
+	// 设置营火给予生命恢复的持续时间，单位是秒。
+	// 范围：1 ~ 600
+	"effectDurationSeconds": 60,
+	// 设置营火给予生命恢复的效果等级，默认为1级。
+	// 范围：1 ~ 50
+	"regenerationLevel": 1,
+	// 如果设置为true，营火会给予范围内的被动生物生命恢复效果。
+	"healPassiveMobs": true,
+	// 如果设置为true，通过营火给予的生命恢复效果会被隐藏粒子效果。
+	"hideEffectParticles": true,
+	// 如果设置为true，只有当篝火被点燃时才会给予生命恢复效果。
+	"campfireMustBeLit": true,
+	// 如果设置为true，只有当方块发出红石信号时才会给予生命恢复效果。
+	"campfireMustBeSignalling": false,
+	// 如果设置为true，营火拥有与原版营火一样的功能。
+	"enableEffectForNormalCampfires": true,
+	// 如果设置为true，营火拥有与原版灵魂营火一样的功能。
+	"enableEffectForSoulCampfires": true
+}

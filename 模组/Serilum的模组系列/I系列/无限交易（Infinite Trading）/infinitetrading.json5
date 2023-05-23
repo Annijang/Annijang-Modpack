@@ -1,0 +1,6 @@
+{
+	// 如果设置为true，流浪商人的交易次数永远都是无限的。
+	"wanderingTraderInfiniteTrades": true,
+	// 如果设置为true，村民的交易次数永远都是无限的。
+	"villagerInfiniteTrades": true
+}

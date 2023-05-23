@@ -1,0 +1,18 @@
+{
+	// 设置工具在砂轮上可以获得额外锋利的使用次数。
+	// 范围：1 ~ 5000
+	"usesAfterGrinding": 32,
+	// 设置额外锋利能在原有伤害的基础上能增加多少伤害，例如：如果设置为1.5，原版的下界合金剑是8点伤害，获得额外锋利后可在原有的8点伤害的基础上再乘以1.5，最终的伤害就是8x1.5=12点。
+	// 范围：0.0 ~ 100.0
+	"sharpenedDamageModifier": 1.5,
+	// 如果设置为true，那么哪怕使用者是创造模式，在使用时也会减少额外锋利的使用次数。
+	"infiniteCreativeUses": false,
+	// 如果设置为true，那么当额外的使用次数降到原来的75%、50%、25%、10%时，会在聊天栏通知玩家。
+	"sendUsesLeftInChat": true,
+	// 如果设置为true，那么当工具获得额外锋利时，会在物品的名称后面添加上剩余次数。
+	"showUsesLeftInItemName": true,
+	// 设置使用次数在物品名称添加的前缀，需要将‘showUsesLeftInItemName’设置为true才会生效。
+	"nameUsesPrefix": "(Sharpened uses: ",
+	// 设置使用次数在物品名称添加的后缀，需要将‘showUsesLeftInItemName’设置为true才会生效。
+	"nameUsesSuffix": ")"
+}

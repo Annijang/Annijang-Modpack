@@ -1,0 +1,35 @@
+柔软的黏液块（Fall Through Slime）
+Curseforge: https://curseforge.com/minecraft/mc-mods/fall-through-slime
+兼容版本：1.19.4、1.19.3、1.19.2、1.19.1、1.19、1.18.2、1.18.1、1.18、1.17.1、1.16.5、1.16.4、1.16.3、1.16.2、1.16.1、1.15.2、1.14.4、1.13.2、1.12.2
+
+更快潜行（Faster Crouching）
+Curseforge: https://www.curseforge.com/minecraft/mc-mods/faster-crouching
+兼容版本: 1.19.4、1.19.3、1.19.2、1.18.2、1.16.5
+
+火焰机制调整（Fire Spread Tweaks）
+Curseforge: https://www.curseforge.com/minecraft/mc-mods/fire-spread-tweaks
+兼容版本: 1.19.4、1.19.3、1.19.2、1.19.1、1.19、1.18.2、1.18.1、1.18、1.17.1、1.16.5、1.15.2、1.14.4、1.12.2
+
+首次加入信息（First Join Message）
+Curseforge: https://www.curseforge.com/minecraft/mc-mods/first-join-message
+兼容版本: 1.19.4、1.19.3、1.19.2、1.19.1、1.19、1.18.2、1.18.1、1.18、1.17.1、1.16.5、1.16.4、1.16.3、1.16.2、1.16.1、1.15.2、1.14.4、1.12.2
+
+鱼上钩的声音（Fish On The Line）
+Curseforge: https://www.curseforge.com/minecraft/mc-mods/fish-on-the-line
+兼容版本: 1.19.4、1.19.3、1.19.2、1.19.1、1.19、1.18.2、1.18.1、1.18、1.17.1、1.16.5、1.15.2、1.14.4
+
+固定铁砧修复经验（Fixed Anvil Repair Cost）
+Curseforge: https://www.curseforge.com/minecraft/mc-mods/fixed-anvil-repair-cost
+兼容版本: 1.19.4、1.19.3、1.19.2、1.19.1、1.19、1.18.2、1.18.1、1.18、1.17.1、1.16.5、1.16.4、1.16.3、1.16.2、1.16.1、1.15.2、1.14.4、1.12.2
+
+宠物也能瞬移（Followers Teleport Too）
+Curseforge: https://www.curseforge.com/minecraft/mc-mods/followers-teleport-too
+兼容版本: 1.19.4、1.19.3、1.19.2、1.18.2、1.16.5
+
+亮度切换（Full Brightness Toggle）（仅客户端）
+Curseforge: https://www.curseforge.com/minecraft/mc-mods/full-brightness-toggle
+兼容版本: 1.19.4、1.19.3、1.19.2、1.19.1、1.19、1.18.2、1.18.1、1.18、1.17.1、1.16.5、1.16.4、1.16.3、1.16.2、1.16.1、1.15.2、1.14.4
+
+熔炉回收（Furnace Recycle）
+Curseforge: https://www.curseforge.com/minecraft/mc-mods/furnace-recycle
+兼容版本: 1.19.4、1.19.3、1.19.2、1.19.1、1.19、1.18.2、1.18.1、1.18、1.17.1、1.16.5

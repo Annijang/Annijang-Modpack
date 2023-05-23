@@ -1,0 +1,7 @@
+{
+	// 设置兔子生成杀手兔变种的概率。
+	// 范围：0.0 ~ 1.0
+	"chanceBabyRabbitIsKiller": 0.05,
+	// 如果设置为true，那么杀手兔在生成时不会显示“杀手兔”名称。
+	"removeKillerRabbitNameTag": true
+}

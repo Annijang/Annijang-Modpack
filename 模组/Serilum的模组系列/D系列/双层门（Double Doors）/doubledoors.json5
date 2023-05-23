@@ -1,0 +1,13 @@
+{
+	// 如果设置为true，那么允许玩家一次性打开多扇门，允许玩家使用例如活板门这种来建造一个大型门，玩家可以在打开一扇门时同时打开另外9扇门，至于打开门的上限取决于‘recursiveOpeningMaxBlocksDistance’设置的数值。
+	"enableRecursiveOpening": true,
+	// 如果将‘enableRecursiveOpening’设置为true，那么在使用本选项时将允许玩家一次性打开多扇门。
+	// 范围：1 ~ 64
+	"recursiveOpeningMaxBlocksDistance": 10,
+	// 如果设置为true，那么来自其他模组的门也是可以通过本模组来一起打开。
+	"enableDoors": true,
+	// 如果设置为true，那么来自其他模组的栅栏门也是可以通过本模组来一起打开。
+	"enableFenceGates": true,
+	// 如果设置为true，那么来自其他模组的活板门也是可以通过本模组来一起打开。
+	"enableTrapdoors": true
+}

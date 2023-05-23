@@ -1,0 +1,47 @@
+营火出生点（Campfire Spawn and Tweaks）
+Curseforge: https://www.curseforge.com/minecraft/mc-mods/campfire-spawn-and-tweaks
+兼容版本：1.19.4、1.19.3、1.19.2、1.19.1、1.19、1.18.2、1.18.1、1.18、1.17.1、1.16.5、1.15.2、1.14.4
+
+模组前置（Collective）
+Curseforge: https://www.curseforge.com/minecraft/mc-mods/collective
+兼容版本: 1.19.4、1.19.3、1.19.2、1.19.1、1.19、1.18.2、1.18.1、1.18、1.17.1、1.16.5、1.16.4、1.16.3、1.15.2、1.14.4、1.13.2、1.12.2
+
+紧凑型帮助指令（Compact Help Command）
+Curseforge: https://www.curseforge.com/minecraft/mc-mods/compact-help-command
+兼容版本: 1.19.4、1.19.3、1.19.2、1.19.1、1.19、1.18.2、1.18.1、1.18、1.17.1、1.16.5、1.12.2
+
+禁止溺尸生成（Conduits Prevent Drowned）
+Curseforge: https://curseforge.com/minecraft/mc-mods/conduits-prevent-drowned
+兼容版本: 1.19.4、1.19.3、1.19.2、1.19.1、1.19、1.18.2、1.18.1、1.18、1.17.1、1.16.5、1.15.2、1.14.4、1.13.2
+
+自定义掉落物消失时间（Configurable Despawn Timer）
+Curseforge: https://www.curseforge.com/minecraft/mc-mods/configurable-despawn-timer
+兼容版本: 1.19.4、1.19.3、1.19.2、1.19.1、1.19、1.18.2、1.18.1、1.18、1.17.1、1.16.5、1.15.2、1.14.4、1.13.2、1.12.2
+
+自定义额外掉落物（Configurable Extra Mob Drops）
+Curseforge: https://curseforge.com/minecraft/mc-mods/configurable-extra-mob-drops
+兼容版本: 1.19.4、1.19.3、1.19.2、1.19.1、1.19、1.18.2、1.18.1、1.18、1.17.1、1.16.5、1.16.4、1.16.3、1.15.2、1.14.4
+
+自定义熔炉燃烧时间（Configurable Furnace Burn Time）
+Curseforge: https://www.curseforge.com/minecraft/mc-mods/configurable-furnace-burn-time
+兼容版本: 1.19.4、1.19.3、1.19.2、1.19.1、1.19、1.18.2、1.18.1、1.18、1.17.1、1.16.5
+
+自定义生物药水效果（Configurable Mob Potion Effects）
+Curseforge: https://www.curseforge.com/minecraft/mc-mods/configurable-mob-potion-effects
+兼容版本: 1.19.4、1.19.3、1.19.2、1.19.1、1.19、1.18.2、1.18.1、1.18、1.17.1、1.16.5、1.16.4、1.16.3、1.15.2、1.14.4
+
+方块替换（Creative Block Replacer）
+Curseforge: https://www.curseforge.com/minecraft/mc-mods/creative-block-replacer
+兼容版本: 1.19.4、1.19.3、1.19.2、1.19.1、1.19、1.18.2、1.18.1、1.18、1.17.1、1.16.5、1.16.4、1.16.3、1.16.2、1.16.1、1.15.2、1.14.4、1.13.2、1.12.2
+
+哭泣的恶魂（Crying Ghasts）
+Curseforge: https://www.curseforge.com/minecraft/mc-mods/crying-ghasts
+兼容版本: 1.19.4、1.19.3、1.19.2、1.19.1、1.19、1.18.2、1.18.1、1.18、1.17.1、1.16.5、1.16.4、1.16.3、1.16.2、1.16.1、1.15.2、1.14.4、1.13.2、1.12.2
+
+哭泣的下界传送门（Crying Portals）
+Curseforge: https://curseforge.com/minecraft/mc-mods/crying-portals
+兼容版本: 1.19.4、1.19.3、1.19.2、1.19.1、1.19、1.18.2、1.18.1、1.18、1.17.1、1.16.5
+
+循环绘画（Cycle Paintings）
+Curseforge: https://curseforge.com/minecraft/mc-mods/cycle-paintings
+兼容版本: 1.19.4、1.19.3、1.19.2、1.19.1、1.19、1.18.2、1.18.1、1.18、1.17.1、1.16.5、1.16.4、1.16.3、1.16.2、1.16.1、1.15.2、1.14.4、1.13.2、1.12.2

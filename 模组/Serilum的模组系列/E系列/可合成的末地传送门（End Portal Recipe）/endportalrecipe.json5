@@ -1,0 +1,8 @@
+{
+	// 如果设置为true，玩家可以使用带有精准采集附魔的镐子挖掘末地传送门。
+	"mustHaveSilkTouchToBreakPortal": true,
+	// 如果设置为true，玩家使用精准采集破坏的末地传送门会直接进入玩家背包中，如果玩家背包满了则会以掉落物的形式掉落在附近。
+	"addBrokenPortalFramesToInventory": true,
+	// 如果设置为true，玩家在击杀末影龙后可通过聊天栏的方式了解到额外的龙蛋掉落位置。
+	"sendMessageOnExtraDragonEggDrop": true
+}
