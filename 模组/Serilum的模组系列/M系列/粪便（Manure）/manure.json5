@@ -1,0 +1,5 @@
+{
+	// 设置动物生产粪便的频率，单位是tick。1秒 = 20tick，默认12000tick，也就是10分钟
+	// 范围：0 ~ 1E7
+	"manureDropDelayTicks": 12000
+}

@@ -1,0 +1,31 @@
+粪便（Manure）
+Curseforge: https://www.curseforge.com/minecraft/mc-mods/manure
+兼容版本：1.19.4、1.19.3、1.19.2、1.18.2、1.16.5
+
+被动生物产奶（Milk All The Mobs）
+Curseforge: https://www.curseforge.com/minecraft/mc-mods/milk-all-the-mobs
+兼容版本: 1.19.4、1.19.3、1.19.2、1.19.1、1.19、1.18.2、1.18.1、1.18、1.17.1、1.16.5、1.16.4、1.16.3、1.16.2、1.16.1、1.15.2、1.14.4、1.13.2、1.12.2
+
+挖矿惊喜（Mineral Chance）
+Curseforge: https://www.curseforge.com/minecraft/mc-mods/mineral-chance
+兼容版本: 1.19.4、1.19.3、1.19.2、1.19.1、1.19、1.18.2、1.18.1、1.18、1.17.1、1.16.5、1.16.4、1.16.3、1.16.2、1.16.1、1.15.2、1.14.4、1.12.2
+
+自然生成哞菇（Mooshroom Spawn）
+Curseforge: https://www.curseforge.com/minecraft/mc-mods/mooshroom-spawn
+兼容版本: 1.19.4、1.19.3、1.19.2、1.19.1、1.19、1.18.2、1.18.1、1.18、1.17.1、1.16.5、1.16.4、1.16.3、1.16.2、1.16.1、1.15.2、1.14.4、1.12.2
+
+哞菇调整（Mooshroom Tweaks）
+Curseforge: https://www.curseforge.com/minecraft/mc-mods/mooshroom-tweaks
+兼容版本: 1.19.4、1.19.3、1.19.2、1.19.1、1.19、1.18.2、1.18.1、1.18、1.17.1、1.16.5、1.16.4、1.16.3、1.16.2、1.16.1、1.15.2、1.14.4
+
+更多僵尸村民（More Zombie Villagers）
+Curseforge: https://www.curseforge.com/minecraft/mc-mods/more-zombie-villagers
+兼容版本: 1.19.4、1.19.3、1.19.2、1.19.1、1.19、1.18.2、1.18.1、1.18、1.17.1、1.16.5、1.16.4、1.16.3、1.16.2、1.16.1、1.15.2、1.14.4、1.13.2、1.12.2
+
+移动船（Move Boats）
+Curseforge: https://www.curseforge.com/minecraft/mc-mods/move-boats
+兼容版本: 1.19.4、1.19.3、1.19.2、1.19.1、1.19、1.18.2、1.18.1、1.18、1.17.1、1.16.5、1.16.4、1.16.3、1.16.2、1.16.1、1.15.2、1.14.4、1.13.2、1.12.2
+
+移动矿车（Move Minecarts）
+Curseforge: https://curseforge.com/minecraft/mc-mods/move-minecarts
+兼容版本: 1.19.4、1.19.3、1.19.2、1.19.1、1.19、1.18.2、1.18.1、1.18、1.17.1、1.16.5、1.16.4、1.16.3、1.16.2、1.16.1、1.15.2、1.14.4、1.13.2、1.12.2

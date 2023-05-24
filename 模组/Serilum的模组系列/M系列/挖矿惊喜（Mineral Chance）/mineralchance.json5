@@ -1,0 +1,18 @@
+{
+	// 设置破坏主世界指定方块时，获得随机矿物的概率，默认是1/50，也就是0.02。
+	// 范围：0.0 ~ 1.0
+	"extraMineralChanceOnOverworldStoneBreak": 0.02,
+	// 设置破坏下界指定方块时，获得随机矿物的概率，默认是1/100，也就是0.01。
+	// 范围：0.0 ~ 1.0
+	"extraMineralChanceOnNetherStoneBreak": 0.01,
+	// 如果设置为true，那么在主世界挖掘指定类型的方块时有概率获得钻石、金粒、铁粒、青金石、红石、绿宝石。
+	"enableOverworldMinerals": true,
+	// 如果设置为true，那么在下界挖掘指定类型的方块时有概率获得下界石英、金粒、下界合金碎片。
+	"enableNetherMinerals": true,
+	// 如果设置为true，每当玩家通过挖掘方块的形式你获得矿物时，便会通过聊天栏向玩家发送一条信息。
+	"sendMessageOnMineralFind": true,
+	// 设置通过聊天栏向玩家发送的信息内容，需要将‘sendMessageOnMineralFind’设置为true才会生效。
+	"foundMineralMessage": "You've found a mineral hidden in the block!",
+	// 如果设置为true，方块只能通过玩家亲自挖掘才能掉落矿物，如果是通过其他模组的挖掘设备挖掘的方块将不会获得任何矿物。
+	"ignoreFakePlayers": true
+}
