@@ -20,3 +20,5 @@
 ![image](https://user-images.githubusercontent.com/75552974/236619319-ae86c4b0-2b85-4e70-98c5-c1be919b1e31.png)
 
 3、打开刚刚下载的ZIP文件即可使用。
+
+如果不想下载的话也可以去打开对应模组/补丁的文件来自己复制粘贴该文件里的内容。
