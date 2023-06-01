@@ -1,0 +1,32 @@
+{
+	// 如果设置为true，那么下界传送门将会在扩散时通知附近的玩家，如果想阻止扩散，可以使用‘preventSpreadBlockString’里的方块。
+	"sendMessageOnPortalCreation": true,
+	// 设置下界传送门在创建时向玩家的聊天栏中发送的信息。以下内容汉化：你似乎感觉到下界传送门似乎在散发一股奇怪的下界能量，也许你可以试试在下界传送门附近放置%preventSpreadBlockAmountNeeded%个%preventSpreadBlockString%，否则，下界传送门将会逐渐扩散至半径为%portalSpreadRadius%格的方块。
+	"messageOnPortalCreation": "You feel a corrupted energy coming from the portal. The nether will slowly spread into the overworld unless %preventSpreadBlockAmountNeeded% %preventSpreadBlockString% are placed within a %portalSpreadRadius% block radius around the portal.",
+	// 如果设置为true，当本模组检测到下界传送门附近因为有‘preventSpreadBlockString’里的方块而停止扩散时，会向附近的玩家发送一条信息。
+	"sendMessageOnPreventSpreadBlocksFound": true,
+	// 设置当本模组检测到下界传送门附近有‘preventSpreadBlockString’里的方块而停止扩散时，向玩家聊天栏发送的信息。以下内容汉化：你通过在下界传送门附近放置了足够的%preventSpreadBlockString%，下界传送门的扩散行为被阻止。
+	"messageOnPreventSpreadBlocksFound": "With enough %preventSpreadBlockString% placed, you feel the corrupted energy fade.",
+	// 如果设置为true，那么当下界传送门被破坏时，会向玩家发送来自‘messageOnPortalBroken’选项里的内容。
+	"sendMessageOnPortalBroken": true,
+	// 设置当下界传送门被破坏时向附近玩家发送的信息。以下内容汉化：下界传送门已被破坏，下界能量将无法通过下界传送门扩散到主世界。
+	"messageOnPortalBroken": "With the nether portal broken, the corrupted energy is no longer able to enter the overworld.",
+	// 如果设置为true，会在下界传送门的聊天栏信息中显示下界传送门的坐标。
+	"prefixPortalCoordsInMessage": true,
+	// 设置下界传送门能够将方块扩散的半径。
+	// 范围：1 ~ 100
+	"portalSpreadRadius": 30,
+	// 设置下界传送门每次扩散方块时所需要的间隔，单位：tick，1秒 = 20tick。
+	// 范围：1 ~ 72000
+	"spreadDelayTicks": 40,
+	// 当检测到下界传送门时，下界传送门附近的方块会被立即转化为下界的方块，当检测到扩散半径内有下界的方块时，以下选项是设置数量被减去的数量。例如：如果设置为50，那么当检测到附近有20个下界的方块，那么最终在生成下界传送门时会再生成30个下界的方块。
+	// 范围：0 ~ 1000
+	"instantConvertAmount": 50,
+	// 如果设置为true，那么将允许玩家放置指定数量的方块来阻止扩散。
+	"preventSpreadWithBlock": true,
+	// 设置玩家需要在下界传送门附近放置多少个方块才能阻止扩散。
+	// 范围：1 ~ 100
+	"preventSpreadBlockAmountNeeded": 4,
+	// 设置玩家可以通过放置能够阻止下界传送门扩散的方块，默认是煤炭块。
+	"preventSpreadBlockString": "minecraft:coal_block"
+}

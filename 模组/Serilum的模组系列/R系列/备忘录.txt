@@ -1,0 +1,47 @@
+天晴仪式（Rain Be Gone Ritual）
+Curseforge: https://www.curseforge.com/minecraft/mc-mods/rain-be-gone-ritual
+兼容版本：1.19.4、1.19.3、1.19.2、1.19.1、1.19、1.18.2、1.18.1、1.18、1.17.1、1.16.5、1.16.4、1.16.3、1.15.2、1.14.4、1.12.2
+
+骨粉随机催花（Random Bone Meal Flowers）
+Curseforge: https://www.curseforge.com/minecraft/mc-mods/random-bone-meal-flowers
+兼容版本: 1.19.4、1.19.3、1.19.2、1.19.1、1.19、1.18.2、1.18.1、1.18、1.17.1、1.16.5、1.16.4、1.16.3、1.16.2、1.16.1、1.15.2、1.14.4、1.13.2、1.12.2
+
+生物随机效果（Random Mob Effects）
+Curseforge: https://www.curseforge.com/minecraft/mc-mods/random-mob-effects
+兼容版本: 1.19.4、1.19.3、1.19.2、1.19.1、1.19、1.18.2、1.18.1、1.18、1.17.1、1.16.5、1.16.3、1.15.2、1.14.4、1.12.2
+
+绵羊随机颜色（Random Sheep Colours）
+Curseforge: https://www.curseforge.com/minecraft/mc-mods/random-sheep-colours
+兼容版本: 1.19.4、1.19.3、1.19.2、1.19.1、1.19、1.18.2、1.18.1、1.18、1.17.1、1.16.5、1.16.4、1.16.3、1.16.2、1.16.1、1.15.2、1.14.4、1.12.2
+
+潜影贝随机颜色（Random Shulker Colours）（服务端）
+Curseforge: https://www.curseforge.com/minecraft/mc-mods/random-shulker-colours
+兼容版本: 1.19.4、1.19.3、1.19.2、1.19.1、1.19、1.18.2、1.18.1、1.18、1.17.1、1.16.5、1.15.2、1.14.4
+
+村庄随机名称（Random Village Names）
+Curseforge: https://www.curseforge.com/minecraft/mc-mods/random-village-names
+兼容版本: 1.19.4、1.19.3、1.19.2、1.19.1、1.19、1.18.2、1.18.1、1.18、1.17.1、1.16.5、1.15.2、1.14.4
+
+更真实的蜜蜂（Realistic Bees）
+Curseforge: https://www.curseforge.com/minecraft/mc-mods/realistic-bees
+兼容版本: 1.19.4、1.19.3、1.19.2、1.19.1、1.19、1.18.2、1.18.1、1.18、1.17.1、1.16.5、1.16.4、1.16.3
+
+快速钓鱼（Recast）
+Curseforge: https://www.curseforge.com/minecraft/mc-mods/recast
+兼容版本: 1.19.4、1.19.3、1.19.2、1.19.1、1.19、1.18.2、1.18.1、1.18、1.17.1、1.16.5、1.15.2、1.14.4、1.12.2
+
+工作台指令（Recipe Commands）
+Curseforge: https://www.curseforge.com/minecraft/mc-mods/recipe-commands
+兼容版本: 1.19.4、1.19.3、1.19.2、1.19.1、1.19、1.18.2、1.18.1、1.18、1.17.1、1.16.5、1.15.2、1.14.4
+
+补种作物（Replanting Crops）
+Curseforge: https://www.curseforge.com/minecraft/mc-mods/replanting-crops
+兼容版本: 1.19.4、1.19.3、1.19.2、1.19.1、1.19、1.18.2、1.18.1、1.18、1.17.1、1.16.5、1.16.4、1.16.3、1.16.2、1.16.1、1.15.2、1.14.4、1.12.2
+
+复活延迟（Respawn Delay）
+Curseforge: https://www.curseforge.com/minecraft/mc-mods/respawn-delay
+兼容版本: 1.19.4、1.19.3、1.19.2、1.19.1、1.19、1.18.2、1.18.1、1.18、1.17.1、1.16.5、1.16.4、1.16.3、1.15.2、1.14.4、1.12.2
+
+可重生的潜影贝（Respawning Shulkers）
+Curseforge: https://www.curseforge.com/minecraft/mc-mods/respawning-shulkers
+兼容版本: 1.19.4、1.19.3、1.19.2、1.19.1、1.19、1.18.2、1.18.1、1.18、1.17.1、1.16.5、1.15.2、1.14.4

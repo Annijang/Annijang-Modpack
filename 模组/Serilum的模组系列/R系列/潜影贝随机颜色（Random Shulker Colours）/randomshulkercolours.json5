@@ -1,0 +1,4 @@
+{
+	// 选择潜影贝在生成时会出现的颜色，使用逗号隔开。
+	"possibleShulkerColours": "normal,black,blue,brown,cyan,gray,green,light_blue,light_gray,lime,magenta,orange,pink,purple,red,white,yellow"
+}

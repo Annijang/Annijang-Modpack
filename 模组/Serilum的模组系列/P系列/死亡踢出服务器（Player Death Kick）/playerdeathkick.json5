@@ -1,0 +1,10 @@
+{
+	// 设置玩家在死亡被踢出服务器时会收到的信息。
+	"disconnectMessage": "You died by %death%! You have been disconnected from the server.",
+	// 如果设置为true，那么会使用该玩家的死亡原因信息替换掉“%death%"。
+	"addDeathCauseToMessage": true,
+	// 如果设置为true，那么当玩家拥有OP权限时，不会被踢出服务器。
+	"exemptAdminPlayers": true,
+	// 如果设置为true，每踢出一名服务器都会向所有玩家发送信息。
+	"broadcastKickToServer": true
+}

@@ -1,0 +1,8 @@
+{
+	// 设置玩家距离蜘蛛多少格时，蜘蛛才会开始尝试结网。
+	// 范围：1 ~ 256
+	"maxDistanceToSpiderBlocks": 32,
+	// 设置蜘蛛每次吐丝结网后需要等待多久之后才能再次结网，单位是tick，1秒 = 20tick。
+	// 范围：1 ~ 72000
+	"spiderWebProduceDelayTicks": 12000
+}

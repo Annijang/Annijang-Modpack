@@ -1,0 +1,67 @@
+保存和加载物品栏（Save and Load Inventories）
+Curseforge: https://www.curseforge.com/minecraft/mc-mods/save-and-load-inventories
+兼容版本：1.19.4、1.19.3、1.19.2、1.19.1、1.19、1.18.2、1.18.1、1.18、1.17.1、1.16.5、1.16.4、1.16.3、1.15.2、1.14.4、1.12.2
+
+脚手架掉落收集（Scaffolding Drops Nearby）
+Curseforge: https://www.curseforge.com/minecraft/mc-mods/scaffolding-drops-nearby
+兼容版本: 1.19.4、1.19.3、1.19.2、1.19.1、1.19、1.18.2、1.18.1、1.18、1.17.1、1.16.5、1.16.4、1.16.3、1.15.2、1.14.4
+
+设置世界重生点（Set World Spawn Point）
+Curseforge: https://www.curseforge.com/minecraft/mc-mods/set-world-spawn-point
+兼容版本: 1.19.4、1.19.3、1.19.2、1.19.1、1.19、1.18.2、1.18.1、1.18、1.17.1、1.16.5、1.16.4、1.16.3、1.16.2、1.16.1、1.15.2、1.14.4、1.12.2
+
+掉落两个潜影壳（Shulker Drops Two）
+Curseforge: https://www.curseforge.com/minecraft/mc-mods/shulker-drops-two
+兼容版本: 1.19.4、1.19.3、1.19.2、1.19.1、1.19、1.18.2、1.18.1、1.18、1.17.1、1.16.5、1.16.4、1.16.3、1.16.2、1.16.1、1.15.2、1.14.4、1.13.2、1.12.2
+
+静音生物（Silence Mobs）
+Curseforge: https://www.curseforge.com/minecraft/mc-mods/silence-mobs
+兼容版本: 1.19.4、1.19.3、1.19.2、1.19.1、1.19、1.18.2、1.18.1、1.18、1.17.1、1.16.5、1.16.4、1.16.3、1.16.2、1.16.1、1.15.2、1.14.4、1.13.2、1.12.2、1.11.2
+
+生成骷髅马（Skeleton Horse Spawn）
+Curseforge: https://www.curseforge.com/minecraft/mc-mods/skeleton-horse-spawn
+兼容版本: 1.19.4、1.19.3、1.19.2、1.19.1、1.19、1.18.2、1.18.1、1.18、1.17.1、1.16.5、1.16.4、1.16.3、1.16.2、1.16.1、1.15.2、1.14.4、1.12.2
+
+更早入睡（Sleep Sooner）
+Curseforge: https://www.curseforge.com/minecraft/mc-mods/sleep-sooner
+兼容版本: 1.19.4、1.19.3、1.19.2、1.19.1、1.19、1.18.2、1.18.1、1.18、1.17.1、1.16.5、1.16.4、1.16.3、1.16.2、1.16.1、1.15.2、1.14.4、1.13.2、1.12.2、1.11.2
+
+小型下界传送门（Smaller Nether Portals）
+Curseforge: https://www.curseforge.com/minecraft/mc-mods/smaller-nether-portals
+兼容版本: 1.19.4、1.19.3、1.19.2、1.19.1、1.19、1.18.2、1.18.1、1.18、1.17.1、1.16.5、1.16.4、1.16.3、1.16.2、1.16.1、1.15.2、1.14.4、1.13.2、1.12.2
+
+雪球冻结生物（Snowballs Freeze Mobs）
+Curseforge: https://www.curseforge.com/minecraft/mc-mods/snowballs-freeze-mobs
+兼容版本: 1.19.4、1.19.3、1.19.2、1.19.1、1.19、1.18.2、1.18.1、1.18、1.17.1、1.16.5、1.16.4、1.16.3、1.16.2、1.16.1、1.15.2、1.14.4、1.13.2、1.12.2
+
+柔软的干草块（Softer Hay Bales）
+Curseforge: https://www.curseforge.com/minecraft/mc-mods/softer-hay-bales
+兼容版本: 1.19.4、1.19.3、1.19.2、1.19.1、1.19、1.18.2、1.18.1、1.18、1.17.1、1.16.5、1.16.4、1.16.3、1.16.2、1.16.1、1.15.2、1.14.4、1.13.2、1.12.2
+
+蜘蛛吐丝（Spiders Produce Webs）
+Curseforge: https://www.curseforge.com/minecraft/mc-mods/spiders-produce-webs
+兼容版本: 1.19.4、1.19.3、1.19.2、1.19.1、1.19、1.18.2、1.18.1、1.18、1.17.1、1.16.5、1.16.4、1.16.3、1.16.2、1.16.1、1.15.2、1.14.4、1.13.2、1.12.2
+
+自动填充（Stack Refill）
+Curseforge: https://www.curseforge.com/minecraft/mc-mods/stack-refill
+兼容版本: 1.19.4、1.19.3、1.19.2、1.19.1、1.19、1.18.2、1.18.1、1.18、1.17.1、1.16.5、1.16.4、1.16.3、1.15.2、1.14.4、1.12.2
+
+初始物品（Starter Kit）
+Curseforge: https://www.curseforge.com/minecraft/mc-mods/starter-kit
+兼容版本: 1.19.4、1.19.3、1.19.2、1.19.1、1.19、1.18.2、1.18.1、1.18、1.17.1、1.16.5、1.16.4、1.16.3、1.16.2、1.16.1、1.15.2、1.14.4、1.12.2
+
+初始结构生成（Starter Structure）
+Curseforge: https://www.curseforge.com/minecraft/mc-mods/starter-structure
+兼容版本: 1.19.4、1.19.3、1.19.2、1.18.2、1.16.5
+
+生成流浪者（Stray Spawn）
+Curseforge: https://www.curseforge.com/minecraft/mc-mods/stray-spawn
+兼容版本: 1.19.4、1.19.3、1.19.2、1.19.1、1.19、1.18.2、1.18.1、1.18、1.17.1、1.16.5、1.16.4、1.16.3、1.16.2、1.16.1、1.15.2、1.14.4、1.12.2
+
+禁止超平坦生成史莱姆（Superflat World No Slimes）
+Curseforge: https://www.curseforge.com/minecraft/mc-mods/superflat-world-no-slimes
+兼容版本: 1.19.4、1.19.3、1.19.2、1.19.1、1.19、1.18.2、1.18.1、1.18、1.17.1、1.16.5、1.16.4、1.16.3、1.16.2、1.16.1、1.15.2、1.14.4、1.13.2、1.12.2
+
+地表种植蘑菇（Surface Mushrooms）
+Curseforge: https://www.curseforge.com/minecraft/mc-mods/surface-mushrooms
+兼容版本: 1.19.4、1.19.3、1.19.2、1.19.1、1.19、1.18.2、1.18.1、1.18、1.17.1、1.16.5

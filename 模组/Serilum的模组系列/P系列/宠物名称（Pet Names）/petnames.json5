@@ -1,0 +1,18 @@
+{
+	// 如果设置为true，那么宠物在随机名称时会选择女性的名称。
+	"_useFemaleNames": true,
+	// 如果设置为true，那么宠物在随机名称时会选择男性的名称。
+	"_useMaleNames": true,
+	// 如果设置为true，当狼在繁殖时会随机起名。
+	"nameWolves": true,
+	// 如果设置为true，当猫在繁殖时会随机起名。
+	"nameCats": true,
+	// 如果设置为true，当马在繁殖时会随机起名。
+	"nameHorses": true,
+	// 如果设置为true，当驴在繁殖时会随机起名。
+	"nameDonkeys": true,
+	// 如果设置为true，当骡在繁殖时会随机起名。
+	"nameMules": true,
+	// 如果设置为true，当骆驼在繁殖时会随机起名。
+	"nameLlamas": true
+}

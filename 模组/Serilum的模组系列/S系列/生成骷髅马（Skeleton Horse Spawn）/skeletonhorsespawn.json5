@@ -1,0 +1,9 @@
+{
+	// 设置在地表生成骷髅马的概率。
+	// 范围：0.0 ~ 1.0
+	"chanceSurfaceSkeletonHasHorse": 0.05,
+	// 如果设置为true，骷髅马会在白天自燃。
+	"shouldBurnSkeletonHorsesInDaylight": true,
+	// 如果设置为true，生成带有骷髅的骷髅马时只会在地表生成。
+	"onlySpawnSkeletonHorsesOnSurface": true
+}

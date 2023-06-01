@@ -1,0 +1,20 @@
+原版模组整合（The Vanilla Experience）（Forge）
+Curseforge: https://www.curseforge.com/minecraft/mc-mods/the-vanilla-experience
+兼容版本：1.17.1、1.16.5、1.15.2、1.14.4
+
+可破坏基岩的TNT（TNT Breaks Bedrock）
+Curseforge: https://www.curseforge.com/minecraft/mc-mods/tnt-breaks-bedrock
+兼容版本: 1.19.4、1.19.3、1.19.2、1.19.1、1.19、1.18.2、1.18.1、1.18、1.17.1、1.16.5、1.16.4、1.16.3、1.16.2、1.16.1、1.15.2、1.14.4、1.13.2、1.12.2
+
+踩踏一切（Trample Everything）
+Curseforge: https://www.curseforge.com/minecraft/mc-mods/trample-everything
+兼容版本: 1.19.4、1.19.3、1.19.2、1.19.1、1.19、1.18.2、1.18.1、1.18、1.17.1、1.16.5、1.15.2、1.14.4、1.12.2
+
+超越三叉戟（Transcending Trident）
+Curseforge: https://www.curseforge.com/minecraft/mc-mods/transcending-trident
+兼容版本: 1.19.4、1.19.3、1.19.2、1.19.1、1.19、1.18.2、1.18.1、1.18、1.17.1、1.16.5、1.16.4、1.16.3、1.16.2、1.16.1、1.15.2、1.14.4
+
+连锁砍树（Tree Harvester）
+Curseforge: https://www.curseforge.com/minecraft/mc-mods/tree-harvester
+兼容版本: 1.19.4、1.19.3、1.19.2、1.19.1、1.19、1.18.2、1.18.1、1.18、1.17.1、1.16.5、1.16.4、1.16.3、1.16.2、1.16.1、1.15.2、1.14.4、1.12.2
+

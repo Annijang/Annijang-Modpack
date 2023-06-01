@@ -1,0 +1,55 @@
+{
+	// 如果设置为true，那么允许使用‘overworldBorderPositiveX’、‘overworldBorderNegativeX’、‘overworldBorderPositiveZ’、‘overworldBorderNegativeZ’来设置主世界的边界。
+	"enableCustomOverworldBorder": true,
+	// 如果设置为true，那么允许使用‘netherBorderPositiveX’、‘netherBorderNegativeX’、‘netherBorderPositiveZ’、‘netherBorderNegativeZ’来设置下界的边界。
+	"enableCustomNetherBorder": false,
+	// 如果设置为true，那么允许使用‘endBorderPositiveX’、‘endBorderNegativeX’、‘endBorderPositiveZ’、‘endBorderNegativeZ’来设置末地的边界。
+	"enableCustomEndBorder": true,
+	// 如果设置为true，那么当玩家穿过边界时会传送到与它们坐标相反的坐标上；如果设置为false，当玩家穿过边界时会将其在当前位置附近随机传送。
+	"shouldLoopToOppositeBorder": true,
+	// 设置玩家靠近边界多少格时会提醒即将被传送的距离。
+	// 范围：0 ~ 1000
+	"distanceTeleportedBack": 10,
+	// 当玩家靠近距离边界‘distanceTeleportedBack’格内时，提醒即将传送的信息。以下内容汉化：你距离当前世界的边界越来越近了！
+	"nearBorderMessage": "You're getting close to the world border!",
+	// 当玩家靠近距离下界边界‘distanceTeleportedBack’格内时，提醒即将传送的信息。以下内容汉化：你撞到了当前世界的边界，你已被传送！
+	"hitBorderMessage": "You've hit the world border, and were teleported inside!",
+	// 当玩家靠近距离末地边界‘distanceTeleportedBack’格内时，提醒即将传送的信息。以下内容汉化：你撞到了当前世界的边界，你围绕着当前世界转了一圈！
+	"loopBorderMessage": "You've hit the world border, and have looped around the world!",
+	// 设置位于主世界的正X轴边界。
+	// 范围：0 ~ 100000
+	"overworldBorderPositiveX": 5000,
+	// 设置位于主世界的负X轴边界。
+	// 范围：-100000 ~ 0
+	"overworldBorderNegativeX": -5000,
+	// 设置位于主世界的正Z轴边界。
+	// 范围：0 ~ 100000
+	"overworldBorderPositiveZ": 5000,
+	// 设置位于主世界的负Z轴边界。
+	// 范围：-100000 ~ 0
+	"overworldBorderNegativeZ": -5000,
+	// 设置位于下界的正X轴边界。
+	// 范围：0 ~ 100000
+	"netherBorderPositiveX": 625,
+	// 设置位于下界的负X轴边界。
+	// 范围：-100000 ~ 0
+	"netherBorderNegativeX": -625,
+	// 设置位于下界的正Z轴边界。
+	// 范围：0 ~ 100000
+	"netherBorderPositiveZ": 625,
+	// 设置位于下界的负Z轴边界。
+	// 范围：-100000 ~ 0
+	"netherBorderNegativeZ": -625,
+	// 设置位于末地的正X轴边界。
+	// 范围：0 ~ 100000
+	"endBorderPositiveX": 5000,
+	// 设置位于末地的负X轴边界。
+	// 范围：-100000 ~ 0
+	"endBorderNegativeX": -5000,
+	// 设置位于末地的正Z轴边界。
+	// 范围：0 ~ 100000
+	"endBorderPositiveZ": 5000,
+	// 设置位于末地的负Z轴边界。
+	// 范围：-100000 ~ 0
+	"endBorderNegativeZ": -5000
+}

@@ -1,0 +1,6 @@
+{
+	// 如果设置为true，那么在村民的死亡信息里会显示村民的死亡位置。
+	"showLocation": true,
+	// 如果设置为true，那么其他模组里的村民在死亡时玩家也能收到提示，如果你发现有村民没有提示，请通过作者的GitHub反馈。
+	"mentionModdedVillagers": true
+}

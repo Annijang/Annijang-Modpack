@@ -1,0 +1,26 @@
+{
+	// 如果设置为true，如果玩家死亡时物品栏没有任何物品，则不会生成盔甲架和箱子。
+	"mustHaveItemsInInventoryForCreation": true,
+	// 如果设置为true，当玩家死亡时正好佩戴了头盔则会将头盔添加到生成的盔甲架上。
+	"addPlayerHeadToArmorStand": true,
+	// 如果设置为true，玩家在死亡时会生成一个盔甲架；如果设置为false，玩家在死亡时装备会存放到箱子中。
+	"createArmorStand": true,
+	// 如果设置为true，当玩家在死亡后会将包含该玩家的名称应用到箱子前面的告示牌上。
+	"createSignWithPlayerName": true,
+	// 如果设置为true，那么当玩家在死亡后生成的箱子需要玩家自备箱子或者合成箱子所需要的原材料。
+	"needChestMaterials": true,
+	// 如果设置为true，那么当玩家在死亡后生成的盔甲架需要玩家自备快捷键或者合成盔甲架所需要的原材料。
+	"needArmorStandMaterials": true,
+	// 如果设置为true，当把‘createSignWithPlayerName’设置为true后，当玩家在死亡后在箱子前面生成的告示牌需要玩家自备告示牌或者合成告示牌所需要的原材料。
+	"needSignMaterials": false,
+	// 本选项只有将‘needArmorStandMaterials’设置为true后才会生效。默认情况下生成盔甲架需要1个石台阶，如果将本选项设置为true，生成盔甲架将不再需要在背包里准备石头。
+	"ignoreStoneMaterialNeed": true,
+	// 如果设置为true，当玩家由于缺少成品或者原材料而生成盔甲架或箱子失败时，则会通过聊天栏向玩家发送一条信息。
+	"sendMessageOnCreationFailure": true,
+	// 如果设置为true，当玩家在死亡后本模组成功生成盔甲架或箱子时，会通过聊天栏向玩家发送一条信息。
+	"sendMessageOnCreationSuccess": true,
+	// 只有将‘sendMessageOnCreationFailure’设置为true后本选项才会生效。设置本模组生成盔甲架或箱子失败时向玩家发送的信息，可使用的值：%plankamount%、%stoneamount%。以下内容汉化：由于你缺少生成盔甲架或箱子所需要的材料，所以你的物品目前并不安全。缺少：%plankamount%个木板。
+	"creationFailureMessage": "Your items are not safe due to having insufficient materials. Missing: %plankamount% planks.",
+	// 只有将‘sendMessageOnCreationSuccess’设置为true后本选项才会生效。设置本模组成功生成盔甲架或箱子时向玩家发送的信息。以下内容汉化：你的物品现在是安全的，目前已保存在死亡点。
+	"creationSuccessMessage": "Your items are safe at your death location."
+}

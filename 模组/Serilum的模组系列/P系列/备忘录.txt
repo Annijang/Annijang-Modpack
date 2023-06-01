@@ -1,0 +1,37 @@
+纸合书（Paper Books）
+Curseforge: https://www.curseforge.com/minecraft/mc-mods/paper-books
+兼容版本：1.19.4、1.19.3、1.19.2、1.19.1、1.19、1.18.2、1.18.1、1.18、1.17.1、1.16.5、1.16.4、1.16.3、1.16.2、1.16.1、1.15.2、1.14.4、1.13.2、1.12.2
+
+被动型末影人（Passive Endermen）
+Curseforge: https://www.curseforge.com/minecraft/mc-mods/passive-endermen
+兼容版本: 1.19.4、1.19.3、1.19.2、1.19.1、1.19、1.18.2、1.18.1、1.18、1.17.1、1.16.5、1.16.4、1.16.3、1.16.2、1.15.2、1.14.4、1.12.2
+
+被动型盾牌（Passive Shield）
+Curseforge: https://curseforge.com/minecraft/mc-mods/passive-shield
+兼容版本: 1.19.4、1.19.3、1.19.2、1.19.1、1.19、1.18.2、1.18.1、1.18、1.17.1、1.16.5、1.15.2、1.14.4
+
+宠物名称（Pet Names）
+Curseforge: https://www.curseforge.com/minecraft/mc-mods/pet-names
+兼容版本: 1.19.4、1.19.3、1.19.2、1.19.1、1.19、1.18.2、1.18.1、1.18、1.17.1、1.16.5、1.16.4、1.16.3、1.16.2、1.16.1、1.15.2、1.14.4、1.13.2、1.12.2
+
+可放置的烈焰棒（Placeable Blaze Rods）
+Curseforge: https://www.curseforge.com/minecraft/mc-mods/placeable-blaze-rods
+兼容版本: 1.19.4、1.19.3、1.19.2、1.19.1、1.19、1.18.2、1.18.1、1.18、1.17.1、1.16.5、1.16.4、1.16.3、1.16.2、1.16.1、1.15.2、1.14.4
+
+死亡踢出服务器（Player Death Kick）
+Curseforge: https://www.curseforge.com/minecraft/mc-mods/player-death-kick
+兼容版本: 1.19.4、1.19.3、1.19.2、1.19.1、1.19、1.18.2、1.18.1、1.18、1.17.1、1.16.5、1.16.4、1.16.3、1.16.2、1.16.1、1.15.2、1.14.4、1.12.2
+
+追踪玩家（Player Tracking）
+Curseforge: https://www.curseforge.com/minecraft/mc-mods/player-tracking
+兼容版本: 1.19.4、1.19.3、1.19.2、1.19.1、1.19、1.18.2、1.18.1、1.18、1.17.1、1.16.5、1.16.4、1.16.3、1.16.2、1.16.1、1.15.2、1.14.4、1.13.2、1.12.2、1.7.10
+
+追踪玩家指南针（Player Tracking Compass）
+Curseforge: https://www.curseforge.com/minecraft/mc-mods/player-tracking-compass
+兼容版本: 1.19.4、1.19.3、1.19.2、1.19.1、1.19、1.18.2、1.18.1、1.18、1.17.1、1.16.5、1.16.4、1.16.3、1.16.2、1.15.2、1.14.4、1.12.2
+
+南瓜杀手的任务（Pumpkillager's Quest）
+Curseforge: https://www.curseforge.com/minecraft/mc-mods/pumpkillagers-quest
+兼容版本: 1.19.4、1.19.3、1.19.2、1.18.2
+
+

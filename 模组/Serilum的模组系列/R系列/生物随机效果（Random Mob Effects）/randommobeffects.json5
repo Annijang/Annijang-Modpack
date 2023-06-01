@@ -1,0 +1,9 @@
+{
+	// 设置生物在生成时可以获得的粒子效果等级，默认为1级。
+	// 范围：1 ~ 50
+	"potionEffectLevel": 1,
+	// 如果设置为true，生物在生成时会隐藏粒子效果。
+	"hideEffectParticles": false,
+	// 如果设置为true，苦力怕在生成时不会获得随机的粒子效果，因为你也不想看见拥有抗性提升或者速度效果的苦力怕朝你奔来吧？
+	"disableCreepers": true
+}

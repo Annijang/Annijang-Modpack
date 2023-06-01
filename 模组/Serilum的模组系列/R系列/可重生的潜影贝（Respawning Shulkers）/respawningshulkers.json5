@@ -1,0 +1,7 @@
+{
+	// 设置潜影贝的重生延迟，单位是tick。1秒 = 20tick，默认是1200tick，也就是60秒。
+	// min: 1, max: 72000
+	"timeInTicksToRespawn": 1200,
+	// 如果设置为true，那么通过其他模组生成的潜影贝将不会重生。
+	"shulkersFromSpawnersDoNotRespawn": true
+}

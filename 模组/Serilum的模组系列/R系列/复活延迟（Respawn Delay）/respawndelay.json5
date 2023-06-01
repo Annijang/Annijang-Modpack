@@ -1,0 +1,28 @@
+{
+	// 如果设置为true，当拥有OP权限的玩家死亡时将不会进入旁观者模式。
+	"ignoreAdministratorPlayers": false,
+	// 如果设置为true，当创造模式的玩家在死亡时将不会进入旁观者模式。
+	"ignoreCreativePlayers": true,
+	// 如果设置为true，玩家在死亡时会保留物品栏，并且不会触发与掉落有关的游戏事件，同时也会忽略‘dropItemsOnDeath’选项。
+	"keepItemsOnDeath": false,
+	// 如果设置为true，玩家在死亡时会掉落物品栏，并且会触发与掉落有关的游戏事件，就跟原版的死亡掉落一样。
+	"dropItemsOnDeath": true,
+	// 如果设置为true，那么玩家在死亡后会在已设置出生点的位置上重生；如果设置为false，玩家会在倒计时结束时在玩家当前所在的位置上重生。
+	"respawnAtWorldSpawn": true,
+	// 如果设置为true，那么玩家如果在旁观者模式时退出游戏，就会立即重生，防止被一直卡在旁观者模式。
+	"respawnWhenPlayerLogsOut": true,
+	// 如果设置为true，当玩家进入游戏时如果是旁观者模式，就会立即重生，防止被一直卡在旁观者模式。
+	"respawnWhenPlayerLogsIn": true,
+	// 设置玩家的复活延迟，单位是秒。如果设置为-1，那么玩家永远都不会自动重生，但是本模组的“/respawnall”指令仍然会生效。
+	// 范围：-1 ~ 3600
+	"respawnDelayInSeconds": 10,
+	// 设置玩家在死亡时本模组通过聊天栏发送的信息，留空代表着禁用，禁用状态下本模组不会发送任何信息。以下内容汉化：您已死亡！您已进入旁观者模式！
+	"onDeathMessage": "You died! Your gamemode has been set to spectator.",
+	// 设置玩家在重生时本模组会向玩家发送的信息，留空代表着禁用，禁用状态下本模组不会发送任何信息。以下内容汉化：你已重生！
+	"onRespawnMessage": "You respawned.",
+	// 设置当玩家在等待重生时本模组通过聊天栏发送的信息，“<seconds_left>”会被替换为实际的剩余时间，如果想禁用的话请留空。以下内容汉化：您将在<seconds_left>秒后重生！
+	"waitingForRespawnMessage": "You will respawn in <seconds_left> seconds.",
+	// 当玩家掉入虚空时，设置玩家在旁观者模式会被传送的Y轴高度。
+	// 范围：-50 ~ 256
+	"lowestPossibleYCoordinate": -10
+}

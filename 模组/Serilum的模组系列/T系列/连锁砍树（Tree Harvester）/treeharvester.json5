@@ -1,0 +1,36 @@
+{
+	// 如果设置为true，那么玩家只能在主手手持斧头时才能激活连锁砍树。
+	"mustHoldAxeForTreeHarvest": true,
+	// 如果设置为true，玩家无需按住潜行键即可激活连锁砍树；如果设置为false，玩家只能在按下潜行键才能激活连锁砍树。
+	"treeHarvestWithoutSneak": false,
+	// 如果设置为true，如果树木的底部是空气，而空气的下方还有原木，那么本模组会尝试直接将本棵树的所有原木都破坏，包括树木底部。
+	"automaticallyFindBottomBlock": true,
+	// 如果设置为true，通过本模组连锁破坏的树木的树叶会快速小时，本选项只能在将‘instantBreakLeavesAround’设置为false时才会生效。
+	"enableFastLeafDecay": true,
+	// 如果设置为true，那么来自下界的树木也能被连锁挖掘。
+	"enableNetherTrees": true,
+	// 如果设置为true，巨型蘑菇也能被连锁挖掘。
+	"enableHugeMushrooms": true,
+	// 如果设置为true，那么树木被挖掘时会将树苗自动种植在挖掘树木的位置上。
+	"replaceSaplingOnTreeHarvest": true,
+	// 如果设置为true，那么当巨型蘑菇被连锁挖掘时，巨型蘑菇掉落的蘑菇会自动种植在挖掘蘑菇的位置上，本选项只能在将‘enableHugeMushrooms’设置为true时才会生效。
+	"replaceMushroomOnMushroomHarvest": true,
+	// 如果设置为true，通过本模组连锁挖掘的树木都会时手持的斧头降低耐久。
+	"loseDurabilityPerHarvestedLog": true,
+	// 设置每次通过本模组连锁挖掘的树木会使手持的斧头降低多少耐久。例如：如果设置为0.1，那么每挖掘10个原木就会降低1点耐久。
+	// 范围：0.001 ~ 1.0
+	"loseDurabilityModifier": 1.0,
+	// 如果设置为true，那么每次玩家通过本模组挖掘时都会降低玩家的饥饿值。公式：破坏方块的数量（原版的值是每次降低0.005） * ‘increaseExhaustionModifier’设置的值。
+	"increaseExhaustionPerHarvestedLog": true,
+	// 设置每次玩家通过本模组连锁挖掘树木时会降低玩家的多少饥饿值，默认是：0.005 * 1.0 。
+	// 范围：0.001 ~ 1.0
+	"increaseExhaustionModifier": 1.0,
+	// 如果设置为true，连锁树木所需的时间都会根据由‘increasedHarvestingTimePerLogModifier’设置的值决定。
+	"increaseHarvestingTimePerLog": true,
+	// 在将‘increaseHarvestingTimePerLog’设置为true的前提下，设置连锁砍伐树木所需要的时间。公式是：初始速度 / (1 + (原木数量 * increasedHarvestingTimePerLogModifier))
+	// 范围：0.01 ~ 10.0
+	"increasedHarvestingTimePerLogModifier": 0.2,
+	// 设置每当玩家通过本模组破坏的树木时，每次破坏多少格内的树叶，增加该值可以增加树叶腐烂的速度，但是每次需要消耗更多的饥饿值。
+	// 范围：1 ~ 16
+	"amountOfLeavesBrokenPerTick": 5
+}

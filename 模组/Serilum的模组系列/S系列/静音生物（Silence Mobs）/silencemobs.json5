@@ -1,0 +1,8 @@
+{
+	// 如果设置为true，那么只有在开启作弊时才能使用“/silencestick”指令。
+	"onlyAllowCommandWhenCheatsEnabled": true,
+	// 如果设置为true，那么必须手持木棍然后输入“/silencestick”指令才能获得静音棒；如果设置为false，那么可以直接通过输入“/silencestick”指令直接获得静音棒。
+	"mustHoldStick": true,
+	// 如果设置为true，每次玩家通过静音棒使生物静音时都会将其命名为“Silenced Entity”；如果设置为false，那么每次将其静音都不会修改其名称为“Silenced Entity”。
+	"renameSilencedMobs": true
+}

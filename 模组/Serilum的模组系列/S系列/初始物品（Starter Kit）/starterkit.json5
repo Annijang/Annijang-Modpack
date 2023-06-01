@@ -1,0 +1,6 @@
+{
+	// 如果设置为true，那么会设置玩家初始物品，如果有其他模组的物品，例如：模组的指导手册，那么本模组会保留该模组的物品；如果设置为false，那么其他模组的添加的初始物品会被删除。
+	"addExistingItemsAfterKitSet": true,
+	// 如果设置为true，当玩家在安装了“FTB Team”模组后输入“/ftbteamislands create”指令后，会获得来自本模组设置的初始物品，如果未安装“FTB Team”模组，那么本选项不会做任何事。
+	"enableFTBIslandCreateCompatibility": true
+}

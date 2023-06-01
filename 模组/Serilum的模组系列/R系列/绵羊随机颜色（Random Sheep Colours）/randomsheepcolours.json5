@@ -1,0 +1,4 @@
+{
+	// 设置绵羊在自然生成时会随机获得的羊毛颜色，使用逗号隔开。
+	"possibleSheepColours": "black,blue,brown,cyan,gray,green,jeb,light_blue,light_gray,lime,magenta,orange,pink,purple,red,white,yellow"
+}

@@ -1,0 +1,8 @@
+{
+	// 如果设置为true，末影人在着火时、接触到水时等行为时将不会传送。
+	"preventEndermenFromTeleporting": true,
+	// 如果设置为true，末影人将不具备拾取和放置方块的能力。
+	"preventEndermenFromGriefing": true,
+	// 如果设置为true，当看着末影人的眼睛时，末影人不会进入愤怒状态。
+	"preventEndermenFromAttackingFirst": true
+}

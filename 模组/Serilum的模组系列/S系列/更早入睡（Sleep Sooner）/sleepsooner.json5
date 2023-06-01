@@ -1,0 +1,9 @@
+{
+	// 如果设置为true，那么玩家可以更早地入睡。
+	"enableSleepSooner": true,
+	// 如果设置为true，那么玩家在入睡前如果时间未达到12540tick时仍然会受到与原版一样的提示信息需要连续点击两次床。
+	"enablePreSleepMessage": true,
+	// 设置玩家最早入睡时所需要的时间，本模组默认的值是12000tick，原版默认的值是12540tick。
+	// 范围：0 ~ 24000
+	"whenSleepIsPossibleInTicks": 12000
+}

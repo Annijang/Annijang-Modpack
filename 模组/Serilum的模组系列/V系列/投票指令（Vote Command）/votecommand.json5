@@ -1,0 +1,4 @@
+{
+	// 设置当玩家使用“/vote”指令时，本模组会向玩家发送的信息。
+	"voteCommandMessage": "This is an example /vote message. You can change it in the config."
+}

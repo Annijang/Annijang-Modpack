@@ -1,0 +1,7 @@
+{
+	// 如果设置为true，盾牌在副手时默认是隐藏的，除非玩家使用右键来使用盾牌，否则盾牌不会显示在屏幕中。
+	"hideShieldWhenNotInUse": true,
+	// 设置盾牌在副手时的伤害减免比例。
+	// 范围：0.0 ~ 1.0
+	"passiveShieldPercentageDamageNegated": 0.3333
+}

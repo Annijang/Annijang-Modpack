@@ -1,0 +1,9 @@
+{
+	// 设置在地表生成僵尸马的概率。
+	// 范围：0.0 ~ 1.0
+	"chanceSurfaceZombieHasHorse": 0.05,
+	// 如果设置为true，僵尸马会在白天自燃。
+	"shouldBurnZombieHorsesInDaylight": true,
+	// 如果设置为true，生成带有僵尸的僵尸马时只会在地表生成。
+	"onlySpawnZombieHorsesOnSurface": true
+}

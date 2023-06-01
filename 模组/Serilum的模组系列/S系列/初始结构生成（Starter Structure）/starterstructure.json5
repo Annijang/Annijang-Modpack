@@ -1,0 +1,66 @@
+{
+	// 如果设置为true，那么位于“./config/starterstructure/schematics/...”内的原理图文件会在世界加载时尝试生成。
+	"shouldGenerateStructure": true,
+	// 如果设置为true，玩家会在特定的坐标附近重生，在原版默认里玩家会在随机的坐标里生成，而开启该功能后会在指定的坐标附近重生。
+	"forceExactSpawn": true,
+	// 如果设置为true，那么结构不会生成在原木、树叶上，防止结构生成在一些比较奇怪的位置上。
+	"ignoreTreesDuringStructurePlacement": true,
+	// 如果设置为true，那么结构在生成时会忽略该结构内的拼图方块、结构方块等内容。
+	"generationIgnoreJigsawAndStructureBlocks": true,
+	// 如果设置为true，那么结构在生成时会被保护，防止被其他结构破坏。
+	"protectStructureBlocks": true,
+	// 如果设置为true，那么在结构内生成的实体会被保护，防止受到窒息等伤害。
+	"protectSpawnedEntities": true,
+	// 如果设置为true，位于创造模式的玩家能够破坏和放置结构方块。
+	"playersInCreativeModeIgnoreProtection": true,
+	// 如果设置为true，位于创造模式的玩家能够破坏在结构中被保护的实体。
+	"playersInCreativeModeIgnoreEntityProtection": false,
+	// 如果设置为true，那么在结构内生成的实体不能离开该结构的范围，本选项默认情况下是禁用的。
+	"preventSpawnedEntityMovement": false,
+	// 如果设置为true，那么如果实体的生成不是通过告示牌的方式来生成，那么实体不会被生成。
+	"spawnNonSignEntitiesFromSupportedSchematics": true,
+	// 如果设置为true，那么会启用‘generatedStructureXPosition’、‘generatedStructureYPosition’、‘generatedStructureYPosition’的功能。
+	"shouldUseStructurePosition": false,
+	// 设置结构生成的精准X轴坐标，需要将‘shouldUseStructurePosition’设置为true才会生效。
+	// 范围：-1E7 ~ 1E7
+	"generatedStructureXPosition": 0,
+	// 设置结构生成的精准Y轴坐标，需要将‘shouldUseStructurePosition’设置为true才会生效。
+	// 范围：-1000 ~ 1000
+	"generatedStructureYPosition": 0,
+	// 设置结构生成的精准Z轴坐标，需要将‘shouldUseStructurePosition’设置为true才会生效。
+	// 范围：-1E7 ~ 1E7
+	"generatedStructureZPosition": 0,
+	// 如果设置为true，那么会启用‘generatedStructureXOffset’、‘generatedStructureYOffset’、‘generatedStructureZOffset’的功能。
+	"shouldUseStructureOffset": false,
+	// 设置结构生成的X轴偏移坐标，需要将‘shouldUseStructureOffset’设置为true才会生效。
+	// 范围：-1000 ~ 1000
+	"generatedStructureXOffset": 0,
+	// 设置结构生成的Y轴偏移坐标，如果发现某些结构总是生成在某些位于高处方块上，那么可以将该值设置为-1来避免，需要将‘shouldUseStructureOffset’设置为true才会生效。
+	// 范围：-1000 ~ 1000
+	"generatedStructureYOffset": 0,
+	// 设置结构生成的Z轴偏移坐标，需要将‘shouldUseStructureOffset’设置为true才会生效。
+	// 范围：-1000 ~ 1000
+	"generatedStructureZOffset": 0,
+	// 如果设置为true，那么会启用‘spawnXCoordinate’、‘spawnYCoordinate’、‘spawnZCoordinate’的功能。
+	"shouldUseSpawnCoordinates": false,
+	// 设置生物生成的X轴坐标，需要将‘shouldUseSpawnCoordinates’设置为true才会生效。
+	// 范围：-1E7 ~ 1E7
+	"spawnXCoordinate": 0,
+	// 设置生物生成的Y轴坐标，需要将‘shouldUseSpawnCoordinates’设置为true才会生效。
+	// 范围：-1000 ~ 1000
+	"spawnYCoordinate": 0,
+	// 设置生物生成的Z轴坐标，需要将‘shouldUseSpawnCoordinates’设置为true才会生效。
+	// 范围：-1E7 ~ 1E7
+	"spawnZCoordinate": 0,
+	// 如果设置为true，那么会启用‘spawnXCoordOffset’、‘spawnYCoordOffset’、‘spawnZCoordOffset’的功能。
+	"shouldUseSpawnCoordOffsets": false,
+	// 设置生物生成的X轴偏移坐标，需要将‘shouldUseSpawnCoordOffsets’设置为true才会生效。
+	// 范围：-1000 ~ 1000
+	"spawnXCoordOffset": 0,
+	// 设置生物生成的Y轴偏移坐标，需要将‘shouldUseSpawnCoordOffsets’设置为true才会生效。
+	// 范围：-1000 ~ 1000
+	"spawnYCoordOffset": 0,
+	// 设置生物生成的Z轴偏移坐标，需要将‘shouldUseSpawnCoordOffsets’设置为true才会生效。
+	// 范围：-1000 ~ 1000
+	"spawnZCoordOffset": 0
+}

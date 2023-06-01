@@ -1,0 +1,20 @@
+{
+	// 设置营火能够阻止怪物自然生成的范围半径。
+	// 范围：1 ~ 128
+	"preventHostilesRadius": 48,
+	// 如果设置为true，每次玩家放置营火时都会对范围内的所有敌对生物着火。
+	"burnHostilesAroundWhenPlaced": true,
+	// 设置营火能够让敌对生物着火的范围，如果设置为0.5，那么可以使半径24格之内的敌对生物着火。公式是：‘preventHostilesRadius’ x ‘burnHostilesRadiusModifier’
+	// 范围：0.0 ~ 1.0
+	"burnHostilesRadiusModifier": 0.5,
+	// 如果设置为true，那么在‘preventHostilesRadius’设置的范围内，刷怪笼也会被禁止生成任何生物，包括敌对生物和被动生物。
+	"preventMobSpawnerSpawns": false,
+	// 如果设置为true，营火只能在被点燃时才会生效。
+	"campfireMustBeLit": true,
+	// 如果设置为true，只有当方块发出红石信号时营火才会生效。
+	"campfireMustBeSignalling": false,
+	// 如果设置为true，营火拥有与原版营火一样的功能。
+	"enableEffectForNormalCampfires": true,
+	// 如果设置为true，营火拥有与原版灵魂营火一样的功能。
+	"enableEffectForSoulCampfires": true
+}

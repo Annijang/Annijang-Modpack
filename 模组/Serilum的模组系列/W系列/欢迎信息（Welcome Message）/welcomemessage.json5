@@ -1,0 +1,27 @@
+{
+	// 如果设置为true，那么本模组只会在服务器里生效；如果设置为false，那么在单人游戏中生效。
+	"onlyRunOnDedicatedServers": true,
+	// 如果设置为true，那么会在第一条欢迎信息前面添加一个空格，方便和其他的提示信息做出区分。
+	"sendEmptyLineBeforeFirstMessage": true,
+	// 设置第一行的欢迎提示，可以留空。以下文本汉化：欢迎你来到服务器！
+	"messageOneText": "Welcome to the server!",
+	// 设置第一行欢迎提示的文本颜色。0：黑色，1：湖蓝色，2：深绿色，3：深黑色，4：深红色，5：深紫色，6：金色，7：灰色，8：深灰色，9：蓝色，10：绿色，11：天蓝色，12：红色，13：粉红色，14：黄色，15：白色。
+	// 范围：0 ~ 15
+	"messageOneColourIndex": 2,
+	// 设置第一行文本的连接，允许玩家通过点击文本的方式前往指定的链接网站。
+	"messageOneOptionalURL": "",
+	// 设置第二行的欢迎提示，可以留空。以下文本汉化：点击本条信息可以前往本模组对应的curseforge网站。
+	"messageTwoText": "Downloaded from CurseForge! This is a clickable link.",
+	// 设置第二行欢迎提示的文本颜色。0：黑色，1：湖蓝色，2：深绿色，3：深黑色，4：深红色，5：深紫色，6：金色，7：灰色，8：深灰色，9：蓝色，10：绿色，11：天蓝色，12：红色，13：粉红色，14：黄色，15：白色。
+	// 范围：0 ~ 15
+	"messageTwoColourIndex": 14,
+	// 设置第二行文本的连接，允许玩家通过点击文本的方式前往指定的链接网站。
+	"messageTwoOptionalURL": "https://curseforge.com/members/serilum/projects",
+	// 设置第三行的欢迎提示，可以留空。以下文本汉化：你可以在配置文件中进行设置 :)
+	"messageThreeText": "You should probably edit this in the config :)",
+	// 设置第三行欢迎提示的文本颜色。0：黑色，1：湖蓝色，2：深绿色，3：深黑色，4：深红色，5：深紫色，6：金色，7：灰色，8：深灰色，9：蓝色，10：绿色，11：天蓝色，12：红色，13：粉红色，14：黄色，15：白色。
+	// 范围：0 ~ 15
+	"messageThreeColourIndex": 15,
+	// 设置第三行文本的连接，允许玩家通过点击文本的方式前往指定的链接网站。
+	"messageThreeOptionalURL": ""
+}

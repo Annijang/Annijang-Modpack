@@ -1,0 +1,1 @@
+/summon minecraft:allay ~ ~ ~ {NoAI:1,CustomName:'{"extra":[{"text":""},{"bold":true,"color":"red","text":"自定义名称的悦灵"}],"text":""}',CustomNameVisible:1}

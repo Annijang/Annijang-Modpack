@@ -1,0 +1,4 @@
+{
+	// 如果设置为true，玩家只能在手持锄头时才能自动补种作物。
+	"mustHoldHoeForReplanting": true
+}

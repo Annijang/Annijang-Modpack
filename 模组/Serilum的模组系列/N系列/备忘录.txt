@@ -1,0 +1,19 @@
+命名牌调整（Name Tag Tweaks）
+Curseforge: https://www.curseforge.com/minecraft/mc-mods/name-tag-tweaks
+兼容版本：1.19.4、1.19.3、1.19.2、1.19.1、1.19、1.18.2、1.18.1、1.18、1.17.1、1.16.5、1.16.4、1.16.3、1.16.2、1.15.2、1.14.4、1.12.2
+
+自然生成闪电苦力怕（Naturally Charged Creepers）
+Curseforge: https://www.curseforge.com/minecraft/mc-mods/naturally-charged-creepers
+兼容版本: 1.19.4、1.19.3、1.19.2、1.19.1、1.19、1.18.2、1.18.1、1.18、1.17.1、1.16.5、1.16.4、1.16.3、1.16.2、1.16.1、1.15.2、1.14.4、1.13.2、1.12.2
+
+扩散的下界传送门（Nether Portal Spread）
+Curseforge: https://www.curseforge.com/minecraft/mc-mods/nether-portal-spread
+兼容版本: 1.19.4、1.19.3、1.19.2、1.19.1、1.19、1.18.2、1.18.1、1.18、1.17.1、1.16.5、1.16.4、1.16.3、1.15.2、1.14.4、1.13.2
+
+营火附近无怪（No Hostiles Around Campfire）
+Curseforge: https://www.curseforge.com/minecraft/mc-mods/no-hostiles-around-campfire
+兼容版本: 1.19.4、1.19.3、1.19.2、1.19.1、1.19、1.18.2、1.18.1、1.18、1.17.1、1.16.5、1.16.4、1.16.3、1.16.2、1.16.1、1.15.2、1.14.4
+
+富含营养的牛奶（Nutritious Milk）
+Curseforge: https://www.curseforge.com/minecraft/mc-mods/nutritious-milk
+兼容版本: 1.19.4、1.19.3、1.19.2、1.19.1、1.19、1.18.2、1.18.1、1.18、1.17.1、1.16.5、1.16.4、1.16.3、1.16.2、1.16.1、1.15.2、1.14.4、1.13.2、1.12.2

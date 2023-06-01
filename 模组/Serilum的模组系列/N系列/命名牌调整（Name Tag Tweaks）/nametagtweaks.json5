@@ -1,0 +1,8 @@
+{
+	// 如果设置为true，任何带有自定义名称的实体在死亡时都会掉落包含其名称的命名牌。
+	"droppedNameTagbyEntityKeepsNameValue": true,
+	// 如果设置为true，那么可通过“/nametag <name>”指令直接修改手持命名牌的名称，而不需要通过铁砧。
+	"enableNameTagCommand": true,
+	// 如果设置为true，在使用“/nametag”指令时会将下划线“ _ ”替换为空格。
+	"nameTagCommandReplaceUnderscoresWithSpaces": true
+}

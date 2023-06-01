@@ -1,0 +1,23 @@
+原版放大镜（Vanilla Zoom）（客户端）
+Curseforge: https://www.curseforge.com/minecraft/mc-mods/vanilla-zoom
+兼容版本：1.19.4、1.19.3、1.19.2、1.18.2
+
+可合成的钟（Village Bell Recipe）
+Curseforge: https://www.curseforge.com/minecraft/mc-mods/village-bell-recipe
+兼容版本: 1.19.4、1.19.3、1.19.2、1.19.1、1.19、1.18.2、1.18.1、1.18、1.17.1、1.16.5、1.15.2、1.14.4
+
+村庄出生点（Village Spawn Point）
+Curseforge: https://www.curseforge.com/minecraft/mc-mods/village-spawn-point
+兼容版本: 1.19.4、1.19.3、1.19.2、1.19.1、1.19、1.18.2、1.18.1、1.18、1.17.1、1.16.5、1.16.4、1.16.3、1.16.2、1.16.1、1.15.2、1.14.4、1.13.2、1.12.2
+
+村民死亡提示（Villager Death Messages）
+Curseforge: https://www.curseforge.com/minecraft/mc-mods/villager-death-messages
+兼容版本: 1.19.4、1.19.3、1.19.2、1.19.1、1.19、1.18.2、1.18.1、1.18、1.17.1、1.16.5、1.16.4、1.16.3、1.16.2、1.15.2、1.14.4、1.13.2、1.12.2
+
+村民名称（Villager Names）
+Curseforge: https://www.curseforge.com/minecraft/mc-mods/villager-names
+兼容版本: 1.19.4、1.19.3、1.19.2、1.19.1、1.19、1.18.2、1.18.1、1.18、1.17.1、1.16.5、1.16.4、1.16.3、1.16.2、1.16.1、1.15.2、1.14.4、1.13.2、1.12.2
+
+投票指令（Vote Command）
+Curseforge: https://www.curseforge.com/minecraft/mc-mods/vote-command
+兼容版本: 1.19.4、1.19.3、1.19.2、1.19.1、1.19、1.18.2、1.18.1、1.18、1.17.1、1.16.5、1.16.4、1.16.3、1.16.2、1.16.1、1.15.2、1.14.4、1.13.2、1.12.2

@@ -1,0 +1,16 @@
+{
+	// 设置当玩家破坏南瓜时，南瓜杀手的生成概率。
+	// 范围：0.001 ~ 1.0
+	"pumpkillagerSpawnChance": 0.1,
+	// 当玩家是创造模式时，南瓜杀手是否会生成。
+	"enablePumpkillagerSpawnDuringCreative": false,
+	// 设置最终BOSS的生命值。
+	// 范围：1.0 ~ 10000.0
+	"finalBossMaxHealth": 300.0,
+	// 设置最终BOSS死亡时会掉落的经验值。
+	// 范围：0 ~ 10000
+	"experienceAmountRewardFinalBoss": 250,
+	// 设置南瓜在主世界能在猪旁边生成的概率，如果想关闭此选项，请设置为0。
+	// 范围：0.0 ~ 1.0
+	"chanceForPumpkinBlockToSpawnOnPigSpawn": 0.05
+}

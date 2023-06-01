@@ -1,0 +1,7 @@
+// 设置连锁工具，如果需要禁用连锁树木的工具，请在下方物品的前面添加一个英文的感叹号“ ! ”，
+minecraft:wooden_axe,
+minecraft:stone_axe,
+minecraft:golden_axe,
+minecraft:iron_axe,
+minecraft:diamond_axe,
+minecraft:netherite_axe,

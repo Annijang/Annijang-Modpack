@@ -1,0 +1,10 @@
+{
+	// 如果设置为true，那么将会读取“.minecraft/config/villagernames”路径里名为“customnames.txt”的文件里的自定义名称列表，使用英文的逗号隔开。
+	"_useCustomNames": true,
+	// 如果设置为true，那么在为村民随机选择名称时会选择预设里的女性名称。
+	"_useFemaleNames": true,
+	// 如果设置为true，那么在为村民随机选择名称时会选择预设里的男性名称。
+	"_useMaleNames": true,
+	// 如果设置为true，那么也会给其他模组里的村民添加自定义名称，如果发现没有名称的村民，请通过作者的GitHub跟作者反馈。
+	"nameModdedVillagers": true
+}
