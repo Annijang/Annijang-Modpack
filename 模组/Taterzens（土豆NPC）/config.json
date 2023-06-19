@@ -1,0 +1,99 @@
+{
+  "// 设置模组使用的语言文件，客户端无效，如果需要替换请自行替换模组内的data文件夹里的en_us.json文件。": "",
+  "language": "en_us",
+  "// 设置多少tick后，NPC会从玩家列表中清除。": "",
+  "// 需要设置一定的延迟，否则客户端就无法获取到NPC的皮肤。": "",
+  "// 如果想让NPC始终保留在按下Tab键时的玩家列表中，请将该值设置为-1.": "",
+  "taterzen_tablist_timeout": 30,
+  "// 如果设置为true，那么当安装了“离线皮肤切换”模组后，": "",
+  "// 本模组会提醒“离线皮肤切换”模组拥有一些NPC的皮肤切换功能。": "",
+  "post_fabrictailor_advert": false,
+  "// 是否取消向OPS发送NPC已执行的指令信息。": "",
+  "hide_ops_message": true,
+  "// 如果设置为true，那么NPC在生成后会默认锁定。": "",
+  "lock_after_creation": true,
+  "// 如果设置为true，那么当NPC的名称在玩家列表上可见时，会忽略它们。": true,
+  "// 新生成的NPC默认信息。": "",
+  "defaults": {
+    "name": "Taterzen",
+    "leashable": false,
+    "pushable": false,
+    "// 设置每次与NPC交互执行指令后再次执行需要等待多少Tick。": "",
+    "minimum_interaction_time": 0,
+    "// 设置向玩家发送信息的间隔时间，同时支持翻译。": "",
+    "command_cooldown_message": "taterzens.npc.interact.cooldown",
+    "// 设置NPC默认的权限等级。": "",
+    "command_permission_level": 4,
+    "// 设置NPC的默认声音，如果想使其静音可设置为“[]”。": "",
+    "death_sounds": [
+      "entity.player.death"
+    ],
+    "hurt_sounds": [
+      "entity.player.hurt"
+    ],
+    "ambient_sounds": [],
+    "// 如果设置为true，那么NPC在生成时默认为无敌模式。": "",
+    "invulnerable": true,
+    "// 如果设置为true，那么NPC在处于攻击状态时启用跳跃功能。": "",
+    "jump_while_attacking": true,
+    "// 如果设置为true，那么允许NPC飞行。": "",
+    "allow_flight": false,
+    "// 如果设置为true，那么NPC可以被船/矿车运输。": "",
+    "allow_riding": false,
+    "// 如果设置为true，那么NPC将可以游泳。": "",
+    "allow_swim": true,
+    "// 如果设置为true，那么NPC在死亡时会掉落身上的装备。": "",
+    "drop_equipment": false
+  },
+  "path": {
+    "// 设置在路径编辑器中使用的颜色例子，使用RGB值（0-255）。": "",
+    "color": {
+      "red": 0.0,
+      "green": 255.0,
+      "blue": 255.0
+    }
+  },
+  "messages": {
+    "// 设置每条信息发送的延迟，单位：tick。": "",
+    "message_delay": 100,
+    "// 如果设置为true，那么在编辑信息后会退出信息的编辑模式。": "",
+    "exit_editor_after_msg_edit": true,
+    "// 设置NPC向玩家发送的信息格式，第一个%s会被替换为NPC的名称，第二个%s会被替换为发送的信息。": "",
+    "structure": "%s -> you: %s",
+    "// 设置玩家在靠近NPC多少格时才会收到NPC发送的信息。": "（默认：3格）",
+    "speak_distance": 3.0
+  },
+  "perms": {
+    "// 如果设置为true，那么当加载了“LuckPerms”模组后，所有的权限都会保存到“permissions.toml”文件中。": "",
+    "save_permissions_file": true,
+    "// 设置执行“/npc”指令所需要的权限等级。": "",
+    "// 只有在未安装“LuckPerms”模组时才会生效。": "",
+    "npc_command_permission_level": 2,
+    "// 设置执行“/profession”指令所需要的权限等级。": "",
+    "profession_command_permission_level": 2,
+    "// 设置执行“/taterzens”指令所需要的权限等级。": "",
+    "// 同样，只有在未安装“LuckPerms”模组时才会生效。": "",
+    "taterzens_command_permission_level": 4,
+    "// 如果设置为true，那么允许玩家设置NPC的权限等级，": "",
+    "// 小心！玩家可能会使用该NPC来绕过玩家": "",
+    "// 本身的权限来运行一些指令！": "",
+    "allow_setting_higher_perm_level": false,
+    "// 设置绕过锁定NPC的默认权限等级。": "",
+    "select_bypass_level": 3
+  },
+  "bungee": {
+    "// 如果设置为true，那么NPC将拥有跨服功能。.": "",
+    "enable_commands": false
+  },
+  "// 设置在GUI界面中使用的自定义模型数据ID。": "",
+  "gui_item_model_data": 257,
+  "// 设置进入路径节点的指令，而不是在输入默认的“/npc gui”指令后才能进入子界面。（同时会使节点的左键和右键功能互换）": "",
+  "prefer_execution_nodes": [
+    "npc edit messages swap",
+    "npc edit equipment"
+  ],
+  "// 如果设置为true，那么在和平模式下，NPC也能与玩家战斗。": "",
+  "combat_in_peaceful": true,
+  "// 如果设置为true，那么当玩家选择到NPC时，会给予该NPC发光效果。": "",
+  "glow_selected_npc": true
+}
