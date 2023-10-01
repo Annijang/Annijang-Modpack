@@ -1,0 +1,10 @@
+{
+  "name": "狩猎冲刺",
+  "description": "高个子对身体的影响很大，所以你只有在饱食度充足的时候才能疾跑。",
+    "type": "origins:prevent_sprinting",
+    "condition": {
+        "type": "origins:food_level",
+        "compare_to": 16,
+        "comparison": "<="
+    }}
+

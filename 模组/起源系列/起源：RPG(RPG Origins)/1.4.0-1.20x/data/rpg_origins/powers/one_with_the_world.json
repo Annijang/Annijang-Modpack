@@ -1,0 +1,12 @@
+{
+    "name": "与世界融为一体",
+    "description": "世界上发生的任何事情都会对你产生影响，每当你沐浴在阳光下的时候，你就会缓慢恢复失眠给你带来的影响。",
+    "condition": {
+        "type": "origins:exposed_to_sun"
+    },
+    "type": "origins:modify_insomnia_ticks",
+    "modifier": {
+        "operation": "add_base_early",
+        "value": -2
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "name": "不喜欢被注意",
+    "description": "你不喜欢被看见，你喜欢更好的移速，所以你牺牲了2颗心来换取更高的移动速度。",
+    "type": "origins:attribute",
+    "modifier": {
+        "attribute": "minecraft:generic.max_health",
+        "operation": "multiply_total",
+        "value": -0.2
+    },
+    "update_health": true
+}

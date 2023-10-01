@@ -1,0 +1,21 @@
+{
+    "name": "资源丰富",
+    "description": "只要你靠近制箭台，你就能制作更多的箭矢。",
+    "condition": {
+        "type": "origins:block_in_radius",
+        "block_condition": {
+            "type": "origins:block",
+            "block": "minecraft:fletching_table"
+        },
+        "radius": 3,
+        "shape": "sphere",
+        "comparison": ">=",
+        "compare_to": 1
+    },
+    "type": "origins:modify_crafting",
+    "recipe": "minecraft:arrow",
+    "result": {
+        "item": "minecraft:arrow",
+        "amount": 8
+    }
+}

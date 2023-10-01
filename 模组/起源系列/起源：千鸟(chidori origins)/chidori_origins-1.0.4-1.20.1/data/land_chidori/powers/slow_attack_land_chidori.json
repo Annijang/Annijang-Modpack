@@ -1,0 +1,11 @@
+{
+    "type": "origins:attribute",
+    "modifier": {
+        "name": "Slow Attack Speed",
+        "attribute": "minecraft:generic.attack_speed",
+        "value": -0.1,
+        "operation": "addition"
+    },
+    "name": "抗饥饿",
+    "description": "你的攻击速度会比其他人更慢一些。"
+}

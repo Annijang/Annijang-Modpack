@@ -1,0 +1,10 @@
+{
+    "name": "魅力四射",
+    "description": "你很擅长与人交流，事实上，当你附近存在其他玩家时，他们的伤口愈合速度会更快，移动速度也会更快。",
+    "type": "origins:toggle",
+    "active_by_default": true,
+    "key": {
+        "key": "key.origins.primary_active"
+    },
+    "retain_state": true
+}

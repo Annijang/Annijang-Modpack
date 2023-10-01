@@ -1,0 +1,10 @@
+{
+  "name": "万达疾跑",
+  "description": "由于长时间地飞行对你的身体产生了损害，所以你只能在饱食度充足的时候才能飞行。",
+    "type": "origins:prevent_sprinting",
+    "condition": {
+        "type": "origins:food_level",
+        "compare_to": 16,
+        "comparison": "<="
+    }}
+

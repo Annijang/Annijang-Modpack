@@ -1,0 +1,24 @@
+{
+    "name": "箭袋",
+    "description": "你总是拥有一个箭袋，以确保你有备用的箭矢，你可以把任何物品放进去，但当你死了之后所有非箭矢的物品都会掉落。",
+    "type": "origins:inventory",
+    "title": "Quiver",
+    "container_type": "hopper",
+    "drop_on_death": true,
+    "drop_on_death_filter": {
+        "inverted": true,
+        "type": "origins:ingredient",
+        "ingredient": [
+            {
+                "item": "minecraft:arrow"
+            },
+            {
+                "item": "minecraft:spectral_arrow"
+            },
+            {
+                "item": "minecraft:tipped_arrow"
+            }
+        ]
+    },
+    "recoverable": true
+}

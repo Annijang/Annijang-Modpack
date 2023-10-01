@@ -1,0 +1,15 @@
+{
+    "name": "魔法师",
+    "description": "你是一名魔法师，总是能发现在事物中所携带的魔力。",
+    "powers": [
+        "rpg_origins:fastcure",
+        "rpg_origins:untrained",
+        "rpg_origins:fireball",
+        "rpg_origins:water_walk",
+        "rpg_origins:unwieldly"
+    ],
+    "icon": {
+        "item": "minecraft:enchanted_book"
+    },
+    "impact": 2
+}

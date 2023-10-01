@@ -1,0 +1,31 @@
+{
+    "powers": [
+        "aqua_chidori:small_aqua_chidori",
+        "aqua_chidori:starter_gear_aqua_chidori",
+        "aqua_chidori:inventory_aqua_chidori",
+        "aqua_chidori:modify_crafting_aqua_chidori",
+        "aqua_chidori:modify_crafting2_aqua_chidori",
+        "aqua_chidori:hotblood_aqua_chidori",
+        "origins:water_breathing",
+		"origins:water_vision",
+		"origins:aqua_affinity",
+		"origins:swim_speed",
+		"origins:like_water",
+		"origins:aquatic",
+		"origins:conduit_power_on_land",
+		"origins:air_from_potions",
+        "aqua_chidori:climbing_aqua_chidori",
+        "aqua_chidori:lava_vision_aqua_chidori",
+        "aqua_chidori:fire_immunity_aqua_chidori",
+        "aqua_chidori:lava_speed_aqua_chidori",
+        "aqua_chidori:less_hearts_aqua_chidori",
+        "aqua_chidori:light_armor_aqua_chidori",
+        "aqua_chidori:particle_aqua_chidori",
+        "aqua_chidori:xp_slower_aqua_chidori"
+    ],
+    "icon": "minecraft:trident",
+    "order": 4,
+    "impact": 3,
+    "name": "水之千鸟",
+    "description": "唤醒你的千鸟，畅游海洋！水之千鸟起源于女巫对人鱼使用黑魔法的一次失败实验，他们的数量不断增加，现在有望主宰水域空间。他们是一个快速而敏捷的水上种族，现在已经掌握了使用魔法在陆地上生存的能力，可以制作特殊的药剂..."
+}

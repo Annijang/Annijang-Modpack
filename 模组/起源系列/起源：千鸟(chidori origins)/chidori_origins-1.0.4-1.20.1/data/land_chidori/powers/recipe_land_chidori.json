@@ -1,0 +1,11 @@
+{
+  "type": "origins:modify_crafting",
+  "recipe": "minecraft:shield",
+  "result": 
+  {
+  "item": "minecraft:shield",
+  "tag": "{Enchantments: [{id: \"minecraft:unbreaking\", lvl: 3s}]}"
+  },
+  "name": "防护屏障",
+  "description": "当你制作盾牌时，盾牌会默认拥有耐久III附魔。"
+}

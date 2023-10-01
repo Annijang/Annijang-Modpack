@@ -1,0 +1,9 @@
+{
+  "type": "origins:modify_xp_gain",
+  "modifier": {
+      "operation": "multiply_total",
+      "value": -0.06
+  }  ,
+    "name": "疲劳体验",
+    "description": "你获得经验的速度会比正常人略慢。"
+}

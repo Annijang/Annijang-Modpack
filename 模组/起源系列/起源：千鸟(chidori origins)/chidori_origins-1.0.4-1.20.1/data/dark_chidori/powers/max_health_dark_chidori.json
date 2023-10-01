@@ -1,0 +1,11 @@
+{
+    "type": "origins:attribute",
+    "modifier": {
+      "name": "Max Health",
+      "attribute": "minecraft:generic.max_health",
+      "value": -4.0,
+      "operation": "addition"
+    },
+    "name": "元素献祭",
+    "description": "施展这些魔法对你的生命造成了损害，所以你比其他人少了两颗心。"
+  }

@@ -1,0 +1,7 @@
+{
+  "type": "origins:particle",
+  "particle": "minecraft:cloud",
+  "frequency": 4,
+  "name": "千鸟之血",
+  "description": "你的血液里流淌着千鸟的血液，因此这可以让你散发出奇特的粒子。"
+}

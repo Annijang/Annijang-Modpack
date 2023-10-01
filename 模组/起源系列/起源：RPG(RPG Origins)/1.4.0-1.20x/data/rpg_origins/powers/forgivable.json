@@ -1,0 +1,6 @@
+{
+    "name": "可宽恕",
+    "description": "村民担心你与村民结盟，所以无法发动袭击。",
+    "type": "origins:effect_immunity",
+    "effect": "minecraft:bad_omen"
+}

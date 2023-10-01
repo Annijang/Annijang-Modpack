@@ -1,0 +1,12 @@
+{
+  "type": "origins:walk_on_fluid",
+  "fluid": "minecraft:lava",
+  "condition": {
+      "type": "origins:fluid_height",
+      "fluid": "minecraft:lava",
+      "comparison": "<=",
+      "compare_to": 0.4
+  },
+  "name": "烧焦的脚",
+  "description": "你可以在熔岩上行走。"
+}

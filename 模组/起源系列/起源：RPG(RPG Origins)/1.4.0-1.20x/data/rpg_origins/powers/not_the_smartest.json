@@ -1,0 +1,9 @@
+{
+    "name": "非最聪明",
+    "description": "你喜欢音乐，仅此而已，所以你获得的经验值总是会比较少。",
+    "type": "origins:modify_xp_gain",
+    "modifier": {
+        "operation": "multiply_base",
+        "value": -0.35
+    }
+}

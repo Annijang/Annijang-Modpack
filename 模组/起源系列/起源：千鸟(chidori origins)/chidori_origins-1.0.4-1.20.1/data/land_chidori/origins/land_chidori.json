@@ -1,0 +1,24 @@
+{
+    "powers": [
+        "land_chidori:tall_land_chidori",
+        "land_chidori:strong_arms_land_chidori",
+        "land_chidori:strong_arms_break_speed_land_chidori",
+        "land_chidori:inventory_land_chidori",
+        "land_chidori:prevent_sprint_land_chidori",
+        "land_chidori:fall_immunity_land_chidori",
+        "land_chidori:extra_reach_land_chidori",
+        "land_chidori:launch_into_air_land_chidori",
+        "land_chidori:natural_armor_land_chidori",
+        "land_chidori:slow_attack_land_chidori",
+        "land_chidori:slow_speed_land_chidori",
+        "land_chidori:max_health_land_chidori",
+        "land_chidori:no_ranged_land_chidori",
+        "land_chidori:particle_land_chidori",
+        "land_chidori:recipe_land_chidori"
+    ],
+    "icon": "minecraft:moss_block",
+    "order": 4,
+    "impact": 2,
+    "name": "陆之千鸟",
+    "description": "唤醒你的千鸟，保护大地！陆地千鸟被放逐到北方的超凡山脉，在一个由潜影人管理的小村庄里避难。陆之千鸟借用了潜影人的力量，并将其与自己的巨人之力相融合，让土系魔法贯穿他们的身体。他们是一个光荣的种族，发誓要不惜一切代价保护自己的盟友..."
+}

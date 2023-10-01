@@ -1,0 +1,9 @@
+{
+    "name": "弓箭手",
+    "description": "你是一名拥有专业素养的弓箭手，你使用弓箭和弩可以造成更多伤害。",
+    "type": "origins:modify_projectile_damage",
+    "modifier": {
+        "operation": "multiply_base",
+        "value": 1.25
+    }
+}

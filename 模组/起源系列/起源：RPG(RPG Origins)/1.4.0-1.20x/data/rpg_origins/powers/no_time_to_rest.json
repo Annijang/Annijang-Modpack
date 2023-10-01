@@ -1,0 +1,9 @@
+{
+    "name": "无暇休息",
+    "description": "你的生命值只有在疾跑的时候才会恢复。",
+    "condition": {
+        "inverted": true,
+        "type": "origins:sprinting"
+    },
+    "type": "origins:disable_regen"
+}

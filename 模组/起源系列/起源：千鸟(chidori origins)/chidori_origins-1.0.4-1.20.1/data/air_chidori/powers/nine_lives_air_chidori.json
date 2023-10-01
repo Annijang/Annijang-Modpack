@@ -1,0 +1,11 @@
+{
+  "name": "九尾的生命",
+  "description": "你比正常人少1颗心。",
+  "type": "origins:attribute",
+  "modifier": {
+    "name": "Nine lives health reduction",
+    "attribute": "minecraft:generic.max_health",
+    "value": -2.0,
+    "operation": "addition"
+  }
+}

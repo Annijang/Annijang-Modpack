@@ -1,0 +1,20 @@
+{
+    "name": "不稳定联盟",
+    "description": "你和村民都彼此了解，但还不足以能够让村民放你一条生路，所以每当你击杀一只来自村庄的铁傀儡时，村民都会发动异常袭击。",
+    "type": "origins:self_action_on_kill",
+    "target_condition": {
+        "type": "origins:entity_type",
+        "entity_type": "minecraft:iron_golem"
+    },
+    "entity_action": {
+        "type": "origins:apply_effect",
+        "effect": {
+            "effect": "minecraft:bad_omen",
+            "duration": 1,
+            "amplifier": 0,
+            "show_particles": false,
+            "show_icon": false
+        }
+    },
+    "cooldown": 1
+}

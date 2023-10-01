@@ -1,0 +1,10 @@
+{
+  "type": "origins:inventory",
+  "drop_on_death": false,
+    "key": {
+        "key": "key.loadToolbarActivator",
+        "continuous": false
+    },
+  "name": "潜影空间",
+  "description": "你有特殊权限进入自己的存储空间，这使您可以在潜影盒中多携带9种物品。你可以使用快捷键来访问这个储物袋。"
+}

@@ -1,0 +1,24 @@
+{
+    "name": "治疗池",
+    "description": "根据指令召唤治疗池，治疗附近的所有生物。",
+    "type": "origins:active_self",
+    "entity_action": {
+        "type": "origins:spawn_effect_cloud",
+        "radius": 5,
+        "radius_on_use": -0.5,
+        "wait_time": 0,
+        "effect": {
+            "effect": "minecraft:regeneration",
+            "duration": 20,
+            "amplifier": 2,
+            "show_particles": true,
+            "show_icon": true
+        }
+    },
+    "cooldown": 1000,
+    "hud_render": {
+        "should_render": true,
+        "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+        "bar_index": 9
+    }
+}

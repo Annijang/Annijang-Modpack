@@ -1,0 +1,9 @@
+{
+  "type": "origins:invulnerability",
+  "damage_condition": {
+    "type": "origins:name",
+    "name": "fall"
+  },
+  "name": "接地",
+  "description": "得益于你的土系魔法和量子跃迁能力，你从高处坠落时不会受到任何摔落伤害。"
+}

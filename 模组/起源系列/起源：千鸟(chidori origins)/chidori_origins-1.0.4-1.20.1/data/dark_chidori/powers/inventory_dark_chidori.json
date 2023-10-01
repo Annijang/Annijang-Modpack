@@ -1,0 +1,10 @@
+{
+    "type": "origins:inventory",
+    "container_type": "hopper",
+    "drop_on_death": false,
+    "key": {
+        "key": "key.hotbar.9"
+    },
+    "name": "奥术袋",
+    "description": "你可以施展咒语来获得5个额外的储物槽。"
+}

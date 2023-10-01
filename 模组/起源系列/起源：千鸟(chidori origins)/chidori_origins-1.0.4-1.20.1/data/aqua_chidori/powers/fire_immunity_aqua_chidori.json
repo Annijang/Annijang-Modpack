@@ -1,0 +1,8 @@
+{
+  "type": "origins:invulnerability",
+  "damage_condition": {
+    "type": "origins:fire"
+  },
+  "name": "火焰亲和",
+  "description": "实验让你的身体产生了一些奇特的效果，可以阻止火焰伤害你，只不过当你在熔岩中仍然需要呼吸。"
+}

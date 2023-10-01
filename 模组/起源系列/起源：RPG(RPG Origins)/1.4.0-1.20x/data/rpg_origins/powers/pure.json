@@ -1,0 +1,9 @@
+{
+    "name": "纯净",
+    "description": "你的身体是如此纯洁，你无法忍受下界的环境，当你前往下界的时候，下界会腐蚀你的身体，让你的生命值无法自然恢复。",
+    "condition": {
+        "type": "origins:dimension",
+        "dimension": "minecraft:the_nether"
+    },
+    "type": "origins:disable_regen"
+}

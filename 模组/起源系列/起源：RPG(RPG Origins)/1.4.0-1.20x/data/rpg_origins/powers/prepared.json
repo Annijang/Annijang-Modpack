@@ -1,0 +1,9 @@
+{
+    "name": "准备就绪",
+    "description": "你时刻准备着，所以当你开始旅途的时候，你将会携带盾牌。",
+    "type": "origins:starting_equipment",
+    "stack": {
+        "item": "minecraft:shield",
+        "slot": 40
+    }
+}

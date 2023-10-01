@@ -1,0 +1,16 @@
+{
+    "name": "水上漫步",
+    "description": "你学会了如何利用海洋之心的能力，所以当你手持海洋之心时，你就可以在水上行走。",
+    "condition": {
+        "type": "origins:equipped_item",
+        "equipment_slot": "mainhand",
+        "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "item": "minecraft:heart_of_the_sea"
+            }
+        }
+    },
+    "type": "origins:walk_on_fluid",
+    "fluid": "minecraft:water"
+}

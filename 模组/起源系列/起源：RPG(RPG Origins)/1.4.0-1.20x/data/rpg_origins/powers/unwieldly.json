@@ -1,0 +1,9 @@
+{
+    "name": "笨重",
+    "description": "你只受过魔法训练，所以你造成的所有伤害都会更低。",
+    "type": "origins:modify_damage_dealt",
+    "modifier": {
+        "operation": "multiply_base",
+        "value": -0.25
+    }
+}

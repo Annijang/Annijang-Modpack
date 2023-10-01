@@ -1,0 +1,14 @@
+{
+    "name": "经验不足",
+    "description": "由于你从来都没使用过剑，所以你几乎无法使用任何非投掷物的武器。",
+    "type": "origins:modify_damage_dealt",
+    "damage_condition": {
+        "inverted": true,
+        "type": "origins:projectile",
+        "projectile": "minecraft:arrow"
+    },
+    "modifier": {
+        "operation": "multiply_base",
+        "value": -0.5
+    }
+}

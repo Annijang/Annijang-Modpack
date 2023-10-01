@@ -1,0 +1,28 @@
+{
+    "powers": [
+        "origins:fire_immunity",
+        "origins:extra_reach",
+        "origins:ender_particles",
+        "origins:nether_spawn",
+        "dark_chidori:arrow_dark_chidori",
+        "dark_chidori:venomous_arrow_dark_chidori",
+        "dark_chidori:heal_dark_chidori",
+        "dark_chidori:venomous_heal_dark_chidori",
+        "dark_chidori:speed_dark_chidori",
+        "dark_chidori:venomous_speed_dark_chidori",
+        "dark_chidori:fall_immunity_dark_chidori",
+        "dark_chidori:max_health_dark_chidori",
+        "dark_chidori:walk_on_lava_dark_chidori",
+        "dark_chidori:walk_on_water_dark_chidori",
+        "dark_chidori:climbing_dark_chidori",
+        "dark_chidori:no_ranged_dark_chidori",
+        "dark_chidori:inventory_dark_chidori",
+        "dark_chidori:particle_dark_chidori",
+        "dark_chidori:ember_sleep_dark_chidori"
+    ],
+    "icon": "minecraft:wither_skeleton_skull",
+    "order": 4,
+    "impact": 2,
+    "name": "暗之千鸟",
+    "description": "唤醒你的千鸟，拥抱黑暗！你是一名黑暗术士，擅长黑暗艺术和魔法。通过自己的研究，你成功地将自己的身体改造成了与烈焰人一样的体质..."
+}

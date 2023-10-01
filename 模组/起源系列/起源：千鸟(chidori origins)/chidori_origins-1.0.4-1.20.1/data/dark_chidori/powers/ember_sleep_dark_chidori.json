@@ -1,0 +1,10 @@
+{
+  "type": "origins:prevent_sleep",
+  "message": "天气不够热，你无法入睡。",
+  "condition": {
+      "type": "origins:on_fire",
+      "inverted": true
+  },
+  "name": "微光睡眠",
+  "description": "你只有当身体在着火的时候才能入睡。"
+}

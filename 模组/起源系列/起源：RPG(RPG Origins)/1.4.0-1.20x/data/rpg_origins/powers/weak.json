@@ -1,0 +1,14 @@
+{
+    "name": "虚弱",
+    "description": "你的身体并不是为了战斗而生，所以当你的生命值较低时将无法自然恢复。",
+    "condition": {
+        "type": "origins:health",
+        "comparison": "<",
+        "compare_to": 6
+    },
+    "type": "origins:modify_healing",
+    "modifier": {
+        "operation": "multiply_base",
+        "value": -0.5
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "name": "火球",
+    "description": "你可以向你面对的方向发射一个火球，有趣的是，法术怎么能做到这一点呢？",
+    "type": "origins:fire_projectile",
+    "entity_type": "minecraft:fireball",
+    "cooldown": 1500,
+    "hud_render": {
+        "should_render": true,
+        "sprite_location": "origins:textures/gui/community/huang/resource_bar_01.png",
+        "bar_index": 7
+    },
+    "count": 1,
+    "interval": 0,
+    "start_delay": 0,
+    "speed": 1,
+    "divergence": 1,
+    "sound": "minecraft:entity.blaze.shoot",
+    "tag": "{ExplosionPower:2b}"
+}

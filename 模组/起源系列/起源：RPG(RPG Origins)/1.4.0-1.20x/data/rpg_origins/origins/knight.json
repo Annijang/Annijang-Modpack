@@ -1,0 +1,14 @@
+{
+    "name": "骑士",
+    "description": "你是一名强大的骑士，你习惯冲锋陷阵，随时为牺牲自我做好了准备。",
+    "powers": [
+        "rpg_origins:durable",
+        "origins:more_exhaustion",
+        "rpg_origins:prepared",
+        "rpg_origins:trained"
+    ],
+    "icon": {
+        "item": "minecraft:shield"
+    },
+    "impact": 1
+}

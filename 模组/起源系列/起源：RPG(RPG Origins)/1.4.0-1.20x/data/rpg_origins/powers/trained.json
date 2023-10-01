@@ -1,0 +1,9 @@
+{
+    "name": "受过训练",
+    "description": "你的训练如此刻苦，所以你无论何时都可以造成更多的伤害。",
+    "type": "origins:modify_damage_dealt",
+    "modifier": {
+        "operation": "multiply_base_multiplicative",
+        "value": 0.1
+    }
+}

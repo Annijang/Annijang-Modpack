@@ -1,0 +1,11 @@
+{
+    "type": "origins:attribute",
+    "modifier": {
+      "name": "Natural Armor health bonus",
+      "attribute": "minecraft:generic.armor",
+      "value": 8.0,
+      "operation": "addition"
+    },
+    "name": "坚固皮肤",
+    "description": "你拥有额外的护甲值。"
+  }

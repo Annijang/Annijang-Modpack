@@ -1,0 +1,17 @@
+{
+    "name": "野蛮人",
+    "description": "你是一个拥有重型武器的无情机器。",
+    "powers": [
+        "rpg_origins:no_time_to_rest",
+        "rpg_origins:no_shield",
+        "rpg_origins:strong_arms",
+        "rpg_origins:select_targets_strong",
+        "rpg_origins:strong_arms_break_speed",
+        "rpg_origins:natural_armor",
+        "rpg_origins:select_targets_weak"
+    ],
+    "icon": {
+        "item": "minecraft:iron_axe"
+    },
+    "impact": 3
+}

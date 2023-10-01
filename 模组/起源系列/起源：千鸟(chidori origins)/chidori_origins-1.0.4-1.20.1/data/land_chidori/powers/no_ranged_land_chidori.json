@@ -1,0 +1,11 @@
+{
+  "type": "origins:prevent_item_use",
+  "item_condition": {
+    "type": "origins:ingredient",
+    "ingredient": {
+      "tag": "origins:ranged_weapons"
+    }
+  },
+  "name": "未知领域",
+  "description": "你只使用过拳头，未使用过远程武器，所以你无法使用远程武器。"
+}

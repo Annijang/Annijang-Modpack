@@ -1,0 +1,19 @@
+{
+  "type": "origins:fire_projectile",
+  "entity_type": "minecraft:arrow",
+  "cooldown": 15,
+  "hud_render": {
+      "should_render": true
+  },
+  "tag": "{pickup:0b}",
+  "key": {
+      "key": "key.origins.primary_active",
+      "continuous": false
+  },
+  "condition": {
+    "type": "origins:sneaking",
+    "inverted": true
+},
+  "name": "暗箭",
+  "description": "使用黑暗魔法，你可以从胸口位置射出箭矢。在潜行时，咬破拇指并将血涂在箭尖上，就能发射一种特殊的毒箭，让敌人一触即死。"
+}

@@ -1,0 +1,9 @@
+{
+    "type": "origins:starting_equipment",
+    "stacks": [
+        {"item": "minecraft:trident","amount": 1,"tag": "{Enchantments:[{id:\"minecraft:loyalty\",lvl:1}]}" },
+        {"item": "minecraft:potion","amount": 3,"tag": "{Potion:\"minecraft:water_breathing\"}"}
+    ],
+    "name": "初始物品",
+    "description": "开局你将拥有1把三叉戟和3瓶水下呼吸的药水。"
+}

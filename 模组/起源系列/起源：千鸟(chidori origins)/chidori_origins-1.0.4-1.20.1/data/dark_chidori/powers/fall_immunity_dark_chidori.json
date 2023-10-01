@@ -1,0 +1,9 @@
+{
+  "type": "origins:invulnerability",
+  "damage_condition": {
+    "type": "origins:name",
+    "name": "fall"
+  },
+  "name": "断轴",
+  "description": "得益于你的黑魔法，你能在受到冲击时抵消所有的摔落伤害。"
+}

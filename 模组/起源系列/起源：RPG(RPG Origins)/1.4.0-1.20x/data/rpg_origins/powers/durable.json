@@ -1,0 +1,10 @@
+{
+    "name": "耐打",
+    "description": "你会比别人更加耐打，受伤的伤害总是会更低。",
+    "loading_priority": 0,
+    "type": "origins:modify_damage_taken",
+    "modifier": {
+        "operation": "addition",
+        "value": -1
+    }
+}

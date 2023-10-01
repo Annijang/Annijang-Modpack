@@ -1,0 +1,25 @@
+{
+  "type": "origins:restrict_armor",
+  "head": {
+    "type": "origins:armor_value",
+    "comparison": ">",
+    "compare_to": 2
+  },
+  "chest": {
+    "type": "origins:armor_value",
+    "comparison": ">",
+    "compare_to": 5
+  },
+  "legs": {
+    "type": "origins:armor_value",
+    "comparison": ">",
+    "compare_to": 4
+  },
+  "feet": {
+    "type": "origins:armor_value",
+    "comparison": ">",
+    "compare_to": 1
+  },
+    "name": "轻型盔甲",
+    "description": "你一生都是囚犯，从未穿戴过重型盔甲，所以你只能穿戴轻制盔甲。"
+}

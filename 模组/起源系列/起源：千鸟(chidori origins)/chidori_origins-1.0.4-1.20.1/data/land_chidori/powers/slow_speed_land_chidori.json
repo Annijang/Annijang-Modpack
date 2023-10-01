@@ -1,0 +1,11 @@
+{
+    "type": "origins:attribute",
+    "modifier": {
+        "name": "Slow Movement Speed",
+        "attribute": "minecraft:generic.movement_speed",
+        "value": -0.06,
+        "operation": "multiply_total"
+    },
+    "name": "过度疲劳",
+    "description": "由于体型庞大，你的移动速度会比其他人略慢一些。"
+}

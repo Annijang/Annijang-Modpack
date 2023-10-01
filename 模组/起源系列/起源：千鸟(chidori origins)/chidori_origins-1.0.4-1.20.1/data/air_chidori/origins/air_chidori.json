@@ -1,0 +1,17 @@
+{
+    "powers": [
+        "origins:fire_immunity",
+        "origins:elytra",
+        "air_chidori:launch_air_chidori",
+        "air_chidori:inventory_air_chidori",
+        "air_chidori:prevent_sprint_air_chidori",
+        "air_chidori:nine_lives_air_chidori",
+        "air_chidori:particle_air_chidori",
+        "origins:fresh_air"
+    ],
+    "icon": "minecraft:slime_ball",
+    "order": 4,
+    "impact": 1,
+    "name": "空之千鸟",
+    "description": "唤醒你的千鸟，飞向天空！你的母亲是羽人，父亲是烈焰人，在一个小村庄里被翼人抚养长大，你已经掌握了连续飞行和控制热量的技巧。注意事项：并非每个空之千鸟都掌握了安全着陆的技巧..."
+}

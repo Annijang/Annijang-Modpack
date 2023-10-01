@@ -1,0 +1,15 @@
+{
+  "type": "origins:launch",
+  "cooldown": 100,
+  "hud_render": {
+    "bar_index": 8
+  },
+  "sound": "minecraft:entity.iron_golem.step",
+  "speed": 2,
+  "key": {
+    "key": "key.origins.primary_active",
+    "continuous": true
+  },
+  "name": "量子飞跃",
+  "description": "利用你的长腿，你可以很容易腾空而起。"
+}

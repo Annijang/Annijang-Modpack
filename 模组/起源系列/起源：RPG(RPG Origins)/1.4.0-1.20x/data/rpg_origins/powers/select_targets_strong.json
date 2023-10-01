@@ -1,0 +1,15 @@
+{
+    "name": "选择目标",
+    "description": "当你攻击生命值较高的生物时，你的实力就会更强，当你面对生命值较低的生物时，你的实力也会降低。",
+    "type": "origins:modify_damage_dealt",
+    "target_condition": {
+        "type": "origins:attribute",
+        "attribute": "generic.max_health",
+        "comparison": ">=",
+        "compare_to": 50
+    },
+    "modifier": {
+        "operation": "multiply_base",
+        "value": 1
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "name": "牧师",
+    "description": "你的主要职责就是治疗和帮助别人，很少看见你能去攻击别人。",
+    "powers": [
+        "rpg_origins:villagefriendly",
+        "rpg_origins:untrained",
+        "rpg_origins:brewer_jumpboost",
+        "rpg_origins:brewer_speed",
+        "rpg_origins:brewer_strength",
+        "rpg_origins:brewer_regeneration",
+        "rpg_origins:heal_pool",
+        "rpg_origins:forgivable",
+        "rpg_origins:pure",
+        "rpg_origins:pure_color",
+        "rpg_origins:pure_shake",
+        "rpg_origins:one_with_the_world"
+    ],
+    "icon": {
+        "item": "minecraft:emerald"
+    },
+    "impact": 1
+}

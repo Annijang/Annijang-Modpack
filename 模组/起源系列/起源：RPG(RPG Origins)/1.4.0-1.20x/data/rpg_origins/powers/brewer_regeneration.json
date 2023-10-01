@@ -1,0 +1,11 @@
+{
+    "name": "酿造者",
+    "description": "你在制作药水方面拥有非常丰富的经验，因此当你可以让速度、生命恢复、跳跃提升和力量药水的持续时间增加50%。",
+    "hidden": true,
+    "type": "origins:modify_status_effect_duration",
+    "status_effect": "minecraft:regeneration",
+    "modifier": {
+        "operation": "multiply_base",
+        "value": 0.5
+    }
+}

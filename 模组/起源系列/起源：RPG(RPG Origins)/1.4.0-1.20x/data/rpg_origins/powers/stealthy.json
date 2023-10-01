@@ -1,0 +1,10 @@
+{
+    "name": "隐身",
+    "description": "每当你按住潜行键时，你就无法被看见，但是在隐身状态和进入隐身状态三秒内你无法攻击。",
+    "condition": {
+        "type": "origins:sneaking"
+    },
+    "type": "origins:invisibility",
+    "render_armor": false,
+    "render_outline": true
+}

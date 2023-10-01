@@ -1,0 +1,11 @@
+{
+  "type": "origins:prevent_item_use",
+  "item_condition": {
+    "type": "origins:ingredient",
+    "ingredient": {
+      "tag": "origins:ranged_weapons"
+    }
+  },
+  "name": "远程诅咒",
+  "description": "由于你的暗箭能力，所以你无法使用远程武器。"
+}

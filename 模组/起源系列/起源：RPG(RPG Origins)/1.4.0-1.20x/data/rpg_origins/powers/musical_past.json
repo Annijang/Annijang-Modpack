@@ -1,0 +1,11 @@
+{
+    "name": "音乐往事",
+    "description": "你以前吹过山羊角，所以现在你拥有一个旧时吹过的山羊角。",
+    "type": "origins:starting_equipment",
+    "stack": {
+        "item": "minecraft:goat_horn",
+        "amount": 1,
+        "tag": "{instrument: \"minecraft:ponder_goat_horn\"}",
+        "slot": 0
+    }
+}

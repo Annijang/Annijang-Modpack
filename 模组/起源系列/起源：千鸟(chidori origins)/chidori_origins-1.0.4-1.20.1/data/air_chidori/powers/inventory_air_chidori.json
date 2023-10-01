@@ -1,0 +1,10 @@
+{
+  "type": "origins:inventory",
+  "drop_on_death": false,
+    "key": {
+        "key": "key.loadToolbarActivator",
+        "continuous": false
+    },
+  "name": "扭曲空间",
+  "description": "你可以将你的物品放入一个扭曲空间中，你可以存放最多9种物品，你可以通过快捷键栏打开该空间。"
+}

@@ -1,0 +1,8 @@
+{
+    "type": "origins:effect_immunity",
+    "effects": [
+      "minecraft:poison"
+    ],
+    "name": "女巫的恩典",
+    "description": "常年与女巫为伍让你拥有对毒药免疫的能力。"
+  }

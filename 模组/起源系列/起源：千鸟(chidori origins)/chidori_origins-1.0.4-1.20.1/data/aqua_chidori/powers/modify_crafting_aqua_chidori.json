@@ -1,0 +1,11 @@
+{
+    "type": "origins:modify_crafting",
+    "recipe": "aqua_chidori:aqua_chidori_potion1",
+        "result": 
+            {
+            "item": "minecraft:potion",
+            "tag": "{Potion:\"minecraft:water_breathing\"}"
+        },
+    "name": "水下配方",
+    "description": "与女巫们相处的时光赋予了你特殊的魔力，让你能够制作自己的水下呼吸药水（使用1个玻璃瓶和1个海草）。"
+}

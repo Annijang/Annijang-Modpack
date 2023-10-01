@@ -1,0 +1,17 @@
+{
+
+  "name": "连续飞行",
+  "description": "你可以通过使用你的千鸟之力让你飞向蓝天！",
+  "type": "origins:launch",
+    "cooldown": 30,
+    "hud_render": {
+        "bar_index": 2
+    },
+    "sound": "minecraft:entity.blaze.shoot",
+    "speed": 2,
+    "key": {
+        "key": "key.origins.primary_active",
+        "continuous": true
+    }
+
+}

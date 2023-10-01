@@ -1,0 +1,23 @@
+{
+    "name": "盗窃",
+    "description": "每当你击杀一只村民后，你都可以获得一些绿宝石。",
+    "type": "origins:self_action_on_kill",
+    "target_condition": {
+        "type": "origins:entity_type",
+        "entity_type": "minecraft:villager"
+    },
+    "entity_action": {
+        "type": "origins:give",
+        "stack": {
+            "item": "minecraft:emerald",
+            "amount": 3
+        },
+        "preferred_slot": "offhand"
+    },
+    "cooldown": 2000,
+    "hud_render": {
+        "should_render": true,
+        "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_01.png",
+        "bar_index": 1
+    }
+}

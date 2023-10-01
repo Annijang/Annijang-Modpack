@@ -1,0 +1,11 @@
+{
+    "type": "origins:modify_crafting",
+    "recipe": "aqua_chidori:aqua_chidori_potion2",
+        "result": 
+            {
+            "item": "minecraft:potion",
+            "tag": "{Potion:\"minecraft:healing\"}"
+        },
+    "name": "轻松治愈",
+    "description": "利用你获得的特殊能力，你可以制作自己的生命恢复药水（使用1个玻璃瓶和1个海带）。"
+}

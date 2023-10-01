@@ -1,0 +1,36 @@
+{
+    "type": "origins:action_on_callback",
+    "entity_action_chosen": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:execute_command",
+                "command": "scale set pehkui:height 0.5"
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "scale set pehkui:width 0.5"
+            }
+        ]
+    },
+    "execute_chosen_when_orb": true,
+    "entity_action_lost": {
+        "type": "origins:execute_command",
+        "command": "scale reset @s"
+    },
+    "entity_action_respawned": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:execute_command",
+                "command": "scale set pehkui:height 0.5"
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "scale set pehkui:width 0.5"
+            }
+        ]
+    },
+    "name": "发育不良",
+    "description": "由于未知的实验，你的身体只有正常人一半的大小。"
+}

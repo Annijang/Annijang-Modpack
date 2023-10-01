@@ -1,0 +1,10 @@
+{
+  "type": "origins:inventory",
+  "drop_on_death": false,
+    "key": {
+        "key": "key.loadToolbarActivator",
+        "continuous": false
+    },
+  "name": "液体袋",
+  "description": "水生魔法让您可以使用自己的特殊储物袋，你可以使用快捷键来打开该袋子。"
+}

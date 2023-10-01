@@ -1,0 +1,11 @@
+{
+    "name": "未经训练",
+    "description": "你未在战斗中很好的保护自己，所以你的心将会少3颗。",
+    "type": "origins:attribute",
+    "modifier": {
+        "attribute": "minecraft:generic.max_health",
+        "operation": "multiply_base",
+        "value": -0.3
+    },
+    "update_health": true
+}

@@ -1,0 +1,17 @@
+{
+    "name": "友好村庄",
+    "description": "由于你和村民都是朋友，所以你在村民中会受到来自村民的青睐。",
+    "type": "origins:stacking_status_effect",
+    "min_stacks": 1,
+    "max_stacks": 1,
+    "duration_per_stack": 100,
+    "tick_rate": 1,
+    "effect": {
+        "effect": "minecraft:hero_of_the_village",
+        "duration": 100000,
+        "amplifier": 0,
+        "is_ambient": true,
+        "show_particles": false,
+        "show_icon": true
+    }
+}

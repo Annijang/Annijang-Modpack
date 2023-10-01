@@ -1,0 +1,22 @@
+{
+    "name": "诱饵",
+    "description": "许多人都喜欢拿你当诱饵，所以你很快就适应了，所以每当你拥有虚弱效果的时候，你附近的玩家将拥有更快的移动速度。",
+    "condition": {
+        "type": "origins:health",
+        "comparison": "<=",
+        "compare_to": 5
+    },
+    "type": "origins:stacking_status_effect",
+    "min_stacks": 1,
+    "max_stacks": 1,
+    "duration_per_stack": 10,
+    "tick_rate": 1,
+    "effect": {
+        "effect": "speed",
+        "duration": 10,
+        "amplifier": 0,
+        "is_ambient": true,
+        "show_particles": false,
+        "show_icon": false
+    }
+}

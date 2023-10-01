@@ -1,0 +1,11 @@
+{
+    "type": "origins:attribute",
+    "modifier": {
+      "name": "Max Health",
+      "attribute": "minecraft:generic.max_health",
+      "value": 4.0,
+      "operation": "addition"
+    },
+    "name": "丰盛",
+    "description": "由于你的体型较大，所以你拥有更多的生命值。"
+  }
