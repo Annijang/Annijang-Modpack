@@ -1,0 +1,12 @@
+{
+	"powers": [
+		"digs_dnd_origins:gnome/description_deep",
+		"digs_dnd_origins:gnome/description_forest",
+		"digs_dnd_origins:gnome/description_rock"
+	],
+	"icon": "minecraft:spyglass",
+	"order": 0,
+	"impact": 2,
+	"name": "地精",
+	"description": "地精的活力和对生活的热情闪耀在他们娇小身体的每一寸肌肤上。如果你选择了该种族，那么你将可以进入一个选择子种族的界面。"
+}

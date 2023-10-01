@@ -1,0 +1,13 @@
+{
+  "powers": [
+    "digs_dnd_origins:half-elf/ability_score_increase",
+    "digs_dnd_origins:half-elf/size",
+    "digs_dnd_origins:half-elf/darkvision",
+    "digs_dnd_origins:half-elf/skill_versatility"
+  ],
+  "icon": "minecraft:globe_banner_pattern",
+  "order": 0,
+  "impact": 1,
+  "name": "半精灵",
+  "description": "半精灵生活在两个世界中，但实际上并不属于任何一个世界，他们结合了精灵和人类的优点：人类的好奇心、创造力和雄心壮志，加上精灵高雅的感官、对大自然的热爱和艺术品味。"
+}

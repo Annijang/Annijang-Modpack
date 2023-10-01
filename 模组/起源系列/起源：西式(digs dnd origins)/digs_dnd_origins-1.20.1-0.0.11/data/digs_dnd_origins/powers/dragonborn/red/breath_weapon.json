@@ -1,0 +1,108 @@
+{
+    "name": "空气武器",
+    "description": "你可以向你前面喷射出一个小型的锥形火焰，可灼烧接触到的生物，在你短暂休息或者长时间休息后，你可再次使用该能力。",
+    "type": "origins:multiple",
+    
+    "flames": {
+        "type": "origins:fire_projectile",
+        "entity_type": "digs_dnd_origins:red_breath",
+        "cooldown": 1,
+        "hud_render": {
+            "should_render": false
+        },
+        "count": 10,
+        "interval": 0,
+        "start_delay": 0,
+        "speed": 0.25,
+        "divergence": 30.0,
+        "sound": "minecraft:entity.horse.breathe",
+        "key": {
+            "key": "key.origins.primary_active",
+            "continuous": true
+        },
+        "condition": {
+            "type": "origins:resource",
+            "resource": "digs_dnd_origins:dragonborn/red/breath_weapon_breath",
+            "comparison": ">",
+            "compare_to": 1
+        }
+    },
+    "breath": {
+        "type": "origins:resource",
+        "min": 0,
+        "max": 80,
+        "start_value": 80,
+        "hud_render": {
+            "sprite_location": "origins:textures/gui/resource_bar.png",
+            "bar_index": 7,
+            "should_render": true
+        }
+    },
+    "short_rest": {
+        "type": "origins:action_over_time",
+        "interval": 15,
+        "entity_action": {
+            "type": "origins:change_resource",
+            "resource": "digs_dnd_origins:dragonborn/red/breath_weapon_breath",
+            "change": 1
+        },
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:sprinting",
+                    "inverted": true
+                },
+                {
+                    "type": "origins:on_block"
+                }
+            ]
+        }
+    },
+    "long_rest": {
+        "type": "origins:action_on_wake_up",
+        "entity_action": {
+            "type": "origins:change_resource",
+            "resource": "digs_dnd_origins:dragonborn/red/breath_weapon_breath",
+            "change": 80,
+            "operation": "set"
+        }
+    },
+    "breath_out": {
+        "type": "origins:active_self",
+        "entity_action": {
+            "type": "origins:change_resource",
+            "resource": "digs_dnd_origins:dragonborn/red/breath_weapon_breath",
+            "change": -1
+        },
+        "key": {
+            "key": "key.origins.primary_active",
+            "continuous": true
+        }
+    },
+    "damage": {
+        "type": "origins:target_action_on_hit",
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:damage",
+                    "amount": 1,
+                    "source": {
+                        "name": "onFire",
+                        "fire": true,
+                        "bypasses_armor": false
+                    }
+                },
+                {
+                    "type": "origins:set_on_fire",
+                    "duration": 5
+                }
+            ]
+        },
+        "damage_condition": {
+            "type": "origins:projectile",
+            "projectile": "digs_dnd_origins:red_breath"
+        }
+    }
+}

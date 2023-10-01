@@ -1,0 +1,10 @@
+{
+	"powers": [
+		"digs_dnd_origins:elf/high/cantrips/firebolt"
+	],
+	"icon": "minecraft:enchanted_book",
+	"order": 1,
+	"impact": 0,
+	"name": "火球术",
+	"description": "你可以向范围内的生物投掷火球，当火球命中生物后可对其造成3点火焰伤害，任何被该火球命中的生物也会着火并持续2个火焰tick。"
+}

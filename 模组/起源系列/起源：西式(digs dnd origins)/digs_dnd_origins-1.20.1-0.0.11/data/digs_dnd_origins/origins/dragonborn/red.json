@@ -1,0 +1,16 @@
+{
+	"powers": [
+	    "digs_dnd_origins:dragonborn/red/ability_score_increase",
+	    "digs_dnd_origins:dragonborn/red/size",
+		"digs_dnd_origins:dragonborn/red/breath_weapon",
+		"digs_dnd_origins:dragonborn/red/damage_resistance",
+		"digs_dnd_origins:dragonborn/red/molten_habitat",
+		"digs_dnd_origins:dragonborn/red/scales",
+		"origins:more_exhaustion"
+	],
+	"icon": "digs_dnd_origins:red_scale",
+	"order": 1,
+	"impact": 2,
+	"name": "红龙族",
+	"description": "红龙族是远古红龙的后代，和它们的祖先一样，红龙拥有某些特殊的能力。"
+}

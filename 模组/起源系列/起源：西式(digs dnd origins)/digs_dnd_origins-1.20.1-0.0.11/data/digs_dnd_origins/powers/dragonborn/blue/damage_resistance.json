@@ -1,0 +1,36 @@
+{
+	"name": "效果抗性",
+	"description": "闪电对你造成的伤害会降低50%，闪电对你造成的减速效果会降低50%。",
+	"type": "origins:multiple",
+	"lightning": {
+		"type": "origins:modify_damage_taken",
+		"damage_condition": {
+			"type": "origins:or",
+			"conditions": [
+				{
+					"type" : "origins:name",
+					"name": "lightningBolt"
+				},
+				{
+					"type" : "origins:name",
+					"name": "lightningBolt.player"
+				}
+			]
+		},
+		"modifier": {
+			"operation": "multiply_base_multiplicative",
+			"value": -0.5
+		}
+	},
+	"stun": {
+		"type": "origins:modify_status_effect_duration",
+		"status_effects":[
+			"minecraft:slowness",
+			"digs_dnd_origins:stun"
+		],
+		"modifier": {
+			"operation": "multiply_base_multiplicative",
+			"value": -0.5
+		}
+	}
+}

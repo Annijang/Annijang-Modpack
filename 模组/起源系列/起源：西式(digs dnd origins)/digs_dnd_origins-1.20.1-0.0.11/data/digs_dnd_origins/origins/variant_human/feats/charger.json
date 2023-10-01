@@ -1,0 +1,10 @@
+{
+	"powers": [
+		"digs_dnd_origins:variant_human/feats/charger"
+	],
+	"icon": "minecraft:goat_horn",
+	"order": 1,
+	"impact": 0,
+	"name": "充能",
+	"description": "当你在疾跑的时候，你可以选择推动或者攻击生物来造成额外伤害。当你在空手的时候攻击到目标，那么你的击退距离会有明显的增加，但是如果你是持有武器，那么你的本次攻击伤害会增加4点，该技能的冷却时间是6秒，在冷却时间内你无法再次疾跑。"
+}

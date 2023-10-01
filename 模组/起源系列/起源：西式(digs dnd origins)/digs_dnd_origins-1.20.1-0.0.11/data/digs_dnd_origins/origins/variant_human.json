@@ -1,0 +1,11 @@
+{
+  "powers": [
+    "digs_dnd_origins:variant_human/skills",
+    "digs_dnd_origins:variant_human/feat"
+  ],
+  "icon": "minecraft:player_head",
+  "order": 0,
+  "impact": 1,
+  "name": "变种人",
+  "description": "由于人类喜欢迁徙和征服，他们的身体素质比其他普通种族更加多样化。"
+}

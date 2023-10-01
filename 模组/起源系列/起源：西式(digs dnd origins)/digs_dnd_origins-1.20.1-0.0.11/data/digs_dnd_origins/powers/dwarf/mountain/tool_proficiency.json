@@ -1,0 +1,26 @@
+{
+  "name": "工具大师",
+  "description": "你已经能很熟练地使用石制工具了，你可以使用石镐或者更高等级的镐子来开采任何矿石了。",
+  "type": "origins:multiple",
+
+  "wood_pick": {
+    "type": "origins:modify_harvest",
+    "block_condition": {
+      "type": "origins:material",
+      "materials": [
+        "stone",
+        "metal"
+      ]
+    },
+    "allow": true,
+    "condition": {
+      "type": "origins:equipped_item",
+      "equipment_slot": "mainhand",
+      "item_condition": {
+        "type": "origins:harvest_level",
+        "comparison": ">=",
+        "compare_to": 1
+      }
+    }
+  }
+}

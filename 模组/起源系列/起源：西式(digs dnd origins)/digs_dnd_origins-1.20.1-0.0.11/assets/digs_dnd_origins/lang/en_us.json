@@ -1,0 +1,28 @@
+{
+  "item.digs_dnd_origins.red_scale": "Red Scale",
+  "item.digs_dnd_origins.blue_scale": "Blue Scale",
+  "item.digs_dnd_origins.green_scale": "Green Scale",
+  "item.digs_dnd_origins.white_scale": "White Scale",
+  "item.digs_dnd_origins.black_scale": "Black Scale",
+  "item.digs_dnd_origins.brass_scale": "Brass Scale",
+
+  "item.digs_dnd_origins.horns": "Horns",
+  "item.digs_dnd_origins.leather_horns_helmet": "Leather Horns Helmet",
+  "item.digs_dnd_origins.iron_horns_helmet": "Iron Horns Helmet",
+  "item.digs_dnd_origins.golden_horns_helmet": "Golden Horns Helmet",
+  "item.digs_dnd_origins.diamond_horns_helmet": "Diamond Horns Helmet",
+  "item.digs_dnd_origins.netherite_horns_helmet": "Netherite Horns Helmet",
+
+  "item.digs_dnd_origins.toy_frog_spawn_egg": "Toy Frog",
+
+  "itemGroup.dndOrigins": "Dig's DnD Origins",
+
+  "entity.digs_dnd_origins.blue_breath": "Lightning Breath",
+  "entity.digs_dnd_origins.green_breath": "Poison Breath",
+  "entity.digs_dnd_origins.red_breath": "Fire Breath",
+  "entity.digs_dnd_origins.white_breath": "Ice Breath",
+  "entity.digs_dnd_origins.toy_frog": "Toy Frog",
+
+  "effect.digs_dnd_origins.freeze": "Freezing",
+  "effect.digs_dnd_origins.stun": "Stunned"
+}

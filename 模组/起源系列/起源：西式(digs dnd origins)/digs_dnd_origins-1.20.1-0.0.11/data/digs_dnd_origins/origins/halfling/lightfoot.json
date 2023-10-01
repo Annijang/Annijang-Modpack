@@ -1,0 +1,14 @@
+{
+	"powers": [
+	    "digs_dnd_origins:halfling/lightfoot/size",
+	    "digs_dnd_origins:halfling/lightfoot/speed",
+	    "digs_dnd_origins:halfling/lightfoot/lucky",
+	    "digs_dnd_origins:halfling/lightfoot/halfling_nimbleness",
+		"digs_dnd_origins:halfling/lightfoot/naturally_stealthy"
+	],
+	"icon": "minecraft:baked_potato",
+	"order": 1,
+	"impact": 2,
+	"name": "光脚半兽人",
+	"description": "作为不喜欢穿鞋的半兽人，你拥有较为不错的躲藏能力，甚至可以利用他人来躲藏。"
+}

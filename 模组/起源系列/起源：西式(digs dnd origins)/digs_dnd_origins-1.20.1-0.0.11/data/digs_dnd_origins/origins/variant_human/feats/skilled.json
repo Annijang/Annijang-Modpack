@@ -1,0 +1,11 @@
+{
+	"powers": [
+		"digs_dnd_origins:variant_human/feats/skilled"
+	],
+	"icon": "minecraft:golden_apple",
+	"order": 1,
+	"impact": 0,
+	"hidden": true,
+	"name": "自选技能",
+	"description": "你已经可以熟练地掌握三种可自行选择的技能了，但是所有技能的效果会降低50%。"
+}

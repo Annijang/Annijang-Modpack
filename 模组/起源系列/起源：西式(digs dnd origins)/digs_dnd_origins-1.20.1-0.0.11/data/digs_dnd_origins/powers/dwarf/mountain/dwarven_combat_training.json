@@ -1,0 +1,22 @@
+{
+    "name": "斧头大师",
+    "description": "你精通使用斧头，所以你使用斧头的攻击力会增加2点。",
+    "type": "origins:multiple",
+    "melee": {
+        "type": "origins:modify_damage_dealt",
+        "condition": {
+            "type": "origins:equipped_item",
+            "equipment_slot": "mainhand",
+            "item_condition": {
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "tag": "digs_dnd_origins:dwarven_combat_training_weapons"
+                }
+            }
+        },
+        "modifier": {
+            "operation": "addition",
+            "value": 2.0
+        }
+    }
+}

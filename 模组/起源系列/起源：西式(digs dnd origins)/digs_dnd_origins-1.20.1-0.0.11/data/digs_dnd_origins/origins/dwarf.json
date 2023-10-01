@@ -1,0 +1,11 @@
+{
+	"powers": [
+		"digs_dnd_origins:dwarf/description_hill",
+		"digs_dnd_origins:dwarf/description_mountain"
+	],
+	"icon": "minecraft:iron_pickaxe",
+	"order": 0,
+	"impact": 2,
+	"name": "矮人",
+	"description": "矮人不仅勇敢还很坚韧，是著名的战士、矿工和金属工人。如果你选择了该种族，那么你可以进入一个选择子种族的界面。"
+}

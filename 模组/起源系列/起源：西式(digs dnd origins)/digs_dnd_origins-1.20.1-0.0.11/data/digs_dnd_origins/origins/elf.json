@@ -1,0 +1,12 @@
+{
+	"powers": [
+		"digs_dnd_origins:elf/description_high",
+		"digs_dnd_origins:elf/description_wood",
+		"digs_dnd_origins:elf/description_dark"
+	],
+	"icon": "minecraft:bow",
+	"order": 0,
+	"impact": 1,
+	"name": "精灵",
+	"description": "精灵是一个拥有超烦优雅气质的种族，他们存活在该世界上但并不完全属于这个世界。如果你选择了该种族，那么你将可以进入一个选择子种族的界面。"
+}

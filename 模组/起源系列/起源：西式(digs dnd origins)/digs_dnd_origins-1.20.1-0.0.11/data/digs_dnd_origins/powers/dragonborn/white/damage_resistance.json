@@ -1,0 +1,33 @@
+{
+	"name": "效果抗性",
+	"description": "你受到的冰冻伤害降低50%，减速时间降低50%。",
+	"type": "origins:multiple",
+	"freeze": {
+		"type": "origins:modify_damage_taken",
+		"damage_condition": {
+			"type": "origins:or",
+			"conditions": [
+				{
+					"type": "origins:name",
+					"name": "freeze"
+				},
+				{
+					"type": "origins:name",
+					"name": "freeze.player"
+				}
+			]
+		},
+		"modifier": {
+			"operation": "multiply_base_multiplicative",
+			"value": -0.5
+		}
+	},
+	"slow": {
+		"type": "origins:modify_status_effect_duration",
+		"status_effects": "minecraft:slowness",
+		"modifier": {
+			"operation": "multiply_base_multiplicative",
+			"value": -0.5
+		}
+	}
+}

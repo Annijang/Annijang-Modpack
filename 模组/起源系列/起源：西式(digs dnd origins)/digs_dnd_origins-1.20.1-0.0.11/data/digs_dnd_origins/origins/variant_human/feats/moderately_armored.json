@@ -1,0 +1,10 @@
+{
+	"powers": [
+		"digs_dnd_origins:variant_human/feats/moderately_armored"
+	],
+	"icon": "minecraft:iron_chestplate",
+	"order": 1,
+	"impact": 0,
+	"name": "中型装甲",
+	"description": "通过训练你已经掌握了中型盔甲的使用，当你穿戴比锁链盔甲更重但是比钻石盔甲更轻的全套盔甲时，你的盔甲韧性会增加2点，但是代价是你的移动速度会降低7%。"
+}

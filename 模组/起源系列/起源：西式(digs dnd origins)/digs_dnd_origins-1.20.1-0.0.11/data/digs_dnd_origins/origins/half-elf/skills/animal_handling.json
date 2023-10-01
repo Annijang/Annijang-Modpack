@@ -1,0 +1,10 @@
+{
+	"powers": [
+		"digs_dnd_origins:half-elf/skills/animal_handling"
+	],
+	"icon": "minecraft:carrot",
+	"order": 1,
+	"impact": 0,
+	"name": "动物饲养",
+	"description": "被你驯服的动物将不会造成伤害。"
+}

@@ -1,0 +1,16 @@
+{
+  "powers": [
+    "digs_dnd_origins:dragonborn/black/ability_score_increase",
+    "digs_dnd_origins:dragonborn/black/size",
+    "digs_dnd_origins:dragonborn/black/breath_weapon",
+    "digs_dnd_origins:dragonborn/black/damage_resistance",
+    "digs_dnd_origins:dragonborn/black/humid_habitat",
+    "digs_dnd_origins:dragonborn/black/scales",
+    "origins:more_exhaustion"
+  ],
+  "icon": "digs_dnd_origins:black_scale",
+  "order": 1,
+  "impact": 2,
+  "name": "黑龙族",
+  "description": "黑龙族是远古黑龙的后代，和它们的祖先一样，黑龙拥有某些特殊的能力。"
+}

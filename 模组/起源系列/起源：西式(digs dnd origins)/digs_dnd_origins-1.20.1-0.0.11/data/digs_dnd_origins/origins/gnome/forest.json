@@ -1,0 +1,13 @@
+{
+	"powers": [
+	    "digs_dnd_origins:gnome/forest/size",
+	    "digs_dnd_origins:gnome/forest/speed",
+	    "digs_dnd_origins:gnome/forest/darkvision",
+		"digs_dnd_origins:gnome/forest/speak_with_small_beasts"
+	],
+	"icon": "minecraft:dark_oak_sapling",
+	"order": 1,
+	"impact": 2,
+	"name": "森林地精",
+	"description": "森林地精更倾向于和其他善良的森林生物结交朋友，他们将精灵和善良的地精都视作为很重要的盟友。"
+}

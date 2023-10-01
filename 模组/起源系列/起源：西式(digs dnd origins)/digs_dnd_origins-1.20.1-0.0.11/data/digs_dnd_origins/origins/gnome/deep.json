@@ -1,0 +1,13 @@
+{
+	"powers": [
+		"digs_dnd_origins:gnome/deep/size",
+		"digs_dnd_origins:gnome/deep/speed",
+		"digs_dnd_origins:gnome/deep/superior_darkvision",
+		"digs_dnd_origins:gnome/deep/stone_camouflage"
+	],
+	"icon": "minecraft:recovery_compass",
+	"order": 1,
+	"impact": 2,
+	"name": "深岩地精",
+	"description": "这些常年居住在地底深处的地精始终都对外来者怀有戒备的心里，深岩地精十分狡猾且沉默寡言，但是他们对亲人还是很善良、忠诚和富有富有同情心。"
+}

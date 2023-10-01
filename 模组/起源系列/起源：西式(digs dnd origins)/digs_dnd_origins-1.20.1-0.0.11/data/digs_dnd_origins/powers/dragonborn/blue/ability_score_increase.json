@@ -1,0 +1,10 @@
+{
+	"name": "近战能力提升",
+	"description": "由于你的力量增强了，所以你可以额外造成1次近战伤害。",
+	"type": "origins:attribute",
+	"modifier": {
+		"attribute": "minecraft:generic.attack_damage",
+		"operation": "addition",
+		"value": 1
+	}
+}

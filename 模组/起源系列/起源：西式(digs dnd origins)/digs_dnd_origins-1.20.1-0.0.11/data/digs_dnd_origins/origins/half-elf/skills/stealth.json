@@ -1,0 +1,10 @@
+{
+	"powers": [
+		"digs_dnd_origins:half-elf/skills/stealth"
+	],
+	"icon": "minecraft:black_dye",
+	"order": 1,
+	"impact": 0,
+	"name": "隐匿",
+	"description": "你的大多数移动都不会触发幽匿感测体。"
+}

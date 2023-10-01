@@ -1,0 +1,18 @@
+{
+  "powers": [
+    "digs_dnd_origins:elf/dark/ability_score_increase",
+    "digs_dnd_origins:elf/dark/size",
+    "digs_dnd_origins:elf/dark/superior_darkvision",
+    "digs_dnd_origins:elf/dark/trance",
+    "digs_dnd_origins:elf/dark/sunlight_sensitivity",
+    "digs_dnd_origins:elf/dark/drow_magic",
+    "digs_dnd_origins:elf/dark/faerie_fire",
+    "digs_dnd_origins:elf/dark/darkness",
+    "digs_dnd_origins:elf/dark/drow_weapon_training"
+  ],
+  "icon": "minecraft:echo_shard",
+  "order": 1,
+  "impact": 2,
+  "name": "黑暗精灵",
+  "description": "乌鸦人也常被人成为黑暗精灵，他们的皮肤像木炭或者黑曜石，头发呈现白色或者淡黄色。"
+}

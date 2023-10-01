@@ -1,0 +1,15 @@
+{
+	"powers": [
+	    "digs_dnd_origins:elf/wood/size",
+		"digs_dnd_origins:elf/wood/darkvision",
+		"digs_dnd_origins:elf/high/trance",
+		"digs_dnd_origins:elf/wood/elf_weapon_training",
+		"digs_dnd_origins:elf/wood/fleet_of_foot",
+		"digs_dnd_origins:elf/wood/mask_of_the_wild"
+	],
+	"icon": "minecraft:bow",
+	"order": 1,
+	"impact": 1,
+	"name": "木精灵",
+	"description": "作为木精灵，你拥有敏锐的感官和知觉，你那敏捷的脚步可以让你在原始森林中快速且隐秘地穿行。"
+}

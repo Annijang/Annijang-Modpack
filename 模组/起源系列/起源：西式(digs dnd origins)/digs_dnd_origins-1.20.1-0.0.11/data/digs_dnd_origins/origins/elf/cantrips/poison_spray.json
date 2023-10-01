@@ -1,0 +1,10 @@
+{
+	"powers": [
+		"digs_dnd_origins:elf/high/cantrips/poison_spray"
+	],
+	"icon": "minecraft:enchanted_book",
+	"order": 1,
+	"impact": 0,
+	"name": "毒药喷雾",
+	"description": "你可以向你面对的生物喷射毒雾，当成功命中后可对目标生物造成4次凋零伤害并使其中毒3秒。"
+}

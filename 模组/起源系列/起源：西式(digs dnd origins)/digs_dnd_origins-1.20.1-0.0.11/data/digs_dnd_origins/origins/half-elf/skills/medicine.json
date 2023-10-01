@@ -1,0 +1,10 @@
+{
+	"powers": [
+		"digs_dnd_origins:half-elf/skills/medicine"
+	],
+	"icon": "minecraft:potion",
+	"order": 1,
+	"impact": 0,
+	"name": "药草",
+	"description": "你受到的治疗效果会提升20%。"
+}

@@ -1,0 +1,10 @@
+{
+	"powers": [
+		"digs_dnd_origins:elf/high/cantrips/lightning_lure"
+	],
+	"icon": "minecraft:enchanted_book",
+	"order": 1,
+	"impact": 0,
+	"name": "引雷术",
+	"description": "你可以创建一条闪电，攻击你瞄准的生物，当成功命中生物后会对其造成4点闪电伤害并眩晕0.5秒。"
+}

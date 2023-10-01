@@ -1,0 +1,15 @@
+{
+	"powers": [
+		"digs_dnd_origins:dragonborn/description_black",
+		"digs_dnd_origins:dragonborn/description_blue",
+		"digs_dnd_origins:dragonborn/description_brass",
+		"digs_dnd_origins:dragonborn/description_green",
+		"digs_dnd_origins:dragonborn/description_red",
+		"digs_dnd_origins:dragonborn/description_white"
+	],
+	"icon": "digs_dnd_origins:black_scale",
+	"order": 0,
+	"impact": 2,
+	"name": "龙族",
+	"description": "正如它们的名字所示那样，龙族是龙的后裔，龙族拥有傲视群雄的能力，而这个世界对龙族敬而远之。如果你选择了该种族，那么你将可以进入一个选择子种族的界面。"
+}

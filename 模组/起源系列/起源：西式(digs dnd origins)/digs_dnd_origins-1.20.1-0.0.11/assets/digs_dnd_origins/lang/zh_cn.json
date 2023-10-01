@@ -1,0 +1,28 @@
+{
+  "item.digs_dnd_origins.red_scale": "红色标尺",
+  "item.digs_dnd_origins.blue_scale": "蓝色标尺",
+  "item.digs_dnd_origins.green_scale": "绿色标尺",
+  "item.digs_dnd_origins.white_scale": "白色标尺",
+  "item.digs_dnd_origins.black_scale": "黑色标尺",
+  "item.digs_dnd_origins.brass_scale": "黄铜标尺",
+
+  "item.digs_dnd_origins.horns": "尖角",
+  "item.digs_dnd_origins.leather_horns_helmet": "皮制牛角头盔",
+  "item.digs_dnd_origins.iron_horns_helmet": "铁制牛角头盔",
+  "item.digs_dnd_origins.golden_horns_helmet": "金制牛角头盔",
+  "item.digs_dnd_origins.diamond_horns_helmet": "钻石牛角头盔",
+  "item.digs_dnd_origins.netherite_horns_helmet": "下界合金牛角头盔",
+
+  "item.digs_dnd_origins.toy_frog_spawn_egg": "青蛙玩具",
+
+  "itemGroup.dndOrigins": "西式起源",
+
+  "entity.digs_dnd_origins.blue_breath": "雷电之息",
+  "entity.digs_dnd_origins.green_breath": "毒药之息",
+  "entity.digs_dnd_origins.red_breath": "火焰之息",
+  "entity.digs_dnd_origins.white_breath": "寒冰之息",
+  "entity.digs_dnd_origins.toy_frog": "青蛙玩具",
+
+  "effect.digs_dnd_origins.freeze": "冷冻",
+  "effect.digs_dnd_origins.stun": "眩晕"
+}

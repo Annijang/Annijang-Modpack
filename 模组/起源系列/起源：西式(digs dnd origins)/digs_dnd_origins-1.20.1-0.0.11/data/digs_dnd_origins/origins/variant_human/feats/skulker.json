@@ -1,0 +1,10 @@
+{
+	"powers": [
+		"digs_dnd_origins:variant_human/feats/skulker"
+	],
+	"icon": "minecraft:black_dye",
+	"order": 1,
+	"impact": 0,
+	"name": "躲藏",
+	"description": "你擅长在阴影中潜行，当你在光照等级为7或者更低的环境中时按住潜行键可以让你进入隐身状态，隐身状态无法让盔甲隐形。"
+}

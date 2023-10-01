@@ -1,0 +1,15 @@
+{
+    "powers": [
+        "digs_dnd_origins:half-orc/size",
+        "digs_dnd_origins:half-orc/darkvision",
+        "digs_dnd_origins:half-orc/menacing",
+        "digs_dnd_origins:half-orc/relentless_endurance",
+        "digs_dnd_origins:half-orc/savage_attacks",
+        "origins:more_exhaustion"
+    ],
+    "icon": "minecraft:goat_horn",
+    "order": 0,
+    "impact": 1,
+    "name": "半兽人",
+    "description": "半兽人的灰色颜料、倾斜的前额、突出的下颚、突出的牙齿和高大的身材让他们的兽人血统一览无余。"
+}

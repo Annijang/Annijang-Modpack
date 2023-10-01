@@ -1,0 +1,13 @@
+{
+	"powers": [
+		"digs_dnd_origins:gnome/rock/size",
+	    "digs_dnd_origins:gnome/rock/speed",
+	    "digs_dnd_origins:gnome/rock/darkvision",
+		"digs_dnd_origins:gnome/rock/tinker"
+	],
+	"icon": "minecraft:spyglass",
+	"order": 1,
+	"impact": 2,
+	"name": "岩石地精",
+	"description": "作为常年居住在高山的地精，你拥有超越其他地精的天赋和坚韧不拔的精神。"
+}

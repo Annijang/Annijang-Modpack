@@ -1,0 +1,16 @@
+{
+  "powers": [
+    "digs_dnd_origins:dragonborn/brass/ability_score_increase",
+    "digs_dnd_origins:dragonborn/brass/size",
+    "digs_dnd_origins:dragonborn/brass/breath_weapon",
+    "digs_dnd_origins:dragonborn/brass/damage_resistance",
+    "digs_dnd_origins:dragonborn/brass/arid_habitat",
+    "digs_dnd_origins:dragonborn/brass/scales",
+    "origins:more_exhaustion"
+  ],
+  "icon": "digs_dnd_origins:brass_scale",
+  "order": 1,
+  "impact": 2,
+  "name": "黄铜龙族",
+  "description": "黄铜龙族是远古黄铜龙的后代，和它们的祖先一样，黄铜龙拥有某些特殊的能力。"
+}

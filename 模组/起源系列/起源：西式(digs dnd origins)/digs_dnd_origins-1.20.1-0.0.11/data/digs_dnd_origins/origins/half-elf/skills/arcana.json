@@ -1,0 +1,10 @@
+{
+	"powers": [
+		"digs_dnd_origins:half-elf/skills/arcana"
+	],
+	"icon": "minecraft:enchanted_book",
+	"order": 1,
+	"impact": 0,
+	"name": "奥秘",
+	"description": "你拥有20%的经验加成。"
+}

@@ -1,0 +1,10 @@
+{
+  "powers": [
+    "digs_dnd_origins:half-elf/skills/survival"
+  ],
+  "icon": "minecraft:poisonous_potato",
+  "order": 1,
+  "impact": 0,
+  "name": "生存",
+  "description": "每次你食用食物都可以额外恢复1点饱食度。"
+}

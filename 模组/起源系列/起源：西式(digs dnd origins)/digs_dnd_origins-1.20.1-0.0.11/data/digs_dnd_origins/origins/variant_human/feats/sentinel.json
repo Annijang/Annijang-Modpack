@@ -1,0 +1,10 @@
+{
+	"powers": [
+		"digs_dnd_origins:variant_human/feats/sentinel"
+	],
+	"icon": "minecraft:shield",
+	"order": 1,
+	"impact": 0,
+	"name": "守卫",
+	"description": "当你攻击到一个面朝你的生物时，无论是敌对生物还是玩家都会将其眩晕6秒，该技能的冷却时间为6秒，此技能对其他守卫无效，你受到的弹射物伤害会增加50%。"
+}

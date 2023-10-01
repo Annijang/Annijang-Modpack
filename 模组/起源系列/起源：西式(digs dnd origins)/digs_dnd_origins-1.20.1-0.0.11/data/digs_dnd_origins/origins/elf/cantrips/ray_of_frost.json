@@ -1,0 +1,10 @@
+{
+	"powers": [
+		"digs_dnd_origins:elf/high/cantrips/ray_of_frost"
+	],
+	"icon": "minecraft:enchanted_book",
+	"order": 1,
+	"impact": 0,
+	"name": "冰霜之光",
+	"description": "你可以喷射出一道蓝白色的光束让范围内的生物减速。"
+}

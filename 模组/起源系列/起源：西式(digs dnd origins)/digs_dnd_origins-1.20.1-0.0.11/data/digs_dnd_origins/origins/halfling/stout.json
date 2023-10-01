@@ -1,0 +1,14 @@
+{
+	"powers": [
+		"digs_dnd_origins:halfling/stout/size",
+		"digs_dnd_origins:halfling/stout/speed",
+		"digs_dnd_origins:halfling/stout/lucky",
+		"digs_dnd_origins:halfling/stout/halfling_nimbleness",
+		"digs_dnd_origins:halfling/stout/stout_resilience"
+	],
+	"icon": "minecraft:cooked_mutton",
+	"order": 1,
+	"impact": 2,
+	"name": "粗壮的半兽人",
+	"description": "作为更加强壮的半兽人，你拥有比别人更强大的韧性，也对毒药拥有一定的免疫力。"
+}

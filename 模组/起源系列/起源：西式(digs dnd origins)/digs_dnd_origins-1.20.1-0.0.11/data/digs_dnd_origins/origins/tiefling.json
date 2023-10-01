@@ -1,0 +1,17 @@
+{
+  "powers": [
+    "digs_dnd_origins:tiefling/ability_score_increase",
+    "digs_dnd_origins:tiefling/darkvision",
+    "digs_dnd_origins:tiefling/hellish_resistance",
+    "digs_dnd_origins:tiefling/infernal_legacy",
+    "digs_dnd_origins:tiefling/hellish_rebuke",
+    "digs_dnd_origins:tiefling/darkness",
+    "digs_dnd_origins:tiefling/feared",
+    "digs_dnd_origins:tiefling/horns"
+  ],
+  "icon": "minecraft:fire_charge",
+  "order": 0,
+  "impact": 1,
+  "name": "魔人",
+  "description": "魔人源自人类血统，从广义上讲，他们看起来仍然像人类。然而，他们的地狱血统在他们的外表上留下了清晰的印记。"
+}

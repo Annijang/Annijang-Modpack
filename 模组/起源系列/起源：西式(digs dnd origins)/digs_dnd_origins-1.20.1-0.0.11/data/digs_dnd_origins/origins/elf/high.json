@@ -1,0 +1,15 @@
+{
+	"powers": [
+		"digs_dnd_origins:elf/high/ability_score_increase",
+	    "digs_dnd_origins:elf/high/size",
+		"digs_dnd_origins:elf/high/darkvision",
+		"digs_dnd_origins:elf/high/trance",
+	    "digs_dnd_origins:elf/high/elf_weapon_training",
+		"digs_dnd_origins:elf/high/cantrip"
+	],
+	"icon": "minecraft:amethyst_shard",
+	"order": 1,
+	"impact": 1,
+	"name": "高级精灵",
+	"description": "作为高级精灵，你拥有敏锐的头脑，掌握了基础的魔法知识。"
+}

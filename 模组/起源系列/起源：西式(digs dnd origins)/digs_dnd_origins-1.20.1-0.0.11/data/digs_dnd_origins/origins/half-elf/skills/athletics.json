@@ -1,0 +1,10 @@
+{
+	"powers": [
+		"digs_dnd_origins:half-elf/skills/athletics"
+	],
+	"icon": "minecraft:iron_sword",
+	"order": 1,
+	"impact": 0,
+	"name": "运动",
+	"description": "你拥有10%的击退抗性。"
+}

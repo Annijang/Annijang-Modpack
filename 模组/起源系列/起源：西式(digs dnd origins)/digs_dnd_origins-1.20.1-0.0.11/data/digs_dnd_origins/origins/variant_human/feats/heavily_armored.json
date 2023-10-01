@@ -1,0 +1,10 @@
+{
+	"powers": [
+		"digs_dnd_origins:variant_human/feats/heavily_armored"
+	],
+	"icon": "minecraft:netherite_chestplate",
+	"order": 1,
+	"impact": 0,
+	"name": "重型装甲",
+	"description": "你通过训练已经掌握了重型盔甲的使用能力，每当你穿戴齐全钻石或者更强的全套盔甲时，你的盔甲韧性会增加2点，但是代价是你的移动速度会降低10%。"
+}

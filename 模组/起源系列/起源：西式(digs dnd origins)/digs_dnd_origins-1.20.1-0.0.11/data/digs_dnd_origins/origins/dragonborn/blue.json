@@ -1,0 +1,16 @@
+{
+	"powers": [
+		"digs_dnd_origins:dragonborn/blue/ability_score_increase",
+	    "digs_dnd_origins:dragonborn/blue/size",
+		"digs_dnd_origins:dragonborn/blue/breath_weapon",
+		"digs_dnd_origins:dragonborn/blue/damage_resistance",
+		"digs_dnd_origins:dragonborn/blue/arid_habitat",
+		"digs_dnd_origins:dragonborn/blue/scales",
+		"origins:more_exhaustion"
+	],
+	"icon": "digs_dnd_origins:blue_scale",
+	"order": 1,
+	"impact": 2,
+	"name": "蓝龙族",
+	"description": "蓝龙族是远古蓝龙的后代，和它们的祖先一样，蓝龙拥有某些特殊的能力。"
+}

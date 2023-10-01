@@ -1,0 +1,10 @@
+{
+	"powers": [
+		"digs_dnd_origins:variant_human/feats/tough"
+	],
+	"icon": "minecraft:netherite_ingot",
+	"order": 1,
+	"impact": 0,
+	"name": "坚韧",
+	"description": "你的最大生命值会增加20%，但是远程伤害会降低30%。"
+}

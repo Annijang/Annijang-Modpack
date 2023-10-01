@@ -1,0 +1,16 @@
+{
+	"powers": [
+	    "digs_dnd_origins:dragonborn/white/ability_score_increase",
+	    "digs_dnd_origins:dragonborn/white/size",
+		"digs_dnd_origins:dragonborn/white/breath_weapon",
+		"digs_dnd_origins:dragonborn/white/damage_resistance",
+		"digs_dnd_origins:dragonborn/white/arctic_habitat",
+		"digs_dnd_origins:dragonborn/white/scales",
+		"origins:more_exhaustion"
+	],
+	"icon": "digs_dnd_origins:white_scale",
+	"order": 1,
+	"impact": 2,
+	"name": "白龙族",
+	"description": "白龙族是远古白龙的后代，和它们的祖先一样，白龙拥有某些特殊的能力。"
+}

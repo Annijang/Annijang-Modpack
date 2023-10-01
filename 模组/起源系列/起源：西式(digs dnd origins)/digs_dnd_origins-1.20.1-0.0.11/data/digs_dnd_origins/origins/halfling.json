@@ -1,0 +1,11 @@
+{
+	"powers": [
+		"digs_dnd_origins:halfling/description_lightfoot",
+		"digs_dnd_origins:halfling/description_stout"
+	],
+	"icon": "minecraft:pumpkin_pie",
+	"order": 0,
+	"impact": 2,
+	"name": "半身人",
+	"description": "家的舒适是大多数半身人生活的目标：一个远离掠夺的怪物和冲突的军队、安宁祥和的安身之所；熊熊的炉火和丰盛的饭菜；美酒和美谈。如果你选择了该种族，那么你将可以进入一个选择子种族的界面。"
+}

@@ -1,0 +1,16 @@
+{
+	"powers": [
+		"digs_dnd_origins:dwarf/hill/size",
+		"digs_dnd_origins:dwarf/hill/speed",
+		"digs_dnd_origins:dwarf/hill/darkvision",
+		"digs_dnd_origins:dwarf/hill/dwarven_resilience",
+		"digs_dnd_origins:dwarf/hill/dwarven_combat_training",
+		"digs_dnd_origins:dwarf/hill/dwarven_toughness",
+		"digs_dnd_origins:dwarf/hill/tool_proficiency"
+	],
+	"icon": "minecraft:iron_shovel",
+	"order": 1,
+	"impact": 2,
+	"name": "山丘矮人",
+	"description": "作为山丘矮人，你拥有灵敏的感官、深奥的知觉和非凡的韧性。"
+}

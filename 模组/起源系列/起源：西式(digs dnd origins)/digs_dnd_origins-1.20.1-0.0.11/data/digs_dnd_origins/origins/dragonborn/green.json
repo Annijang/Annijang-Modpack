@@ -1,0 +1,16 @@
+{
+	"powers": [
+		"digs_dnd_origins:dragonborn/green/ability_score_increase",
+	    "digs_dnd_origins:dragonborn/green/size",
+		"digs_dnd_origins:dragonborn/green/breath_weapon",
+		"digs_dnd_origins:dragonborn/green/damage_resistance",
+		"digs_dnd_origins:dragonborn/green/humid_habitat",
+		"digs_dnd_origins:dragonborn/green/scales",
+		"origins:more_exhaustion"
+	],
+	"icon": "digs_dnd_origins:green_scale",
+	"order": 1,
+	"impact": 2,
+	"name": "绿龙族",
+	"description": "绿龙族是远古绿龙的后代，和它们的祖先一样，绿龙拥有某些特殊的能力。"
+}

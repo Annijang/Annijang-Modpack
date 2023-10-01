@@ -1,0 +1,35 @@
+{
+	"name": "体温过低",
+	"description": "无论何时何地，当你位于炎热的生物群系中时，你将会获得虚弱和缓慢效果。",
+    "type": "origins:multiple",
+    
+    "debuffs": {
+        "type": "origins:stacking_status_effect",
+        "min_stacks": -2,
+        "max_stacks": 4,
+        "duration_per_stack": 100,
+        "tick_rate": 20,
+        "effects": [
+            {
+                "effect": "minecraft:weakness",
+                "is_ambient": true,
+                "show_particles": false,
+                "show_icon": true
+            },
+            {
+                "effect": "minecraft:slowness",
+                "is_ambient": true,
+                "show_particles": false,
+                "show_icon": true
+            }
+        ],
+        "condition": {
+            "type": "origins:biome",
+            "condition": {
+                "type": "origins:temperature",
+                "comparison": ">=",
+                "compare_to": 1.5
+            }
+        }
+    }
+}

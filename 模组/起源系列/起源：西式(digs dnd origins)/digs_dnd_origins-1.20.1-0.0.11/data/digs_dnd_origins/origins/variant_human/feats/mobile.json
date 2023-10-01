@@ -1,0 +1,10 @@
+{
+	"powers": [
+		"digs_dnd_origins:variant_human/feats/mobile"
+	],
+	"icon": "minecraft:golden_boots",
+	"order": 1,
+	"impact": 0,
+	"name": "快速移动",
+	"description": "你的移动速度会增加20%，但是你的体力消耗速度会增加30%。"
+}
