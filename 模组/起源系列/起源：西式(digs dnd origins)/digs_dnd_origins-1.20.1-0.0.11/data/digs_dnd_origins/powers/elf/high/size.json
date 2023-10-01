@@ -1,0 +1,40 @@
+{
+	"name": "体型",
+	"description": "你将会比正常人偏瘦，生命值会降低20%，你的体型为中型。",
+	"type": "origins:multiple",
+	"size": {
+		"type": "origins:action_on_callback",
+		"entity_action_chosen":
+		{
+			"type": "origins:execute_command",
+			"permission_level": 4,
+			"command": "scale set pehkui:width 0.9 @s"
+		},
+		"entity_action_added":
+		{
+			"type": "origins:execute_command",
+			"permission_level": 4,
+			"command": "scale set pehkui:width 0.9 @s"
+		},
+		"entity_action_lost":
+		{
+			"type": "origins:execute_command",
+			"permission_level": 4,
+			"command": "scale set pehkui:width 1 @s"
+		},
+		"entity_action_removed":
+		{
+			"type": "origins:execute_command",
+			"permission_level": 4,
+			"command": "scale set pehkui:width 1 @s"
+		}
+	},
+	"health": {
+		"type": "origins:attribute",
+		"modifier": {
+			"attribute": "minecraft:generic.max_health",
+			"operation": "multiply_total",
+			"value": -0.2
+		}
+	}
+}

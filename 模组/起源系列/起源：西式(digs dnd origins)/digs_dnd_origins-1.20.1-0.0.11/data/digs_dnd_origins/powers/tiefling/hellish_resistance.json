@@ -1,0 +1,54 @@
+{
+  "name": "地狱抗性",
+  "description": "你受到的火焰伤害会降低50%。",
+  "type": "origins:modify_damage_taken",
+  "damage_condition": {
+    "type": "origins:or",
+    "conditions": [
+      {
+        "type": "origins:name",
+        "name": "fireball"
+      },
+      {
+        "type": "origins:name",
+        "name": "fireball.item"
+      },
+      {
+        "type": "origins:name",
+        "name": "hotFloor"
+      },
+      {
+        "type": "origins:name",
+        "name": "hotFloor.player"
+      },
+      {
+        "type": "origins:name",
+        "name": "inFire"
+      },
+      {
+        "type": "origins:name",
+        "name": "inFire.player"
+      },
+      {
+        "type": "origins:name",
+        "name": "lava"
+      },
+      {
+        "type": "origins:name",
+        "name": "lava.player"
+      },
+      {
+        "type": "origins:name",
+        "name": "onFire"
+      },
+      {
+        "type": "origins:name",
+        "name": "onFire.player"
+      }
+    ]
+  },
+  "modifier": {
+    "operation": "multiply_base_multiplicative",
+    "value": -0.5
+  }
+}

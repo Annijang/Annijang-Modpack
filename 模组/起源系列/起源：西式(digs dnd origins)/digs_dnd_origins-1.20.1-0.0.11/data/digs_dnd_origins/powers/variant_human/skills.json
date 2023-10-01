@@ -1,0 +1,5 @@
+{
+  "name": "技能",
+  "description": "你将可以熟练地掌握一种技能，当你在选择起源的时候可以任你选择。",
+  "type": "origins:simple"
+}

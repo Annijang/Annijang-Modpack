@@ -1,0 +1,14 @@
+{
+    "name": "与小动物对话",
+    "description": "通过声音和手势，你可以很容易和小动物交流，当你空手时可以立即驯服动物。",
+    "type": "origins:action_on_entity_use",
+    "bientity_action": {
+        "type": "origins:tame"
+    },
+    "item_condition": {
+        "type": "origins:empty"
+    },
+    "hands": [
+        "main_hand"
+    ]
+}

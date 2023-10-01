@@ -1,0 +1,53 @@
+{
+    "name": "不懈的耐力",
+    "description": "当你的生命值降到0时，你的生命值会以消耗该能力的方式恢复到1点，直到完全恢复之后才能再次使用。",
+    "type": "origins:multiple",
+    "prevent_death": {
+        "type": "origins:prevent_death",
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:change_resource",
+                    "resource": "digs_dnd_origins:half-orc/relentless_endurance_rested",
+                    "change": -1
+                },
+                {
+                    "type": "origins:apply_effect",
+                    "effect": {
+                        "effect": "minecraft:resistance",
+                        "duration": 60,
+                        "amplifier": 4,
+                        "show_particles": false,
+                        "show_icon": false
+                    }
+                }
+            ]
+        },
+        "condition": {
+            "type": "origins:resource",
+            "resource": "digs_dnd_origins:half-orc/relentless_endurance_rested",
+            "comparison": "==",
+            "compare_to": 1
+        }
+    },
+    "rested": {
+        "type": "origins:resource",
+        "min": 0,
+        "max": 1,
+        "hud_render": {
+            "should_render": true,
+            "sprite_location": "origins:textures/gui/community/huang/resource_bar_01.png",
+            "bar_index": 6
+        },
+        "start_value": 1
+    },
+    "long_rest": {
+        "type": "origins:action_on_wake_up",
+        "entity_action": {
+            "type": "origins:change_resource",
+            "resource": "digs_dnd_origins:half-orc/relentless_endurance_rested",
+            "change": 1
+        }
+    }
+}

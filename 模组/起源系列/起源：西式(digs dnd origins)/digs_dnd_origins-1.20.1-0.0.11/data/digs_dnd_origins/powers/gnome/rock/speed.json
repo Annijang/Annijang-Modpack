@@ -1,0 +1,10 @@
+{
+	"name": "降速",
+	"description": "你拥有10%的基础移动速度降低。",
+	"type": "origins:attribute",
+	"modifier": {
+		"attribute": "minecraft:generic.movement_speed",
+		"operation": "multiply_total",
+		"value": -0.1
+	}
+}

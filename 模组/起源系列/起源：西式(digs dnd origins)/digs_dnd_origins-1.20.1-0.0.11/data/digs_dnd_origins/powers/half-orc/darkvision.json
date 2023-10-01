@@ -1,0 +1,6 @@
+{
+    "name": "黑暗视觉",
+	"description": "你已经习惯了在地下的生活，所以当你在黑暗的地方时你拥有更好的视野。",
+	"type": "origins:night_vision",
+	"strength": 0.5
+}

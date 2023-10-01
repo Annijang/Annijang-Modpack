@@ -1,0 +1,29 @@
+{
+    "name": "青蛙玩具",
+    "description": "你可以制作一个类似青蛙的发条玩具，当把玩具放在地面上时，青蛙会以比平常行走更慢的速度往随机方向移动。",
+    "type": "origins:multiple",
+    "animated_gear":
+    {
+        "type": "origins:recipe",
+        "recipe":
+        {
+            "id": "digs_dnd_origins:tinker/toy_frog",
+            "type": "minecraft:crafting_shaped",
+            "pattern": [
+                "#",
+                "$"
+            ],
+            "key": {
+                "#": {
+                    "item": "minecraft:leather"
+                },
+                "$": {
+                    "item": "minecraft:gold_ingot"
+                }
+            },
+            "result": {
+                "item": "digs_dnd_origins:toy_frog_spawn_egg"
+            }
+        }
+    }
+}

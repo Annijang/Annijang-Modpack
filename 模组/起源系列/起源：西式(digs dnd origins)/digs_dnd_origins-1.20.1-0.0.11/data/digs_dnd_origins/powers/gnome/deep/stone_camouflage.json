@@ -1,0 +1,28 @@
+{
+	"name": "石头伪装",
+	"description": "你在岩石中更容易隐身，当你在石头上按住潜行键时可让你进入隐身状态，但无法让你的盔甲隐形。",
+	"type": "origins:multiple",
+	"phase": {
+    "type": "origins:invisibility",
+    "render_armor": true,
+    "condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+                "type": "origins:sneaking"
+            },
+            {
+                "type": "origins:block_in_radius",
+                "block_condition": {
+                    "type": "origins:in_tag",
+                    "tag": "digs_dnd_origins:stone_camouflage_blocks"
+                },
+                    "radius": 1,
+                    "shape": "cube",
+                    "comparison": ">=",
+                    "compare_to": 1
+                }
+            ]
+        }
+	}
+}

@@ -1,0 +1,10 @@
+{
+  "name": "尖角",
+  "description": "你将会佩戴恶魔尖角。",
+  "type": "origins:starting_equipment",
+  "stack": {
+    "item": "digs_dnd_origins:horns",
+    "slot": "39"
+  },
+  "recurrent": true
+}

@@ -1,0 +1,107 @@
+{
+	"name": "体型",
+	"description": "你的身高只有0.5格，你的生命值会降低40%，近战伤害会降低0.5点，你的体型较小。",
+	"type": "origins:multiple",
+	"size": {
+		"type": "origins:action_on_callback",
+		"entity_action_chosen":
+		{
+			"type": "origins:and",
+			"actions": [
+			{
+				"type": "origins:execute_command",
+				"permission_level": 4,
+				"command": "scale set pehkui:height 0.5 @s"
+			},
+			{
+				"type": "origins:execute_command",
+				"permission_level": 4,
+				"command": "scale set pehkui:width 0.5 @s"
+			},
+			{
+			    "type": "origins:execute_command",
+				"permission_level": 4,
+				"command": "tag @s add small"
+			}
+			]
+		},
+		"entity_action_added":
+		{
+			"type": "origins:and",
+			"actions": [
+			{
+				"type": "origins:execute_command",
+				"permission_level": 4,
+				"command": "scale set pehkui:height 0.5 @s"
+			},
+			{
+				"type": "origins:execute_command",
+				"permission_level": 4,
+				"command": "scale set pehkui:width 0.5 @s"
+			},
+			{
+			    "type": "origins:execute_command",
+				"permission_level": 4,
+				"command": "tag @s add small"
+			}
+			]
+		},
+		"entity_action_lost":
+		{
+			"type": "origins:and",
+			"actions": [
+			{
+				"type": "origins:execute_command",
+				"permission_level": 4,
+				"command": "scale set pehkui:height 1 @s"
+			},
+			{
+				"type": "origins:execute_command",
+				"permission_level": 4,
+				"command": "scale set pehkui:width 1 @s"
+			},
+			{
+			    "type": "origins:execute_command",
+				"permission_level": 4,
+				"command": "tag @s remove small"
+			}
+			]
+		},
+		"entity_action_removed":
+		{
+			"type": "origins:and",
+			"actions": [
+			{
+				"type": "origins:execute_command",
+				"permission_level": 4,
+				"command": "scale set pehkui:height 1 @s"
+			},
+			{
+				"type": "origins:execute_command",
+				"permission_level": 4,
+				"command": "scale set pehkui:width 1 @s"
+			},
+			{
+			    "type": "origins:execute_command",
+				"permission_level": 4,
+				"command": "tag @s remove small"
+			}
+			]
+		}
+	},
+	"attributes": {
+		"type": "origins:attribute",
+		"modifiers": [
+		{
+			"attribute": "minecraft:generic.max_health",
+			"operation": "multiply_total",
+			"value": -0.4
+		},
+		{
+			"attribute": "generic.attack_damage",
+			"value": -0.5,
+			"operation": "addition"
+		}
+		]
+	}
+}

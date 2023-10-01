@@ -1,0 +1,10 @@
+{
+	"name": "幸运",
+	"description": "你可以在宝箱和钓鱼时更容易出好的战利品。",
+	"type": "origins:attribute",
+	"modifier": {
+        "attribute": "generic.luck",
+        "value": 1,
+        "operation": "addition"
+    }
+}

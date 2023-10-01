@@ -1,0 +1,17 @@
+{
+  "name": "魅力提升",
+  "description": "由于你的魅力提升，村民很乐意在和你交易的时候降低售价。",
+  "type": "origins:action_over_time",
+  "entity_action": {
+    "type": "origins:apply_effect",
+    "effect": {
+      "effect": "minecraft:hero_of_the_village",
+      "duration": 240,
+      "amplifier": 0,
+      "is_ambient": true,
+      "show_particles": false,
+      "show_icon": false
+    }
+  },
+  "interval": 200
+}

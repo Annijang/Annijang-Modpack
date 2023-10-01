@@ -1,0 +1,214 @@
+{
+  "name": "黑暗魔法",
+  "description": "黑暗魔法会在持续时间内从你瞄准的一点逐渐扩散到一个半径为5格方块的范围内。拥有黑暗视觉的生物无法看穿这片黑暗，非魔法光线也无法照亮它。如果你选择的点是一个实体，那么黑暗就会从它们身上散发出来，并随着它们移动。再次激活此能力或受到伤害将导致效果提前结束.",
+  "type": "origins:multiple",
+
+  "cast": {
+    "type": "origins:active_self",
+    "entity_action": {
+      "type": "origins:raycast",
+      "distance": 20,
+      "block": true,
+      "entity": true,
+      "shape_type": "visual",
+      "fluid_handling": "any",
+      "bientity_action": {
+        "type": "origins:target_action",
+        "action": {
+          "type": "origins:execute_command",
+          "command": "tag @s add Darkness"
+        }
+      },
+      "block_action": {
+        "type": "origins:execute_command",
+        "command": "/summon minecraft:armor_stand ~ ~ ~ {Invisible:1b,NoBasePlate:1b,Small:1b,DisabledSlots:63,Invulnerable:1b,NoAI:1b,NoGravity:1b,PersistenceRequired:1b,Silent:1b,Tags:[\"Darkness\",\"Temp\"]}"
+      },
+      "hit_action": {
+        "type": "origins:and",
+        "actions": [
+          {
+            "type": "origins:change_resource",
+            "resource": "digs_dnd_origins:elf/dark/darkness_rested",
+            "change": -1
+          },
+          {
+            "type": "origins:change_resource",
+            "resource": "digs_dnd_origins:elf/dark/darkness_active",
+            "change": 4000,
+            "operation": "set"
+          }
+        ]
+      }
+    },
+    "cooldown": 20,
+    "hud_render": {
+      "should_render": false
+    },
+    "key": {
+      "key": "key.origins.secondary_active"
+    },
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:resource",
+          "resource": "digs_dnd_origins:elf/dark/darkness_rested",
+          "comparison": "==",
+          "compare_to": 1
+        },
+        {
+          "type": "origins:resource",
+          "resource": "digs_dnd_origins:elf/dark/darkness_active",
+          "comparison": "==",
+          "compare_to": 0
+        },
+        {
+          "type": "origins:resource",
+          "resource": "digs_dnd_origins:elf/dark/faerie_fire_active",
+          "comparison": "==",
+          "compare_to": 0
+        }
+      ]
+    }
+  },
+  "end": {
+    "type": "origins:active_self",
+    "entity_action": {
+      "type": "origins:change_resource",
+      "resource": "digs_dnd_origins:elf/dark/darkness_active",
+      "change": 0,
+      "operation": "set"
+    },
+    "cooldown": 20,
+    "hud_render": {
+      "should_render": false
+    },
+    "key": {
+      "key": "key.origins.secondary_active"
+    },
+    "condition": {
+      "type": "origins:resource",
+      "resource": "digs_dnd_origins:elf/dark/darkness_active",
+      "comparison": ">=",
+      "compare_to": 1
+    }
+  },
+  "end_when_hit": {
+    "type": "origins:action_when_damage_taken",
+    "entity_action": {
+      "type": "origins:change_resource",
+      "resource": "digs_dnd_origins:elf/dark/darkness_active",
+      "change": 0,
+      "operation": "set"
+    },
+    "cooldown": 1
+  },
+  "particles": {
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:execute_command",
+          "command": "execute at @e[tag=Darkness,limit=1,sort=nearest] run particle minecraft:dust 0 0 0 5 ~ ~1 ~ 2 2 2 0 300 force"
+        },
+        {
+          "type": "origins:execute_command",
+          "command": "execute at @e[tag=Darkness,limit=1,sort=nearest] run effect give @e[distance=..6] minecraft:blindness 3 0 true"
+        },
+        {
+          "type": "origins:execute_command",
+          "command": "execute at @e[tag=Darkness,limit=1,sort=nearest] run effect clear @e[distance=..6] minecraft:glowing"
+        },
+        {
+          "type": "origins:change_resource",
+          "resource": "digs_dnd_origins:elf/dark/darkness_active",
+          "change": -1
+        }
+      ]
+    },
+    "falling_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:execute_command",
+          "command": "tag @e[tag=Darkness,sort=nearest,limit=1] remove Darkness"
+        },
+        {
+          "type": "origins:execute_command",
+          "command": "kill @e[tag=Temp,limit=1,sort=nearest]"
+        }
+      ]
+    },
+    "interval": 3,
+    "condition": {
+      "type": "origins:resource",
+      "resource": "digs_dnd_origins:elf/dark/darkness_active",
+      "comparison": ">=",
+      "compare_to": 1
+    }
+  },
+  "active": {
+    "type": "origins:resource",
+    "min": 0,
+    "max": 4000,
+    "hud_render": {
+      "should_render": true,
+      "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_01.png",
+      "bar_index": 16,
+      "condition": {
+        "type": "origins:resource",
+        "resource": "digs_dnd_origins:elf/dark/darkness_active",
+        "comparison": ">=",
+        "compare_to": 1
+      }
+    }
+  },
+  "rested": {
+    "type": "origins:resource",
+    "min": 0,
+    "max": 1,
+    "start_value": 1,
+    "hud_render": {
+      "should_render": true,
+      "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_01.png",
+      "bar_index": 16,
+      "condition": {
+        "type": "origins:or",
+        "conditions": [
+          {
+            "type": "origins:resource",
+            "resource": "digs_dnd_origins:elf/dark/darkness_rested",
+            "comparison": "==",
+            "compare_to": 1
+          },
+          {
+            "type": "origins:resource",
+            "resource": "digs_dnd_origins:elf/dark/darkness_active",
+            "comparison": "==",
+            "compare_to": 0
+          }
+        ]
+      }
+    }
+  },
+  "long_rest": {
+    "type": "origins:action_on_wake_up",
+    "entity_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:change_resource",
+          "resource": "digs_dnd_origins:elf/dark/darkness_rested",
+          "change": 1
+        },
+        {
+          "type": "origins:change_resource",
+          "resource": "digs_dnd_origins:elf/dark/darkness_active",
+          "change": 0,
+          "operation": "set"
+        }
+      ]
+    }
+  }
+}

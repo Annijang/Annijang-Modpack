@@ -1,0 +1,9 @@
+{
+  "name": "精神恍惚",
+  "description": "精灵无需睡觉，相反，精灵会在每天拥有4小时的沉思时间，在沉思时间会保持半昏迷状态，你的失眠症会加重50%。",
+  "type": "origins:modify_insomnia_ticks",
+  "modifier": {
+    "operation": "multiply_base_additive",
+    "value": 1
+  }
+}

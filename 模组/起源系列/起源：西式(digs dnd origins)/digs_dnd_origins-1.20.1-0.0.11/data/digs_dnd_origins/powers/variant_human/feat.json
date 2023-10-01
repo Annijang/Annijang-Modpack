@@ -1,0 +1,5 @@
+{
+  "name": "可选技能",
+  "description": "你可以在选择起源的时候选择一项技能。",
+  "type": "origins:simple"
+}

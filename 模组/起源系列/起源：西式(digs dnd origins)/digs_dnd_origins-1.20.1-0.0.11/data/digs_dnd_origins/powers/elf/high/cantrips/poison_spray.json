@@ -1,0 +1,51 @@
+{
+  "name": "范围",
+  "description": "8格方块",
+  "type": "origins:multiple",
+
+  "firebolt": {
+    "type": "origins:fire_projectile",
+    "entity_type": "digs_dnd_origins:green_breath",
+    "tag": "{Item:{id:\"minecraft:slime_ball\",Count:1b}}",
+    "cooldown": 80,
+    "speed": 0.2,
+    "hud_render": {
+      "sprite_location": "origins:textures/gui/resource_bar.png",
+      "bar_index": 8,
+      "should_render": true
+    },
+    "key": {
+      "key": "key.origins.primary_active"
+    }
+  },
+  "damage": {
+    "type": "origins:target_action_on_hit",
+    "entity_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:damage",
+          "amount": 4,
+          "source": {
+            "name": "wither",
+            "magic": true,
+            "bypasses_armor": false
+          }
+        },
+        {
+          "type": "origins:apply_effect",
+          "effect": {
+            "effect": "minecraft:poison",
+            "duration": 60,
+            "amplifier": 0,
+            "show_particles": false
+          }
+        }
+      ]
+    },
+    "damage_condition": {
+      "type": "origins:projectile",
+      "projectile": "digs_dnd_origins:green_breath"
+    }
+  }
+}

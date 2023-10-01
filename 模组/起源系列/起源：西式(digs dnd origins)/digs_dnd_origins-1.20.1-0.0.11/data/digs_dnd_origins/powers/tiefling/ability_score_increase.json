@@ -1,0 +1,10 @@
+{
+  "name": "火系能力提升",
+  "description": "由于你魅力的增加，你的火系法术攻击力会提升。",
+  "type": "origins:attribute",
+  "modifier": {
+    "attribute": "spell_power:fire",
+    "value": 1,
+    "operation": "addition"
+  }
+}

@@ -1,0 +1,10 @@
+{
+	"name": "法术能力提升",
+	"description": "由于你的智力提升，所以你的奥术法术可以额外造成1点伤害。",
+	"type": "origins:attribute",
+    "modifier": {
+        "attribute": "spell_power:arcane",
+        "value": 1,
+        "operation": "addition"
+    }
+}

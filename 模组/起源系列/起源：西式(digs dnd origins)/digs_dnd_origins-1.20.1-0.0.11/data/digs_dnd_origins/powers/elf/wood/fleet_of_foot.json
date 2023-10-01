@@ -1,0 +1,10 @@
+{
+	"name": "快步",
+	"description": "你的基础移动速度会增加10%。",
+	"type": "origins:attribute",
+	"modifier": {
+		"attribute": "minecraft:generic.movement_speed",
+		"operation": "multiply_total",
+		"value": 0.1
+	}
+}

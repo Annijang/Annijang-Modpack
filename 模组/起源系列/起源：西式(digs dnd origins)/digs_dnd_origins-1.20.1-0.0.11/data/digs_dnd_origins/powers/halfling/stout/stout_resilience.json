@@ -1,0 +1,10 @@
+{
+  "name": "坚韧不拔",
+  "description": "中毒效果的持续时间降低50%。",
+  "type": "origins:modify_status_effect_duration",
+  "status_effect": "minecraft:poison",
+  "modifier": {
+    "operation": "multiply_base_multiplicative",
+    "value": -0.5
+  }
+}

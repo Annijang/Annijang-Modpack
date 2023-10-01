@@ -1,0 +1,12 @@
+{
+    "name": "恐吓",
+    "description": "由于你精通恐吓，村民都很害怕你，所以你无法和村民做交易。",
+    "type": "origins:prevent_entity_use",
+    "bientity_condition": {
+        "type": "origins:target_condition",
+        "condition": {
+            "type": "origins:entity_type",
+            "entity_type": "minecraft:villager"
+        }
+    }
+}

@@ -1,0 +1,208 @@
+{
+  "name": "精灵之火",
+  "description": "可以在目标位置附近的6格方块半径内的每个实体都会获得发光效果，区域持续一分钟，在第二次激活该能力或者受到伤害将会提前导致效果结束。",
+  "type": "origins:multiple",
+
+  "cast": {
+    "type": "origins:active_self",
+    "entity_action": {
+      "type": "origins:raycast",
+      "distance": 20,
+      "block": true,
+      "entity": true,
+      "shape_type": "visual",
+      "fluid_handling": "any",
+      "bientity_action": {
+        "type": "origins:target_action",
+        "action": {
+          "type": "origins:execute_command",
+          "command": "/summon minecraft:armor_stand ~ ~ ~ {Invisible:1b,NoBasePlate:1b,Small:1b,DisabledSlots:63,Invulnerable:1b,NoAI:1b,NoGravity:1b,PersistenceRequired:1b,Silent:1b,Tags:[\"FaerieRef\",\"Temp\"]}"
+        }
+      },
+      "block_action": {
+        "type": "origins:execute_command",
+        "command": "/summon minecraft:armor_stand ~ ~ ~ {Invisible:1b,NoBasePlate:1b,Small:1b,DisabledSlots:63,Invulnerable:1b,NoAI:1b,NoGravity:1b,PersistenceRequired:1b,Silent:1b,Tags:[\"FaerieRef\",\"Temp\"]}"
+      },
+      "hit_action": {
+        "type": "origins:and",
+        "actions": [
+          {
+            "type": "origins:change_resource",
+            "resource": "digs_dnd_origins:elf/dark/faerie_fire_rested",
+            "change": -1
+          },
+          {
+            "type": "origins:change_resource",
+            "resource": "digs_dnd_origins:elf/dark/faerie_fire_active",
+            "change": 400,
+            "operation": "set"
+          }
+        ]
+      }
+    },
+    "cooldown": 20,
+    "hud_render": {
+      "should_render": false
+    },
+    "key": {
+      "key": "key.origins.primary_active"
+    },
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:resource",
+          "resource": "digs_dnd_origins:elf/dark/faerie_fire_rested",
+          "comparison": "==",
+          "compare_to": 1
+        },
+        {
+          "type": "origins:resource",
+          "resource": "digs_dnd_origins:elf/dark/faerie_fire_active",
+          "comparison": "==",
+          "compare_to": 0
+        },
+        {
+          "type": "origins:resource",
+          "resource": "digs_dnd_origins:elf/dark/darkness_active",
+          "comparison": "==",
+          "compare_to": 0
+        }
+      ]
+    }
+  },
+  "end": {
+    "type": "origins:active_self",
+    "entity_action": {
+      "type": "origins:change_resource",
+      "resource": "digs_dnd_origins:elf/dark/faerie_fire_active",
+      "change": 0,
+      "operation": "set"
+    },
+    "cooldown": 20,
+    "hud_render": {
+      "should_render": false
+    },
+    "key": {
+      "key": "key.origins.primary_active"
+    },
+    "condition": {
+      "type": "origins:resource",
+      "resource": "digs_dnd_origins:elf/dark/faerie_fire_active",
+      "comparison": ">=",
+      "compare_to": 1
+    }
+  },
+  "end_when_hit": {
+    "type": "origins:action_when_damage_taken",
+    "entity_action": {
+      "type": "origins:change_resource",
+      "resource": "digs_dnd_origins:elf/dark/faerie_fire_active",
+      "change": 0,
+      "operation": "set"
+    },
+    "cooldown": 1
+  },
+  "glow": {
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:execute_command",
+          "command": "execute at @e[tag=FaerieRef,limit=1,sort=nearest] run particle minecraft:dust 1 0 1 1 ~ ~1 ~ 2 2 2 0 25 force"
+        },
+        {
+          "type": "origins:execute_command",
+          "command": "execute at @e[tag=FaerieRef,limit=1,sort=nearest] run effect give @e[distance=..6,tag=!FaerieRef] minecraft:glowing 3 0"
+        },
+        {
+          "type": "origins:change_resource",
+          "resource": "digs_dnd_origins:elf/dark/faerie_fire_active",
+          "change": -1
+        }
+      ]
+    },
+    "falling_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:execute_command",
+          "command": "tag @e[tag=Faerie,sort=nearest,limit=1] remove faerie_fire"
+        },
+        {
+          "type": "origins:execute_command",
+          "command": "kill @e[tag=Temp,limit=1,sort=nearest]"
+        }
+      ]
+    },
+    "interval": 3,
+    "condition": {
+      "type": "origins:resource",
+      "resource": "digs_dnd_origins:elf/dark/faerie_fire_active",
+      "comparison": ">=",
+      "compare_to": 1
+    }
+  },
+  "active": {
+    "type": "origins:resource",
+    "min": 0,
+    "max": 400,
+    "hud_render": {
+      "should_render": true,
+      "bar_index": 3,
+      "condition": {
+        "type": "origins:resource",
+        "resource": "digs_dnd_origins:elf/dark/faerie_fire_active",
+        "comparison": ">=",
+        "compare_to": 1
+      }
+    }
+  },
+  "rested": {
+    "type": "origins:resource",
+    "min": 0,
+    "max": 1,
+    "start_value": 1,
+    "hud_render": {
+      "should_render": true,
+      "bar_index": 3,
+      "condition": {
+        "type": "origins:or",
+        "conditions": [
+          {
+            "type": "origins:resource",
+            "resource": "digs_dnd_origins:elf/dark/faerie_fire_rested",
+            "comparison": "==",
+            "compare_to": 1
+          },
+          {
+            "type": "origins:resource",
+            "resource": "digs_dnd_origins:elf/dark/faerie_fire_active",
+            "comparison": "==",
+            "compare_to": 0
+          }
+        ]
+      }
+    }
+  },
+  "long_rest": {
+    "type": "origins:action_on_wake_up",
+    "entity_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:change_resource",
+          "resource": "digs_dnd_origins:elf/dark/faerie_fire_rested",
+          "change": 1
+        },
+        {
+          "type": "origins:change_resource",
+          "resource": "digs_dnd_origins:elf/dark/faerie_fire_active",
+          "change": 0,
+          "operation": "set"
+        }
+      ]
+    }
+  }
+}

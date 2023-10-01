@@ -1,0 +1,166 @@
+{
+  "name": "地狱怒火",
+  "description": "当你开启该能力之后，当别人攻击你时它们会受到反噬，攻击你的生物会瞬间被地狱火焰包围。",
+  "type": "origins:multiple",
+
+  "rebuke": {
+    "type": "origins:action_when_hit",
+    "bientity_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:actor_action",
+          "action": {
+            "type": "origins:and",
+            "actions": [
+              {
+                "type": "origins:spawn_particles",
+                "particle": "minecraft:flame",
+                "count": 16,
+                "speed": 0.0,
+                "force": false,
+                "spread": {
+                  "x": 1.0,
+                  "y": 2.0,
+                  "z": 1.0
+                }
+              },
+              {
+                "type": "origins:play_sound",
+                "sound": "minecraft:entity.blaze.shoot",
+                "pitch": "0.5"
+              },
+              {
+                "type": "origins:damage",
+                "amount": 8,
+                "source": {
+                  "name": "onFire",
+                  "fire": true
+                }
+              },
+              {
+                "type": "origins:set_on_fire",
+                "duration": 4
+              }
+            ]
+          }
+        },
+        {
+          "type": "origins:target_action",
+          "action": {
+            "type": "origins:and",
+            "actions": [
+              {
+                "type": "origins:change_resource",
+                "resource": "digs_dnd_origins:tiefling/hellish_rebuke_rested",
+                "change": -1
+              },
+              {
+                "type": "origins:change_resource",
+                "resource": "digs_dnd_origins:tiefling/hellish_rebuke_ready",
+                "change": -1
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "damage_condition": {
+      "type": "origins:attacker",
+      "entity_condition": {
+        "type": "origins:living"
+      }
+    },
+    "cooldown": 1,
+    "condition": {
+      "type": "origins:resource",
+      "resource": "digs_dnd_origins:tiefling/hellish_rebuke_ready",
+      "comparison": "==",
+      "compare_to": 1
+    }
+  },
+  "toggle_ready": {
+    "type": "origins:active_self",
+    "entity_action": {
+      "type": "origins:if_else_list",
+      "actions": [
+        {
+          "condition": {
+            "type": "origins:resource",
+            "resource": "digs_dnd_origins:tiefling/hellish_rebuke_ready",
+            "comparison": "==",
+            "compare_to": 0
+          },
+          "action": {
+            "type": "origins:change_resource",
+            "resource": "digs_dnd_origins:tiefling/hellish_rebuke_ready",
+            "change": 1
+          }
+        },
+        {
+          "condition": {
+            "type": "origins:resource",
+            "resource": "digs_dnd_origins:tiefling/hellish_rebuke_ready",
+            "comparison": "==",
+            "compare_to": 1
+          },
+          "action": {
+            "type": "origins:change_resource",
+            "resource": "digs_dnd_origins:tiefling/hellish_rebuke_ready",
+            "change": -1
+          }
+        }
+      ]
+    },
+    "cooldown": 1,
+    "hud_render": {
+      "should_render": false
+    },
+    "condition": {
+      "type": "origins:resource",
+      "resource": "digs_dnd_origins:tiefling/hellish_rebuke_rested",
+      "comparison": "==",
+      "compare_to": 1
+    }
+  },
+  "ready": {
+    "type": "origins:resource",
+    "min": 0,
+    "max": 1,
+    "hud_render": {
+      "should_render": true,
+      "sprite_location": "origins:textures/gui/community/huang/resource_bar_02.png",
+      "bar_index": 15,
+      "condition": {
+        "type": "origins:resource",
+        "resource": "digs_dnd_origins:tiefling/hellish_rebuke_ready",
+        "comparison": "==",
+        "compare_to": 1
+      }
+    }
+  },
+  "rested": {
+    "type": "origins:resource",
+    "min": 0,
+    "max": 1,
+    "start_value": 1,
+    "hud_render": {
+      "should_render": true,
+      "bar_index": 7,
+      "condition": {
+        "type": "origins:resource",
+        "resource": "digs_dnd_origins:tiefling/hellish_rebuke_ready",
+        "comparison": "==",
+        "compare_to": 0
+      }
+    }
+  },
+  "long_rest": {
+    "type": "origins:action_on_wake_up",
+    "entity_action": {
+      "type": "origins:change_resource",
+      "resource": "digs_dnd_origins:tiefling/hellish_rebuke_rested",
+      "change": 1
+    }
+  }
+}

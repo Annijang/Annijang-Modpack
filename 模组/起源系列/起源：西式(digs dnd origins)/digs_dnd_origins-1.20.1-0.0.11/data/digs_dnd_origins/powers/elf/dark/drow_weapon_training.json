@@ -1,0 +1,42 @@
+{
+    "name": "武器大师",
+    "description": "你使用剑、西洋剑和弩都可以造成双倍的伤害。",
+    "type": "origins:multiple",
+    "melee": {
+        "type": "origins:modify_damage_dealt",
+        "condition": {
+            "type": "origins:equipped_item",
+            "equipment_slot": "mainhand",
+            "item_condition": {
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "tag": "digs_dnd_origins:drow_melee_weapons"
+                }
+            }
+        },
+        "modifier": {
+            "operation": "addition",
+            "value": 2.0
+        }
+    },
+    "ranged": {
+        "type": "origins:modify_projectile_damage",
+        "damage_condition": {
+            "type": "origins:attacker",
+            "entity_condition": {
+                "type": "origins:equipped_item",
+                "equipment_slot": "mainhand",
+                "item_condition": {
+                    "type": "origins:ingredient",
+                    "ingredient": {
+                        "tag": "digs_dnd_origins:drow_ranged_weapons"
+                    }
+                }
+            }
+        },
+        "modifier": {
+            "operation": "addition",
+            "value": 2.0
+        }
+    }
+}

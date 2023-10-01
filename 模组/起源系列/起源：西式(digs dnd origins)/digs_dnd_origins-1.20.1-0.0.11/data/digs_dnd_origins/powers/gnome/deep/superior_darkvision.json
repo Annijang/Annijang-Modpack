@@ -1,0 +1,6 @@
+{
+    "name": "高级黑暗视觉",
+	"description": "你习惯在黑暗的环境中生存，所以当你在黑暗的环境中你将会拥有比普通黑暗视觉更好的视野。",
+	"type": "origins:night_vision",
+	"strength": 1.0
+}
