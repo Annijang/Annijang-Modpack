@@ -1,6 +1,6 @@
 {
     "name": "酿造者",
-    "description": "你在制作药水方面拥有非常丰富的经验，因此当你可以让速度、生命恢复、跳跃提升和力量药水的持续时间增加50%。",
+    "description": "由于你天生拥有一定的酿造药水的天赋，所以当你在酿造速度药水、生命恢复药水、跳跃提升药水和力量药水时，可以使这些药水的持续时间增加50%。",
     "type": "origins:modify_status_effect_duration",
     "status_effect": "minecraft:jump_boost",
     "modifier": {
